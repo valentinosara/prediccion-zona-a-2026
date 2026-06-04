@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Caché de scraping (regenerable; HTML crudos de worldfootball)
+cache/
+
+# Artefactos del navegador MCP / temporales
+.playwright-mcp/
+*.tmp

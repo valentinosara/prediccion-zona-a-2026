@@ -1,0 +1,290 @@
+{
+ "hbba": {
+  "name": "Deportivo Morón",
+  "zona": "A",
+  "tm": "Club Deportivo Morón",
+  "age": 27.4,
+  "value": 3530000.0,
+  "score": 1.0
+ },
+ "ghjha": {
+  "name": "Ciudad de Bolívar",
+  "zona": "A",
+  "tm": "Club Ciudad de Bolivar",
+  "age": 26.9,
+  "value": 1760000.0,
+  "score": 1.0
+ },
+ "hbai": {
+  "name": "Los Andes",
+  "zona": "A",
+  "tm": "CA Los Andes",
+  "age": 27.6,
+  "value": 2880000.0,
+  "score": 1.0
+ },
+ "iha": {
+  "name": "Colón (Santa Fe)",
+  "zona": "A",
+  "tm": "CA Colón",
+  "age": 27.2,
+  "value": 6390000.0,
+  "score": 0.5
+ },
+ "hcbi": {
+  "name": "Ferro Carril Oeste",
+  "zona": "A",
+  "tm": "Club Ferro Carril Oeste",
+  "age": 28.4,
+  "value": 3650000.0,
+  "score": 1.0
+ },
+ "ihd": {
+  "name": "Godoy Cruz",
+  "zona": "A",
+  "tm": "CD Godoy Cruz Antonio Tomba",
+  "age": 26.1,
+  "value": 9540000.0,
+  "score": 1.0
+ },
+ "bbjbh": {
+  "name": "Deportivo Madryn",
+  "zona": "A",
+  "tm": "CS Deportivo Madryn",
+  "age": 29.1,
+  "value": 4770000.0,
+  "score": 1.0
+ },
+ "hbbc": {
+  "name": "Almirante Brown",
+  "zona": "A",
+  "tm": "Club Almirante Brown",
+  "age": 26.8,
+  "value": 3020000.0,
+  "score": 1.0
+ },
+ "bbiji": {
+  "name": "San Miguel",
+  "zona": "A",
+  "tm": "CA San Miguel",
+  "age": 27.3,
+  "value": 2210000.0,
+  "score": 1.0
+ },
+ "bbjcd": {
+  "name": "Mitre (SdE)",
+  "zona": "A",
+  "tm": "CA Mitre",
+  "age": 28.4,
+  "value": 2440000.0,
+  "score": 0.5
+ },
+ "hbid": {
+  "name": "Defensores de Belgrano",
+  "zona": "A",
+  "tm": "CA Defensores de Belgrano",
+  "age": 28.6,
+  "value": 2740000.0,
+  "score": 1.0
+ },
+ "hbbg": {
+  "name": "Estudiantes (Caseros)",
+  "zona": "A",
+  "tm": "CA Estudiantes",
+  "age": 26.3,
+  "value": 2980000.0,
+  "score": 0.5
+ },
+ "hbbb": {
+  "name": "San Telmo",
+  "zona": "A",
+  "tm": "CA San Telmo",
+  "age": 26.8,
+  "value": 1560000.0,
+  "score": 1.0
+ },
+ "jcih": {
+  "name": "Racing (Córdoba)",
+  "zona": "A",
+  "tm": "CA Racing (Córdoba)",
+  "age": 27.4,
+  "value": 3180000.0,
+  "score": 1.0
+ },
+ "hbbi": {
+  "name": "Acassuso",
+  "zona": "A",
+  "tm": "CA Acassuso",
+  "age": 26,
+  "value": 1650000.0,
+  "score": 1.0
+ },
+ "hhij": {
+  "name": "All Boys",
+  "zona": "A",
+  "tm": "CA All Boys",
+  "age": 28.2,
+  "value": 1980000.0,
+  "score": 1.0
+ },
+ "jiaj": {
+  "name": "Central Norte",
+  "zona": "A",
+  "tm": "CA Central Norte",
+  "age": 26.7,
+  "value": 1920000.0,
+  "score": 1.0
+ },
+ "bdiha": {
+  "name": "Chaco For Ever",
+  "zona": "A",
+  "tm": "CA Chaco For Ever",
+  "age": 27.7,
+  "value": 2440000.0,
+  "score": 1.0
+ },
+ "iib": {
+  "name": "Gimnasia y Esgrima (Jujuy)",
+  "zona": "B",
+  "tm": "Club Atlético Gimnasia y Esgrima (Jujuy)",
+  "age": 30.1,
+  "value": 2800000.0,
+  "score": 1.0
+ },
+ "hbae": {
+  "name": "Atlanta",
+  "zona": "B",
+  "tm": "CA Atlanta",
+  "age": 26.5,
+  "value": 4090000.0,
+  "score": 1.0
+ },
+ "hbbd": {
+  "name": "Tristan Suárez",
+  "zona": "B",
+  "tm": "Club Tristán Suárez",
+  "age": 27.1,
+  "value": 3520000.0,
+  "score": 1.0
+ },
+ "bbjcj": {
+  "name": "Midland",
+  "zona": "B",
+  "tm": "CA Ferrocarril Midland",
+  "age": 26.6,
+  "value": 1620000.0,
+  "score": 0.5
+ },
+ "fjgi": {
+  "name": "Atlético Rafaela",
+  "zona": "B",
+  "tm": "AMSD Atlético de Rafaela",
+  "age": 27.4,
+  "value": 2089999.9999999998,
+  "score": 1.0
+ },
+ "hchb": {
+  "name": "San Martín Tucumán",
+  "zona": "B",
+  "tm": "Club Atlético San Martín (Tucumán)",
+  "age": 28.5,
+  "value": 4019999.9999999995,
+  "score": 1.0
+ },
+ "hcai": {
+  "name": "San Martín San Juan",
+  "zona": "B",
+  "tm": "CA San Martín (San Juan)",
+  "age": 27.3,
+  "value": 3400000.0,
+  "score": 1.0
+ },
+ "jcid": {
+  "name": "Deportivo Maipú",
+  "zona": "B",
+  "tm": "Club Deportivo Maipú",
+  "age": 25.2,
+  "value": 2940000.0,
+  "score": 1.0
+ },
+ "bcai": {
+  "name": "Nueva Chicago",
+  "zona": "B",
+  "tm": "CA Nueva Chicago",
+  "age": 25.8,
+  "value": 3910000.0,
+  "score": 1.0
+ },
+ "gbjg": {
+  "name": "Chacarita Juniors",
+  "zona": "B",
+  "tm": "CA Chacarita Juniors",
+  "age": 27.3,
+  "value": 2840000.0,
+  "score": 1.0
+ },
+ "iche": {
+  "name": "Patronato",
+  "zona": "B",
+  "tm": "CA Patronato",
+  "age": 26.8,
+  "value": 3010000.0,
+  "score": 1.0
+ },
+ "hbac": {
+  "name": "Temperley",
+  "zona": "B",
+  "tm": "CA Temperley",
+  "age": 28.1,
+  "value": 3300000.0,
+  "score": 1.0
+ },
+ "jchi": {
+  "name": "Gimnasia y Tiro",
+  "zona": "B",
+  "tm": "Club de Gimnasia y Tiro",
+  "age": 31.1,
+  "value": 2290000.0,
+  "score": 1.0
+ },
+ "hbaf": {
+  "name": "Colegiales",
+  "zona": "B",
+  "tm": "CA Colegiales",
+  "age": 26.6,
+  "value": 2049999.9999999998,
+  "score": 1.0
+ },
+ "bbjce": {
+  "name": "Agropecuario",
+  "zona": "B",
+  "tm": "CA Agropecuario",
+  "age": 27.2,
+  "value": 2820000.0,
+  "score": 1.0
+ },
+ "cijej": {
+  "name": "Güemes",
+  "zona": "B",
+  "tm": "CA Güemes",
+  "age": 28.1,
+  "value": 1830000.0,
+  "score": 1.0
+ },
+ "hccf": {
+  "name": "Quilmes",
+  "zona": "B",
+  "tm": "Quilmes AC",
+  "age": 26.3,
+  "value": 3570000.0,
+  "score": 1.0
+ },
+ "hbag": {
+  "name": "Almagro",
+  "zona": "B",
+  "tm": "Club Almagro",
+  "age": 26.1,
+  "value": 2950000.0,
+  "score": 1.0
+ }
+}
