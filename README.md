@@ -1,6 +1,6 @@
 # Primera Nacional (Argentina) — análisis y predicción
 
-Dos cosas en un repo, ambas reproducibles con código y datos:
+Tres cosas en un repo, todas reproducibles con código y datos:
 
 1. **Predicción interactiva de la Zona A 2026** — proyección fecha a fecha de cómo
    termina la tabla, con un modelo estadístico calibrado.
@@ -8,6 +8,9 @@ Dos cosas en un repo, ambas reproducibles con código y datos:
 2. **Rachas históricas** — las 3 rachas más largas de victorias consecutivas por
    temporada (2010-2026).
    👉 **[Ver online](https://valentinosara.github.io/prediccion-zona-a-2026/rachas.html)**
+3. **Prode del Mundial 2026** — predicción por fecha optimizada para **maximizar los
+   puntos del prode** (cuotas de mercado + Dixon-Coles + puntos esperados + Monte Carlo).
+   👉 **[Ver Fecha 1](https://valentinosara.github.io/prediccion-zona-a-2026/mundial_fecha1.html)**
 
 > ⚠️ **Aviso honesto:** la predicción es un *escenario probable*, no un pronóstico
 > cerrado. El ascenso de la B Nacional es de los torneos más impredecibles que hay
@@ -99,6 +102,101 @@ pip install requests numpy beautifulsoup4 lxml
   la tabla final proyectada. Eso es del torneo, no un bug.
 - El valor de plantel de Transfermarkt en esta categoría es aproximado (mercado poco
   líquido), pero captura bien la **jerarquía relativa**, que es lo que aporta.
+
+---
+
+## Prode del Mundial 2026
+
+Sistema aparte (módulos `*_wc`) que predice **el prode del Mundial 2026** fecha a fecha.
+El prode reparte puntos por "casi acertar" (marcador exacto 12, ganador+diferencia u
+empate 8, ganador 5, un equipo 2), así que el objetivo no es el marcador *más probable*
+sino el que **maximiza los puntos esperados**.
+
+### En criollo
+
+1. **El mercado manda en el "quién gana".** Se bajan las cuotas (1X2, Over/Under,
+   hándicap), se les quita el margen (*de-vig*) y quedan las probabilidades limpias.
+   Es el mejor predictor que existe (~54% de acierto, muy difícil de superar).
+2. **Dixon-Coles da la granularidad del marcador.** Un Poisson bivariado con corrección
+   de marcadores bajos arma la matriz `P(h,a)` de cada partido, centrada en los goles
+   esperados `λ` (mezcla convexa mercado↔Elo; el mercado pesa fuerte en la Fecha 1). Las
+   marginales 1X2 de la matriz se anclan al mercado.
+3. **El optimizador del prode elige la jugada.** Para cada partido se calcula `E[pts]` de
+   cada marcador candidato sobre **toda** la distribución y se recomienda el máximo — por
+   eso suele diferir del marcador más probable.
+4. **Monte Carlo** (50.000 simulaciones por partido) confirma probabilidades y confianza.
+   La fuerza base es **Elo internacional** (bonus modesto a los anfitriones); la **forma
+   in-tournament** (Dixon-Coles con decaimiento temporal) gana peso fecha a fecha.
+
+Sin ajustes a mano por opinión: los pesos salen de los datos/calibración. Se reporta la
+**auto-evaluación honesta**: cuántos puntos del prode habría sacado el modelo en los
+partidos de la fecha ya jugados (prediciéndolos con la info previa, sin fuga de datos).
+
+### Cómo correrlo (un comando por fecha)
+
+```bash
+pip install -r requirements.txt
+python update_wc.py --fecha 1     # genera docs/mundial_fecha1.html (pendientes de la F1)
+python update_wc.py --fecha 2     # cuando termine la F1: re-fetch + re-fit + predice la F2
+python update_wc.py --fecha 3
+```
+
+Cada corrida baja datos frescos (incluyendo resultados ya jugados), re-actualiza
+ratings/forma, re-ancla al mercado vigente, **detecta** qué partidos de la fecha ya se
+jugaron (calibran) vs cuáles faltan (se predicen), y regenera un HTML self-contained
+(abrible offline) con tabla resumen, una tarjeta por partido (P(1X2), λ, marcador
+recomendado resaltado, marcador más probable y ganador aparte, top-5, heatmap, confianza)
+y la auto-evaluación de la fecha.
+
+### Fuentes y whitelist de red
+
+El sistema **baja todo solo** por fetch automático, con **caché** local y **fallback**:
+
+| Señal | Fuente primaria | Fallbacks |
+|---|---|---|
+| Fixtures / resultados | ESPN hidden API (`site.api.espn.com`) | football-data.org · Wikipedia |
+| Cuotas (1X2/O-U/AH) | The Odds API (`api.the-odds-api.com`, `ODDS_API_KEY`) | API-Football |
+| Fuerza (Elo) | eloratings.net | ranking FIFA · seed |
+
+Este sistema **necesita salida de red** hacia esos dominios. Si la política de red del
+entorno los bloquea (o están caídos), corre en **modo degradado** con el último caché o
+con un **seed versionado** (`data_mundial/seed/`) y el HTML lo avisa arriba. Whitelist
+mínima a habilitar:
+
+```
+site.api.espn.com
+api.the-odds-api.com
+www.eloratings.net
+api.football-data.org
+```
+
+> Para usar cuotas en vivo de The Odds API: `export ODDS_API_KEY=tu_key` (gratis, 500
+> req/mes). El seed se puede regenerar con `python data_mundial/seed/_build_seed.py`.
+
+### Archivos del sistema (`*_wc`)
+
+```
+fetch_wc.py        fetch + caché + fallback (fixtures/resultados, cuotas, Elo)
+ratings_wc.py      Elo + forma ponderada por tiempo → λ por selección
+market_wc.py       de-vig de cuotas → P(1X2), supremacía s, total μ, λ de mercado
+model_wc.py        Dixon-Coles + blend mercado↔modelo → matriz P(h,a)
+prode_wc.py        función puntos() + optimizador de puntos esperados
+montecarlo_wc.py   simulaciones por partido + nivel de confianza
+predict_wc.py      orquesta una fecha → data_mundial/pred_wc.json + state.json
+gen_html_wc.py     arma docs/mundial_fechaN.html (self-contained)
+backtest_wc.py     auto-evaluación: puntos del prode en partidos ya jugados
+update_wc.py       ⭐ un comando: --fecha N → fetch + fit + predict + html
+data_mundial/      seed/ (respaldo versionado), cache/, state.json, salidas json
+```
+
+### Limitaciones (Mundial)
+
+- El Mundial tiene **muestras chicas y mucha varianza**: la Fecha 1 se apoya casi toda
+  en el mercado. El número serio es la probabilidad y el `E[pts]`, no el marcador puntual.
+- Los esquemas de los endpoints en vivo **cambian seguido**; hay que adaptarlos al correr.
+  Por eso el fetch es resiliente y cae a caché/seed sin romperse.
+- El **seed** incluido es un respaldo realista para correr el pipeline sin red — **no es
+  el dato oficial del torneo**. Con red habilitada, el fetch trae los datos reales.
 
 ---
 
