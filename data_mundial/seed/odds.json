@@ -1,1305 +1,1312 @@
 {
  "meta": {
-  "_note": "SEED de respaldo (no es dato real del torneo). Generado por _build_seed.py para correr el pipeline sin red.",
-  "generated_at": "2026-06-14T15:08:28",
+  "_note": "Datos REALES del Mundial 2026 bajados de ESPN + eloratings.net. Horarios en hora de Argentina (ART, UTC-3).",
+  "generated_at": "2026-06-14T12:56:05-03:00",
+  "sources": {
+   "fixtures_results": "ESPN scoreboard/standings (sin key)",
+   "odds": "ESPN core API (sin key)",
+   "elo": "eloratings.net (World.tsv + en.teams.tsv)"
+  },
   "n_teams": 48,
-  "n_fixtures": 72
+  "n_fixtures": 72,
+  "n_odds": 72,
+  "warnings": []
  },
  "odds": {
   "WC2026-001": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    3.05,
-    3.28,
-    2.35
+    1.4348,
+    4.3,
+    8.5
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.98,
-    "under": 1.81
+    "over": 2.3,
+    "under": 1.625
    },
    "spreads": {
-    "line": 0.25,
-    "home": 1.91,
-    "away": 1.91
+    "line": -1.5,
+    "home": 2.4,
+    "away": 1.51
    }
   },
   "WC2026-002": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.77,
-    3.4,
-    5.04
+    2.6,
+    3.1,
+    3.0
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.2,
-    "under": 1.65
+    "over": 2.1,
+    "under": 1.7143
    },
    "spreads": {
-    "line": -0.75,
-    "home": 1.96,
-    "away": 1.92
+    "line": -0.5,
+    "home": 2.4,
+    "away": 1.51
    }
   },
   "WC2026-003": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    2.27,
-    3.38,
-    3.13
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.87,
-    "under": 1.92
-   },
-   "spreads": {
-    "line": -0.25,
-    "home": 1.9,
-    "away": 1.98
-   }
-  },
-  "WC2026-004": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.44,
-    3.98,
-    8.68
+    1.8696,
+    3.5,
+    4.5
    ],
    "totals": {
     "line": 2.5,
     "over": 2.15,
-    "under": 1.67
+    "under": 1.6897
    },
    "spreads": {
-    "line": -1.25,
-    "home": 1.91,
-    "away": 1.98
+    "line": -0.5,
+    "home": 1.8,
+    "away": 1.9
+   }
+  },
+  "WC2026-004": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    2.05,
+    3.2,
+    4.1
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.35,
+    "under": 1.5882
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 2.0,
+    "away": 1.76
    }
   },
   "WC2026-005": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.49,
-    4.15,
-    6.94
+    16.0,
+    7.0,
+    1.1905
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.79,
-    "under": 2.0
+    "over": 1.7143,
+    "under": 2.15
    },
    "spreads": {
-    "line": -1.25,
-    "home": 1.96,
-    "away": 1.91
+    "line": 1.5,
+    "home": 2.3,
+    "away": 1.6
    }
   },
   "WC2026-006": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.94,
-    3.54,
-    3.93
+    1.6667,
+    3.65,
+    5.75
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.84,
-    "under": 1.96
+    "over": 2.2,
+    "under": 1.6667
    },
    "spreads": {
     "line": -0.5,
-    "home": 1.9,
-    "away": 1.9
+    "home": 1.66,
+    "away": 2.2
    }
   },
   "WC2026-007": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    3.53,
-    3.44,
-    2.09
+    5.25,
+    4.2,
+    1.625
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.88,
-    "under": 1.92
+    "over": 1.6667,
+    "under": 2.2
    },
    "spreads": {
     "line": 0.5,
-    "home": 2.02,
-    "away": 1.9
+    "home": 2.3,
+    "away": 1.6
    }
   },
   "WC2026-008": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.47,
-    4.27,
-    7.06
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.73,
-    "under": 2.08
-   },
-   "spreads": {
-    "line": -1.25,
-    "home": 1.9,
-    "away": 1.97
-   }
-  },
-  "WC2026-009": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    2.53,
-    3.26,
-    2.78
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.96,
-    "under": 1.81
-   },
-   "spreads": {
-    "line": 0.0,
-    "home": 1.94,
-    "away": 1.98
-   }
-  },
-  "WC2026-010": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.24,
-    5.04,
-    16.3
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.04,
-    "under": 1.74
-   },
-   "spreads": {
-    "line": -1.75,
-    "home": 1.89,
-    "away": 1.89
-   }
-  },
-  "WC2026-011": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.96,
-    3.31,
-    4.06
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.12,
-    "under": 1.71
-   },
-   "spreads": {
-    "line": -0.5,
-    "home": 1.91,
-    "away": 1.94
-   }
-  },
-  "WC2026-012": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    1.69,
-    3.48,
-    5.81
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.29,
-    "under": 1.62
-   },
-   "spreads": {
-    "line": -0.75,
-    "home": 2.02,
-    "away": 1.91
-   }
-  },
-  "WC2026-013": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.31,
-    4.74,
-    11.45
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.89,
-    "under": 1.88
-   },
-   "spreads": {
-    "line": -1.5,
-    "home": 1.9,
-    "away": 1.98
-   }
-  },
-  "WC2026-014": {
-   "bookmaker": "Pinnacle",
-   "h2h": [
-    1.74,
-    3.49,
-    5.04
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.08,
-    "under": 1.73
-   },
-   "spreads": {
-    "line": -0.75,
-    "home": 1.9,
-    "away": 1.93
-   }
-  },
-  "WC2026-015": {
-   "bookmaker": "Pinnacle",
-   "h2h": [
-    1.17,
-    6.05,
-    23.47
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.89,
-    "under": 1.87
-   },
-   "spreads": {
-    "line": -2.0,
-    "home": 1.9,
-    "away": 1.92
-   }
-  },
-  "WC2026-016": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.44,
-    4.24,
-    7.98
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.88,
-    "under": 1.92
-   },
-   "spreads": {
-    "line": -1.25,
-    "home": 1.86,
-    "away": 1.88
-   }
-  },
-  "WC2026-017": {
-   "bookmaker": "Pinnacle",
-   "h2h": [
-    1.13,
-    7.31,
-    28.73
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.68,
-    "under": 2.16
-   },
-   "spreads": {
-    "line": -2.25,
-    "home": 1.94,
-    "away": 1.89
-   }
-  },
-  "WC2026-018": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    2.2,
-    3.33,
-    3.34
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.97,
-    "under": 1.82
-   },
-   "spreads": {
-    "line": -0.25,
-    "home": 1.92,
-    "away": 1.99
-   }
-  },
-  "WC2026-019": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    2.96,
-    3.29,
-    2.43
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.98,
-    "under": 1.82
-   },
-   "spreads": {
-    "line": 0.25,
-    "home": 1.95,
-    "away": 1.98
-   }
-  },
-  "WC2026-020": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    2.48,
-    3.28,
-    2.85
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.94,
-    "under": 1.84
-   },
-   "spreads": {
-    "line": 0.0,
-    "home": 1.93,
-    "away": 2.0
-   }
-  },
-  "WC2026-021": {
-   "bookmaker": "Pinnacle",
-   "h2h": [
-    2.26,
-    3.41,
-    3.16
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.86,
-    "under": 1.95
-   },
-   "spreads": {
-    "line": -0.25,
-    "home": 1.95,
-    "away": 1.97
-   }
-  },
-  "WC2026-022": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.58,
-    3.91,
-    5.86
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.8,
-    "under": 1.98
-   },
-   "spreads": {
-    "line": -1.0,
-    "home": 1.99,
-    "away": 1.94
-   }
-  },
-  "WC2026-023": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    1.43,
-    4.13,
-    8.53
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.0,
-    "under": 1.78
-   },
-   "spreads": {
-    "line": -1.25,
-    "home": 1.85,
-    "away": 1.89
-   }
-  },
-  "WC2026-024": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    2.14,
-    3.31,
-    3.54
+    5.25,
+    3.7,
+    1.7407
    ],
    "totals": {
     "line": 2.5,
     "over": 2.05,
-    "under": 1.77
+    "under": 1.7692
    },
    "spreads": {
-    "line": -0.25,
-    "home": 1.96,
+    "line": 0.5,
+    "home": 2.15,
+    "away": 1.68
+   }
+  },
+  "WC2026-009": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.025,
+    18.0,
+    29.0
+   ],
+   "totals": {
+    "line": 4.5,
+    "over": 2.1,
+    "under": 1.7407
+   },
+   "spreads": {
+    "line": -3.5,
+    "home": 1.8,
     "away": 2.0
    }
   },
-  "WC2026-025": {
-   "bookmaker": "Pinnacle",
+  "WC2026-010": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.48,
-    3.76,
-    8.75
+    2.05,
+    3.35,
+    3.55
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.44,
-    "under": 1.55
+    "over": 2.05,
+    "under": 1.7692
    },
    "spreads": {
-    "line": -1.25,
-    "home": 1.87,
-    "away": 1.93
+    "line": -0.5,
+    "home": 2.05,
+    "away": 1.76
    }
   },
-  "WC2026-026": {
-   "bookmaker": "William Hill",
+  "WC2026-011": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    2.14,
-    3.53,
-    3.3
+    3.25,
+    2.85,
+    2.6
    ],
    "totals": {
-    "line": 2.5,
-    "over": 1.75,
-    "under": 2.08
+    "line": 1.5,
+    "over": 1.6452,
+    "under": 2.25
    },
    "spreads": {
-    "line": -0.25,
-    "home": 1.95,
-    "away": 1.93
+    "line": 0.5,
+    "home": 1.52,
+    "away": 2.5
    }
   },
-  "WC2026-027": {
-   "bookmaker": "Pinnacle",
+  "WC2026-012": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.18,
-    5.81,
-    27.46
+    1.9524,
+    3.4,
+    4.2
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.16,
-    "under": 1.69
+    "over": 2.15,
+    "under": 1.7143
    },
    "spreads": {
-    "line": -1.75,
-    "home": 1.93,
+    "line": -0.5,
+    "home": 1.9,
+    "away": 1.86
+   }
+  },
+  "WC2026-013": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.1,
+    12.0,
+    23.0
+   ],
+   "totals": {
+    "line": 3.5,
+    "over": 1.9524,
+    "under": 1.8333
+   },
+   "spreads": {
+    "line": -2.5,
+    "home": 1.86,
     "away": 1.9
    }
   },
-  "WC2026-028": {
-   "bookmaker": "Bet365",
+  "WC2026-014": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.67,
-    3.62,
-    5.54
+    1.6061,
+    3.9,
+    5.5
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.04,
-    "under": 1.77
+    "over": 2.0,
+    "under": 1.8333
    },
    "spreads": {
-    "line": -0.75,
-    "home": 1.95,
-    "away": 1.96
+    "line": -0.5,
+    "home": 1.58,
+    "away": 2.35
    }
   },
-  "WC2026-029": {
-   "bookmaker": "Bet365",
+  "WC2026-015": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.12,
-    7.75,
-    28.58
+    8.0,
+    4.5,
+    1.4444
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.58,
-    "under": 2.35
+    "over": 2.05,
+    "under": 1.7692
    },
    "spreads": {
-    "line": -2.25,
-    "home": 1.89,
-    "away": 2.04
+    "line": 1.5,
+    "home": 1.6,
+    "away": 2.3
    }
   },
-  "WC2026-030": {
-   "bookmaker": "Bet365",
+  "WC2026-016": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.74,
-    3.69,
-    4.84
+    1.8333,
+    3.45,
+    4.8
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.86,
-    "under": 1.95
+    "over": 2.4,
+    "under": 1.5714
    },
    "spreads": {
-    "line": -0.75,
-    "home": 1.99,
-    "away": 1.94
+    "line": -0.5,
+    "home": 1.8,
+    "away": 2.0
    }
   },
-  "WC2026-031": {
-   "bookmaker": "Pinnacle",
+  "WC2026-017": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.32,
-    4.54,
-    12.06
+    1.4762,
+    4.4,
+    7.0
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.07,
-    "under": 1.73
+    "over": 1.9091,
+    "under": 1.8696
    },
    "spreads": {
     "line": -1.5,
+    "home": 2.35,
+    "away": 1.58
+   }
+  },
+  "WC2026-018": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    15.0,
+    7.0,
+    1.1905
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.5714,
+    "under": 2.4
+   },
+   "spreads": {
+    "line": 1.5,
+    "home": 2.35,
+    "away": 1.58
+   }
+  },
+  "WC2026-019": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.3922,
+    4.6,
+    9.5
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.9524,
+    "under": 1.8333
+   },
+   "spreads": {
+    "line": -1.5,
+    "home": 2.15,
+    "away": 1.68
+   }
+  },
+  "WC2026-020": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.3448,
+    5.25,
+    9.0
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.6897,
+    "under": 2.2
+   },
+   "spreads": {
+    "line": -1.5,
+    "home": 1.95,
+    "away": 1.83
+   }
+  },
+  "WC2026-021": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.2857,
+    5.75,
+    11.0
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.7143,
+    "under": 2.15
+   },
+   "spreads": {
+    "line": -1.5,
+    "home": 1.83,
+    "away": 1.95
+   }
+  },
+  "WC2026-022": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.7143,
+    3.8,
+    4.9
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.15,
+    "under": 1.7143
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 1.68,
+    "away": 2.15
+   }
+  },
+  "WC2026-023": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    2.2,
+    3.45,
+    3.4
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.3,
+    "under": 1.625
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 2.1,
+    "away": 1.71
+   }
+  },
+  "WC2026-024": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    9.0,
+    4.7,
+    1.3922
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.9091,
+    "under": 1.8696
+   },
+   "spreads": {
+    "line": 1.5,
+    "home": 1.71,
+    "away": 2.1
+   }
+  },
+  "WC2026-025": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.7692,
+    3.75,
+    4.9
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.05,
+    "under": 1.7692
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 1.74,
+    "away": 2.05
+   }
+  },
+  "WC2026-026": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.6061,
+    4.1,
+    5.75
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.1,
+    "under": 1.7407
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 1.55,
+    "away": 2.4
+   }
+  },
+  "WC2026-027": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.2778,
+    5.75,
+    11.0
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.7692,
+    "under": 2.05
+   },
+   "spreads": {
+    "line": -1.5,
+    "home": 1.83,
+    "away": 1.95
+   }
+  },
+  "WC2026-028": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    2.0,
+    3.35,
+    4.1
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.45,
+    "under": 1.5556
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 1.95,
+    "away": 1.83
+   }
+  },
+  "WC2026-029": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.5882,
+    4.3,
+    5.5
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.9524,
+    "under": 1.8333
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 1.57,
+    "away": 2.35
+   }
+  },
+  "WC2026-030": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    4.9,
+    3.55,
+    1.8
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.2,
+    "under": 1.6667
+   },
+   "spreads": {
+    "line": 0.5,
+    "home": 2.05,
+    "away": 1.74
+   }
+  },
+  "WC2026-031": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.1,
+    11.0,
+    21.0
+   ],
+   "totals": {
+    "line": 3.5,
+    "over": 1.8696,
+    "under": 1.9091
+   },
+   "spreads": {
+    "line": -2.5,
     "home": 1.9,
     "away": 1.86
    }
   },
   "WC2026-032": {
-   "bookmaker": "William Hill",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.33,
-    4.58,
-    11.06
+    1.9524,
+    3.4,
+    4.2
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.95,
-    "under": 1.82
-   },
-   "spreads": {
-    "line": -1.5,
-    "home": 1.98,
-    "away": 1.96
-   }
-  },
-  "WC2026-033": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.16,
-    6.21,
-    31.62
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.08,
-    "under": 1.73
-   },
-   "spreads": {
-    "line": -2.0,
-    "home": 1.97,
-    "away": 1.96
-   }
-  },
-  "WC2026-034": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.45,
-    4.17,
-    7.73
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.87,
-    "under": 1.9
-   },
-   "spreads": {
-    "line": -1.25,
-    "home": 1.92,
-    "away": 1.96
-   }
-  },
-  "WC2026-035": {
-   "bookmaker": "Pinnacle",
-   "h2h": [
-    1.06,
-    10.21,
-    156.27
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.94,
-    "under": 1.86
-   },
-   "spreads": {
-    "line": -2.5,
-    "home": 1.87,
-    "away": 1.94
-   }
-  },
-  "WC2026-036": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    1.97,
-    3.43,
-    3.89
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.94,
-    "under": 1.85
+    "over": 2.1,
+    "under": 1.7143
    },
    "spreads": {
     "line": -0.5,
-    "home": 1.93,
-    "away": 1.94
+    "home": 2.0,
+    "away": 1.76
+   }
+  },
+  "WC2026-033": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.6452,
+    4.1,
+    5.25
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.9091,
+    "under": 1.9091
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 1.6,
+    "away": 2.3
+   }
+  },
+  "WC2026-034": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.5556,
+    4.4,
+    5.75
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.7692,
+    "under": 2.05
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 1.52,
+    "away": 2.5
+   }
+  },
+  "WC2026-035": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.2,
+    7.5,
+    14.0
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.6667,
+    "under": 2.2
+   },
+   "spreads": {
+    "line": -1.5,
+    "home": 1.62,
+    "away": 2.25
+   }
+  },
+  "WC2026-036": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    5.5,
+    3.75,
+    1.6897
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.2,
+    "under": 1.6897
+   },
+   "spreads": {
+    "line": 0.5,
+    "home": 2.2,
+    "away": 1.64
    }
   },
   "WC2026-037": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.5,
-    4.12,
-    6.91
+    1.1,
+    11.0,
+    23.0
    ],
    "totals": {
-    "line": 2.5,
-    "over": 1.83,
-    "under": 1.97
+    "line": 3.5,
+    "over": 2.2,
+    "under": 1.6897
    },
    "spreads": {
-    "line": -1.25,
-    "home": 1.96,
-    "away": 1.96
+    "line": -2.5,
+    "home": 2.0,
+    "away": 1.8
    }
   },
   "WC2026-038": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    2.24,
-    3.36,
-    3.23
+    1.3922,
+    4.9,
+    8.5
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.91,
-    "under": 1.88
+    "over": 1.8333,
+    "under": 1.9524
    },
    "spreads": {
-    "line": -0.25,
-    "home": 1.89,
-    "away": 1.93
+    "line": -1.5,
+    "home": 2.15,
+    "away": 1.68
    }
   },
   "WC2026-039": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.26,
-    4.87,
-    14.97
+    1.4444,
+    4.6,
+    7.5
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.06,
-    "under": 1.73
+    "over": 1.8696,
+    "under": 1.9091
    },
    "spreads": {
     "line": -1.5,
-    "home": 1.87,
-    "away": 1.89
+    "home": 2.35,
+    "away": 1.58
    }
   },
   "WC2026-040": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.71,
-    3.57,
-    5.3
+    4.6,
+    3.9,
+    1.7692
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.06,
-    "under": 1.75
+    "over": 2.25,
+    "under": 1.6452
    },
    "spreads": {
-    "line": -0.75,
-    "home": 1.94,
-    "away": 1.92
+    "line": 0.5,
+    "home": 2.1,
+    "away": 1.71
    }
   },
   "WC2026-041": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.22,
-    5.3,
-    19.34
+    1.625,
+    3.9,
+    5.75
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.09,
-    "under": 1.73
+    "over": 1.9524,
+    "under": 1.8333
    },
    "spreads": {
-    "line": -1.75,
-    "home": 1.92,
-    "away": 1.92
+    "line": -0.5,
+    "home": 1.58,
+    "away": 2.35
    }
   },
   "WC2026-042": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.69,
-    3.84,
-    5.01
+    1.1111,
+    9.5,
+    26.0
    ],
    "totals": {
-    "line": 2.5,
-    "over": 1.76,
-    "under": 2.06
+    "line": 3.5,
+    "over": 2.25,
+    "under": 1.6452
    },
    "spreads": {
-    "line": -0.75,
-    "home": 1.88,
-    "away": 1.96
+    "line": -2.5,
+    "home": 1.95,
+    "away": 1.8
    }
   },
   "WC2026-043": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.47,
-    4.1,
-    7.38
+    2.15,
+    3.6,
+    3.4
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.89,
-    "under": 1.89
+    "over": 1.9524,
+    "under": 1.8696
    },
    "spreads": {
-    "line": -1.25,
-    "home": 2.03,
-    "away": 1.97
+    "line": -0.5,
+    "home": 2.05,
+    "away": 1.74
    }
   },
   "WC2026-044": {
-   "bookmaker": "William Hill",
+   "bookmaker": "DraftKings",
    "h2h": [
-    2.28,
-    3.16,
-    3.24
+    7.0,
+    4.4,
+    1.5
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.14,
-    "under": 1.67
+    "over": 1.9091,
+    "under": 1.8696
    },
    "spreads": {
-    "line": -0.25,
-    "home": 1.93,
-    "away": 1.88
+    "line": 1.5,
+    "home": 1.55,
+    "away": 2.4
    }
   },
   "WC2026-045": {
-   "bookmaker": "William Hill",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.32,
-    4.77,
-    11.68
+    1.2353,
+    6.5,
+    12.0
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.92,
-    "under": 1.88
+    "over": 1.5882,
+    "under": 2.35
    },
    "spreads": {
     "line": -1.5,
-    "home": 1.93,
-    "away": 1.92
+    "home": 1.71,
+    "away": 2.1
    }
   },
   "WC2026-046": {
-   "bookmaker": "William Hill",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.53,
-    3.73,
-    7.01
+    1.3226,
+    5.5,
+    9.5
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.15,
-    "under": 1.67
-   },
-   "spreads": {
-    "line": -1.0,
-    "home": 2.02,
-    "away": 1.96
-   }
-  },
-  "WC2026-047": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.28,
-    5.02,
-    14.15
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.96,
-    "under": 1.85
+    "over": 1.7143,
+    "under": 2.15
    },
    "spreads": {
     "line": -1.5,
     "home": 1.86,
-    "away": 1.96
+    "away": 1.9
+   }
+  },
+  "WC2026-047": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    7.0,
+    4.0,
+    1.5405
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.05,
+    "under": 1.7692
+   },
+   "spreads": {
+    "line": 0.5,
+    "home": 2.5,
+    "away": 1.51
    }
   },
   "WC2026-048": {
-   "bookmaker": "William Hill",
+   "bookmaker": "DraftKings",
    "h2h": [
-    2.05,
-    3.14,
-    3.95
+    1.4545,
+    4.4,
+    8.0
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.34,
-    "under": 1.58
+    "over": 2.15,
+    "under": 1.6897
    },
    "spreads": {
-    "line": -0.5,
-    "home": 1.94,
-    "away": 1.93
+    "line": -1.5,
+    "home": 2.35,
+    "away": 1.58
    }
   },
   "WC2026-049": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.36,
-    4.66,
-    9.3
+    1.5714,
+    4.1,
+    6.0
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.74,
-    "under": 2.06
+    "over": 2.05,
+    "under": 1.7692
    },
    "spreads": {
-    "line": -1.5,
-    "home": 1.95,
-    "away": 1.92
+    "line": -0.5,
+    "home": 1.55,
+    "away": 2.4
    }
   },
   "WC2026-050": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    2.49,
-    3.38,
-    2.75
+    2.15,
+    3.45,
+    3.5
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.81,
-    "under": 1.96
+    "over": 2.1,
+    "under": 1.7407
    },
    "spreads": {
-    "line": 0.0,
-    "home": 1.98,
-    "away": 1.99
+    "line": -0.5,
+    "home": 2.1,
+    "away": 1.74
    }
   },
   "WC2026-051": {
-   "bookmaker": "William Hill",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.22,
-    5.42,
-    17.39
+    1.303,
+    5.5,
+    10.5
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.92,
-    "under": 1.85
-   },
-   "spreads": {
-    "line": -1.75,
-    "home": 2.02,
-    "away": 1.97
-   }
-  },
-  "WC2026-052": {
-   "bookmaker": "Pinnacle",
-   "h2h": [
-    1.81,
-    3.55,
-    4.43
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.89,
-    "under": 1.89
-   },
-   "spreads": {
-    "line": -0.75,
-    "home": 1.94,
-    "away": 1.89
-   }
-  },
-  "WC2026-053": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.16,
-    6.1,
-    29.91
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.07,
-    "under": 1.73
-   },
-   "spreads": {
-    "line": -2.0,
-    "home": 1.93,
-    "away": 1.94
-   }
-  },
-  "WC2026-054": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    1.8,
-    3.55,
-    4.53
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.92,
-    "under": 1.86
-   },
-   "spreads": {
-    "line": -0.75,
-    "home": 1.9,
-    "away": 1.89
-   }
-  },
-  "WC2026-055": {
-   "bookmaker": "Pinnacle",
-   "h2h": [
-    1.47,
-    4.27,
-    7.09
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.74,
-    "under": 2.08
-   },
-   "spreads": {
-    "line": -1.25,
-    "home": 2.0,
-    "away": 1.93
-   }
-  },
-  "WC2026-056": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    1.99,
-    3.26,
-    3.94
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.13,
-    "under": 1.68
-   },
-   "spreads": {
-    "line": -0.5,
-    "home": 1.96,
-    "away": 1.89
-   }
-  },
-  "WC2026-057": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    1.63,
-    3.73,
-    5.61
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.93,
-    "under": 1.85
-   },
-   "spreads": {
-    "line": -1.0,
-    "home": 1.89,
-    "away": 1.93
-   }
-  },
-  "WC2026-058": {
-   "bookmaker": "William Hill",
-   "h2h": [
-    2.08,
-    3.25,
-    3.64
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 2.08,
-    "under": 1.72
-   },
-   "spreads": {
-    "line": -0.5,
-    "home": 1.94,
-    "away": 1.91
-   }
-  },
-  "WC2026-059": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.35,
-    4.43,
-    10.47
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.99,
-    "under": 1.79
+    "over": 1.6452,
+    "under": 2.25
    },
    "spreads": {
     "line": -1.5,
-    "home": 1.92,
-    "away": 1.91
+    "home": 1.86,
+    "away": 1.9
    }
   },
-  "WC2026-060": {
-   "bookmaker": "Pinnacle",
+  "WC2026-052": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    3.01,
-    3.36,
-    2.37
+    6.5,
+    5.0,
+    1.4444
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.9,
-    "under": 1.9
+    "over": 1.8,
+    "under": 2.0
    },
    "spreads": {
-    "line": 0.25,
-    "home": 1.89,
-    "away": 1.88
+    "line": 1.5,
+    "home": 1.66,
+    "away": 2.15
    }
   },
-  "WC2026-061": {
-   "bookmaker": "Bet365",
+  "WC2026-053": {
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.72,
-    3.66,
-    4.86
+    5.75,
+    4.1,
+    1.6061
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.86,
-    "under": 1.92
-   },
-   "spreads": {
-    "line": -0.75,
-    "home": 1.9,
-    "away": 1.81
-   }
-  },
-  "WC2026-062": {
-   "bookmaker": "Pinnacle",
-   "h2h": [
-    1.79,
-    3.61,
-    4.64
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.9,
-    "under": 1.9
-   },
-   "spreads": {
-    "line": -0.75,
-    "home": 1.92,
-    "away": 1.92
-   }
-  },
-  "WC2026-063": {
-   "bookmaker": "Bet365",
-   "h2h": [
-    1.45,
-    4.04,
-    7.81
-   ],
-   "totals": {
-    "line": 2.5,
-    "over": 1.98,
+    "over": 2.0,
     "under": 1.8
    },
    "spreads": {
-    "line": -1.25,
-    "home": 1.97,
-    "away": 1.89
+    "line": 0.5,
+    "home": 2.4,
+    "away": 1.57
+   }
+  },
+  "WC2026-054": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    4.7,
+    3.65,
+    1.8
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.15,
+    "under": 1.7143
+   },
+   "spreads": {
+    "line": 0.5,
+    "home": 2.05,
+    "away": 1.76
+   }
+  },
+  "WC2026-055": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    4.8,
+    3.9,
+    1.7407
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.9091,
+    "under": 1.9091
+   },
+   "spreads": {
+    "line": 0.5,
+    "home": 2.1,
+    "away": 1.71
+   }
+  },
+  "WC2026-056": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    13.0,
+    7.0,
+    1.2222
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.6667,
+    "under": 2.2
+   },
+   "spreads": {
+    "line": 1.5,
+    "home": 2.25,
+    "away": 1.64
+   }
+  },
+  "WC2026-057": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    2.1,
+    3.45,
+    3.55
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.05,
+    "under": 1.7692
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 2.05,
+    "away": 1.74
+   }
+  },
+  "WC2026-058": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    6.5,
+    4.4,
+    1.5
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.8696,
+    "under": 1.9524
+   },
+   "spreads": {
+    "line": 1.5,
+    "home": 1.55,
+    "away": 2.45
+   }
+  },
+  "WC2026-059": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    2.15,
+    3.35,
+    3.55
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.3,
+    "under": 1.625
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 2.1,
+    "away": 1.71
+   }
+  },
+  "WC2026-060": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    2.75,
+    3.7,
+    2.45
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.8,
+    "under": 2.0
+   },
+   "spreads": {
+    "line": 0.5,
+    "home": 1.58,
+    "away": 2.35
+   }
+  },
+  "WC2026-061": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    1.3922,
+    4.9,
+    8.5
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.8696,
+    "under": 1.9524
+   },
+   "spreads": {
+    "line": -1.5,
+    "home": 2.15,
+    "away": 1.66
+   }
+  },
+  "WC2026-062": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    4.2,
+    3.75,
+    1.8696
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 1.9524,
+    "under": 1.8333
+   },
+   "spreads": {
+    "line": 0.5,
+    "home": 1.95,
+    "away": 1.8
+   }
+  },
+  "WC2026-063": {
+   "bookmaker": "DraftKings",
+   "h2h": [
+    2.5,
+    3.75,
+    2.65
+   ],
+   "totals": {
+    "line": 2.5,
+    "over": 2.05,
+    "under": 1.7692
+   },
+   "spreads": {
+    "line": -0.5,
+    "home": 2.4,
+    "away": 1.55
    }
   },
   "WC2026-064": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.49,
-    4.07,
-    6.97
+    5.5,
+    4.0,
+    1.6452
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.84,
-    "under": 1.93
+    "over": 1.8696,
+    "under": 1.9091
    },
    "spreads": {
-    "line": -1.25,
-    "home": 2.0,
-    "away": 1.89
+    "line": 0.5,
+    "home": 2.3,
+    "away": 1.6
    }
   },
   "WC2026-065": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.26,
-    5.13,
-    14.74
+    2.25,
+    3.1,
+    3.65
    ],
    "totals": {
-    "line": 2.5,
-    "over": 1.93,
-    "under": 1.86
+    "line": 1.5,
+    "over": 1.5263,
+    "under": 2.55
    },
    "spreads": {
-    "line": -1.75,
-    "home": 2.01,
-    "away": 1.91
+    "line": -0.5,
+    "home": 2.2,
+    "away": 1.66
    }
   },
   "WC2026-066": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    2.3,
-    3.44,
-    3.08
+    10.0,
+    5.75,
+    1.3125
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.82,
-    "under": 1.99
+    "over": 1.7143,
+    "under": 2.15
    },
    "spreads": {
-    "line": -0.25,
-    "home": 1.91,
-    "away": 1.95
+    "line": 1.5,
+    "home": 1.9,
+    "away": 1.86
    }
   },
   "WC2026-067": {
-   "bookmaker": "Pinnacle",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.85,
-    3.39,
-    4.49
+    1.625,
+    3.95,
+    5.75
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.09,
-    "under": 1.72
+    "over": 2.05,
+    "under": 1.7692
    },
    "spreads": {
-    "line": -0.75,
-    "home": 1.91,
-    "away": 1.92
+    "line": -0.5,
+    "home": 1.6,
+    "away": 2.3
    }
   },
   "WC2026-068": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.63,
-    3.72,
-    5.7
+    8.5,
+    6.5,
+    1.2941
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.96,
-    "under": 1.82
+    "over": 1.6452,
+    "under": 2.25
    },
    "spreads": {
-    "line": -1.0,
-    "home": 1.96,
-    "away": 1.95
+    "line": 1.5,
+    "home": 1.95,
+    "away": 1.83
    }
   },
   "WC2026-069": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.47,
-    4.23,
-    7.12
+    3.55,
+    3.45,
+    2.1
    ],
    "totals": {
     "line": 2.5,
-    "over": 1.76,
-    "under": 2.04
+    "over": 2.05,
+    "under": 1.7692
    },
    "spreads": {
-    "line": -1.25,
-    "home": 1.84,
-    "away": 1.93
+    "line": 0.5,
+    "home": 1.74,
+    "away": 2.05
    }
   },
   "WC2026-070": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.6,
-    3.69,
-    6.1
+    2.35,
+    3.35,
+    3.15
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.06,
-    "under": 1.74
+    "over": 2.25,
+    "under": 1.6452
    },
    "spreads": {
-    "line": -1.0,
-    "home": 1.95,
-    "away": 1.95
+    "line": -0.5,
+    "home": 2.25,
+    "away": 1.62
    }
   },
   "WC2026-071": {
-   "bookmaker": "Bet365",
+   "bookmaker": "DraftKings",
    "h2h": [
-    1.15,
-    6.2,
-    45.66
+    15.0,
+    7.5,
+    1.1818
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.38,
-    "under": 1.58
+    "over": 1.5714,
+    "under": 2.4
    },
    "spreads": {
-    "line": -2.0,
-    "home": 1.99,
-    "away": 1.95
+    "line": 1.5,
+    "home": 2.35,
+    "away": 1.57
    }
   },
   "WC2026-072": {
-   "bookmaker": "William Hill",
+   "bookmaker": "DraftKings",
    "h2h": [
-    2.5,
-    3.21,
-    2.86
+    3.8,
+    3.1,
+    2.2
    ],
    "totals": {
     "line": 2.5,
-    "over": 2.03,
-    "under": 1.75
+    "over": 2.1,
+    "under": 1.7407
    },
    "spreads": {
-    "line": 0.0,
-    "home": 1.89,
-    "away": 1.87
+    "line": 0.5,
+    "home": 1.71,
+    "away": 2.1
    }
   }
  }
