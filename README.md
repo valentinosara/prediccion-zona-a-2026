@@ -172,26 +172,33 @@ robusta cuando no hay salida de red: el mercado es la señal dominante y vos se 
 
 El sistema **baja todo solo** por fetch automático, con **caché** local y **fallback**:
 
-| Señal | Fuente primaria | Fallbacks |
+| Señal | Fuente primaria (sin key) | Fallbacks |
 |---|---|---|
-| Fixtures / resultados | ESPN hidden API (`site.api.espn.com`) | football-data.org · Wikipedia |
-| Cuotas (1X2/O-U/AH) | The Odds API (`api.the-odds-api.com`, `ODDS_API_KEY`) | API-Football |
-| Fuerza (Elo) | eloratings.net | ranking FIFA · seed |
+| Fixtures / resultados / estado | ESPN scoreboard (`site.api.espn.com`) | caché · seed |
+| Grupos A–L (draw real) | ESPN standings (`site.api.espn.com`) | tabla anclada en `fetch_wc.py` |
+| Cuotas (1X2/O-U/AH) | ESPN core API (`sports.core.api.espn.com`) | The Odds API (`ODDS_API_KEY`) · caché · seed |
+| Fuerza (Elo) | eloratings.net (`World.tsv` + `en.teams.tsv`) | caché · seed |
 
-Este sistema **necesita salida de red** hacia esos dominios. Si la política de red del
-entorno los bloquea (o están caídos), corre en **modo degradado** con el último caché o
-con un **seed versionado** (`data_mundial/seed/`) y el HTML lo avisa arriba. Whitelist
-mínima a habilitar:
+Los parsers están **validados contra los esquemas reales del Mundial 2026**: los moneyline
+americanos de ESPN se convierten a decimal y se de-vigan; los horarios de ESPN (UTC) se
+guardan en **hora de Argentina (ART, UTC-3)**; el cruce de nombres entre fuentes (ESPN usa
+inglés, eloratings su propio código) se resuelve por código FIFA-3 + alias normalizados.
+
+Este sistema **baja todo solo**. Si la política de red bloquea un dominio (o está caído),
+esa señal corre en **modo degradado** con el último caché o con el **seed versionado**
+(`data_mundial/seed/`, que ya contiene **datos reales**) y el HTML lo avisa arriba.
+Whitelist mínima a habilitar:
 
 ```
 site.api.espn.com
-api.the-odds-api.com
+sports.core.api.espn.com
 www.eloratings.net
-api.football-data.org
+api.the-odds-api.com   (opcional, solo si usás ODDS_API_KEY)
 ```
 
-> Para usar cuotas en vivo de The Odds API: `export ODDS_API_KEY=tu_key` (gratis, 500
-> req/mes). El seed se puede regenerar con `python data_mundial/seed/_build_seed.py`.
+> Las cuotas primarias salen de ESPN **sin API key**. Para forzar Pinnacle vía The Odds
+> API (opcional): `export ODDS_API_KEY=tu_key`. El seed real se regenera con
+> `python fetch_wc.py --build-seed` (baja equipos, grupos, fixtures, resultados y cuotas).
 
 ### Archivos del sistema (`*_wc`)
 
@@ -206,18 +213,24 @@ predict_wc.py      orquesta una fecha → data_mundial/pred_wc.json + state.json
 gen_html_wc.py     arma docs/mundial_fechaN.html (self-contained)
 backtest_wc.py     auto-evaluación: puntos del prode en partidos ya jugados
 predict_cli.py     predecir cargando las cuotas a mano (sin fetch) → texto / HTML
+show_wc.py         muestra por consola las jugadas ya calculadas (lee pred_wc.json)
 update_wc.py       ⭐ un comando: --fecha N → fetch + fit + predict + html
-data_mundial/      seed/ (respaldo versionado), cache/, state.json, salidas json
+data_mundial/      seed/ (datos reales versionados), cache/, state.json, salidas json
 ```
+
+> Consola rápida del día: `python show_wc.py` (o `--dia YYYY-MM-DD`, `--match <equipo>`,
+> `--all`). Muestra la jugada recomendada, el de-vig del mercado, el top-5 por puntos
+> esperados y la confianza — idéntico a lo que sale en el HTML, con su procedencia.
 
 ### Limitaciones (Mundial)
 
 - El Mundial tiene **muestras chicas y mucha varianza**: la Fecha 1 se apoya casi toda
   en el mercado. El número serio es la probabilidad y el `E[pts]`, no el marcador puntual.
-- Los esquemas de los endpoints en vivo **cambian seguido**; hay que adaptarlos al correr.
-  Por eso el fetch es resiliente y cae a caché/seed sin romperse.
-- El **seed** incluido es un respaldo realista para correr el pipeline sin red — **no es
-  el dato oficial del torneo**. Con red habilitada, el fetch trae los datos reales.
+- Los esquemas de los endpoints en vivo **pueden cambiar**; por eso el fetch es resiliente
+  y cae a caché/seed sin romperse (y el HTML avisa la procedencia de cada dato).
+- El **seed** versionado contiene **datos reales** del Mundial 2026 (48 selecciones, 12
+  grupos A–L, 72 fixtures con horario ART, resultados ya jugados y cuotas), bajados de
+  ESPN + eloratings. Es el anclaje para correr sin red; con red, el fetch lo refresca.
 
 ---
 
