@@ -148,6 +148,26 @@ jugaron (calibran) vs cuáles faltan (se predicen), y regenera un HTML self-cont
 recomendado resaltado, marcador más probable y ganador aparte, top-5, heatmap, confianza)
 y la auto-evaluación de la fecha.
 
+### Predecir un partido YA, cargando las cuotas a mano (sin fetch)
+
+Si la red está bloqueada (o querés la jugada al toque), no hace falta esperar al fetch:
+leés las cuotas de cualquier casa y `predict_cli.py` te da la recomendación con el mismo
+motor (de-vig → Dixon-Coles → puntos esperados → Monte Carlo).
+
+```bash
+# Un partido (1X2; opcional Over/Under 2.5 y hándicap asiático):
+python predict_cli.py --home "Brasil" --away "Japón" \
+    --h2h 1.50 4.10 6.90 --ou 2.5 1.83 1.97 --ah -1.25 1.93 1.93 \
+    --book Pinnacle --kickoff 14:00 --hflag BR --aflag JP
+
+# Varios partidos del día + página HTML (docs/mundial_hoy.html):
+python predict_cli.py --file hoy.json --html
+```
+
+Devuelve P(1X2) de-vigada, los λ por equipo, el **marcador recomendado para el prode**
+(máx. puntos esperados), el más probable aparte, el top-5 y la confianza. Es la vía más
+robusta cuando no hay salida de red: el mercado es la señal dominante y vos se la das.
+
 ### Fuentes y whitelist de red
 
 El sistema **baja todo solo** por fetch automático, con **caché** local y **fallback**:
@@ -185,6 +205,7 @@ montecarlo_wc.py   simulaciones por partido + nivel de confianza
 predict_wc.py      orquesta una fecha → data_mundial/pred_wc.json + state.json
 gen_html_wc.py     arma docs/mundial_fechaN.html (self-contained)
 backtest_wc.py     auto-evaluación: puntos del prode en partidos ya jugados
+predict_cli.py     predecir cargando las cuotas a mano (sin fetch) → texto / HTML
 update_wc.py       ⭐ un comando: --fecha N → fetch + fit + predict + html
 data_mundial/      seed/ (respaldo versionado), cache/, state.json, salidas json
 ```

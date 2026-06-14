@@ -24,7 +24,8 @@ DOCS = os.path.join(HERE, "docs")
 
 DIAS = ["Lun", "Mar", "Mie", "Jue", "Vie", "Sab", "Dom"]
 CONF_CLASS = {"alta": "c-alta", "media": "c-media", "baja": "c-baja"}
-SRC_LABEL = {"live": "en vivo", "cache": "cache", "seed": "respaldo (seed)"}
+SRC_LABEL = {"live": "en vivo", "cache": "cache", "seed": "respaldo (seed)",
+             "manual": "cargado a mano"}
 
 CSS = """
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -300,16 +301,23 @@ def backtest_block(bt, teams):
 
 def provenance_block(prov):
     pills = []
-    degraded = False
+    degraded = manual = False
     for k, label in [("fixtures", "fixtures/resultados"), ("odds", "cuotas"),
                      ("teams", "Elo/fuerza")]:
         s = prov[k]["source"]
-        if s != "live":
+        if s == "manual":
+            manual = True
+        elif s != "live":
             degraded = True
         pills.append(f'<span class="pill {s}">{label}: {SRC_LABEL.get(s, s)} '
                      f'· {esc(fmt_dt(prov[k].get("fetched_at")))}</span>')
     banner = ""
-    if degraded:
+    if manual:
+        banner = ('<div class="banner">✍️ <b>Cuotas cargadas a mano:</b> las '
+                  'probabilidades 1X2 y los λ salen de las cuotas reales que ingresaste '
+                  '(de-vigadas). El motor del prode es el mismo; solo cambia el origen de '
+                  'los datos de entrada.</div>')
+    elif degraded:
         banner = ('<div class="banner">⚠️ <b>Modo degradado:</b> la red del entorno '
                   'bloquea las fuentes en vivo, asi que se usa el ultimo cache o el seed '
                   'de respaldo versionado. El motor es el mismo; solo cambian los datos de '
@@ -317,12 +325,17 @@ def provenance_block(prov):
     return banner, f'<div class="prov">{"".join(pills)}</div>'
 
 
-def build(fecha):
+def build(fecha=None):
     d = json.load(open(os.path.join(DATA, "pred_wc.json"), encoding="utf-8"))
-    if d["meta"]["fecha"] != fecha:
+    if fecha is not None and d["meta"]["fecha"] != fecha:
         raise SystemExit(f"pred_wc.json es de la fecha {d['meta']['fecha']}, no {fecha}. "
                          f"Corré primero: python predict_wc.py --fecha {fecha}")
     m = d["meta"]; teams = d["teams"]; preds = d["pendientes"]
+    # Etiqueta y archivo de salida: por defecto "Fecha N"; el modo manual (predict_cli)
+    # puede pasar un titulo/nombre propio via meta (p.ej. "Hoy" -> mundial_hoy.html).
+    fecha = d["meta"]["fecha"]
+    label = m.get("titulo") or f"Fecha {fecha}"
+    out_name = m.get("out_name") or f"mundial_fecha{fecha}.html"
     cg = m["confianza_global"]
     banner, prov_html = provenance_block(m["provenance"])
     cards = "".join(match_card(p, teams) for p in preds)
@@ -335,11 +348,11 @@ def build(fecha):
 <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;⚽&lt;/text&gt;&lt;/svg&gt;">
-<title>Prode Mundial 2026 · Fecha {fecha}</title>
+<title>Prode Mundial 2026 · {label}</title>
 <style>{CSS}</style></head>
 <body>
 <div class="bar">
-  <h1>⚽ Prode Mundial 2026 · Fecha {fecha}</h1>
+  <h1>⚽ Prode Mundial 2026 · {label}</h1>
   <div class="sub">Predicciones optimizadas para MAXIMIZAR puntos del prode ·
      generado {esc(fmt_dt(m['generado']))} · datos al {esc(fmt_dt(m['datos_al']))}</div>
 </div>
@@ -371,7 +384,7 @@ def build(fecha):
   <div class="grid">{cards}</div>
 
   <section class="card foot">
-    <h2>Auto-evaluacion · Fecha {fecha} ya jugada</h2>
+    <h2>Auto-evaluacion · {label} (partidos ya jugados)</h2>
     <p>Cuantos puntos del prode habria sacado este mismo modelo en los partidos de la
        fecha que ya se jugaron, prediciendo cada uno con la informacion disponible
        <i>antes</i> de jugarse (sin fuga de informacion) y puntuando con la tabla oficial.</p>
@@ -404,7 +417,7 @@ def build(fecha):
 </body></html>"""
 
     os.makedirs(DOCS, exist_ok=True)
-    out_path = os.path.join(DOCS, f"mundial_fecha{fecha}.html")
+    out_path = os.path.join(DOCS, out_name)
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(body)
     return out_path
