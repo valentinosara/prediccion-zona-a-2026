@@ -14,9 +14,10 @@
   "xg_provenance": {
    "source": "FIFA EFI (api.fifa.com + fdh-api.fifa.com) via fifaphy",
    "engine": "playwright",
-   "fetched_at": "2026-06-15T16:51:38-03:00",
+   "fetched_at": "2026-06-15T17:05:08-03:00",
    "metric": "XG (Expected Goals)",
-   "n_matches": 13
+   "n_matches": 13,
+   "n_applied": 13
   }
  },
  "fixtures": [
@@ -33,7 +34,8 @@
    "home_score": 2,
    "away_score": 0,
    "home_xg": 1.779,
-   "away_xg": 0.103
+   "away_xg": 0.103,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-002",
@@ -48,7 +50,8 @@
    "home_score": 2,
    "away_score": 1,
    "home_xg": 1.77,
-   "away_xg": 0.637
+   "away_xg": 0.637,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-003",
@@ -63,7 +66,8 @@
    "home_score": 1,
    "away_score": 1,
    "home_xg": 1.495,
-   "away_xg": 0.762
+   "away_xg": 0.762,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-004",
@@ -78,7 +82,8 @@
    "home_score": 4,
    "away_score": 1,
    "home_xg": 1.877,
-   "away_xg": 0.605
+   "away_xg": 0.605,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-005",
@@ -93,7 +98,8 @@
    "home_score": 1,
    "away_score": 1,
    "home_xg": 0.518,
-   "away_xg": 3.142
+   "away_xg": 3.142,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-006",
@@ -107,8 +113,9 @@
    "status": "played",
    "home_score": 1,
    "away_score": 1,
-   "home_xg": 0.73,
-   "away_xg": 1.0
+   "home_xg": 0.992,
+   "away_xg": 1.331,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-007",
@@ -123,7 +130,8 @@
    "home_score": 0,
    "away_score": 1,
    "home_xg": 0.702,
-   "away_xg": 0.913
+   "away_xg": 0.913,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-008",
@@ -138,7 +146,8 @@
    "home_score": 2,
    "away_score": 0,
    "home_xg": 0.986,
-   "away_xg": 1.662
+   "away_xg": 1.662,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-009",
@@ -153,7 +162,8 @@
    "home_score": 7,
    "away_score": 1,
    "home_xg": 4.165,
-   "away_xg": 0.404
+   "away_xg": 0.404,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-010",
@@ -168,7 +178,8 @@
    "home_score": 2,
    "away_score": 2,
    "home_xg": 0.629,
-   "away_xg": 0.339
+   "away_xg": 0.339,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-011",
@@ -183,7 +194,8 @@
    "home_score": 1,
    "away_score": 0,
    "home_xg": 1.882,
-   "away_xg": 1.36
+   "away_xg": 1.36,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-012",
@@ -198,7 +210,8 @@
    "home_score": 5,
    "away_score": 1,
    "home_xg": 2.091,
-   "away_xg": 0.342
+   "away_xg": 0.342,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-013",
@@ -212,8 +225,9 @@
    "status": "played",
    "home_score": 0,
    "away_score": 0,
-   "home_xg": 2.21,
-   "away_xg": 0.21
+   "home_xg": 2.262,
+   "away_xg": 0.131,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-014",
