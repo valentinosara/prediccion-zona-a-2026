@@ -3,6 +3,9 @@
 # Carlo) y requests para el fetch. Sin frameworks pesados.
 numpy>=1.24
 requests>=2.28
+# Scraper de xG real (scrape_fifaphy.py): Playwright como camino primario; si no esta,
+# cae a requests solo. Tras instalar: `playwright install chromium`.
+playwright>=1.40
 # Opcionales:
 # scipy>=1.10           # si se agregan calibraciones (Platt/isotonica) o solvers extra
 # beautifulsoup4>=4.12  # solo si se scrapea HTML en el camino en vivo de fetch_wc

@@ -214,6 +214,8 @@ gen_html_wc.py     arma docs/mundial_fechaN.html (self-contained)
 backtest_wc.py     auto-evaluación: puntos del prode en partidos ya jugados
 predict_cli.py     predecir cargando las cuotas a mano (sin fetch) → texto / HTML
 show_wc.py         muestra por consola las jugadas ya calculadas (lee pred_wc.json)
+scrape_fifaphy.py  baja el xG REAL de la API de FIFA (Playwright→requests) y lo pega al seed
+analyze_fifaphy.py valida el efecto del xG real sobre la forma (goles vs xG)
 analyze_real.py    analiza la Fecha 1 real (xG/calibración) — modelo viejo vs nuevo
 update_wc.py       ⭐ un comando: --fecha N → fetch + fit + predict + html
 data_mundial/      seed/ (datos reales), real/ (Fecha 1 + xG para el análisis), cache/, ...
@@ -243,8 +245,11 @@ no a dedo (`analyze_real.py` compara modelo viejo vs nuevo sobre los partidos ju
 Efecto en el backtest del prode sobre la Fecha 1 real (solo-modelo, sin cuotas): de
 **32 → 40 / 120** puntos y mejor calibración del total (log-loss 2.22 → 2.04).
 
-> **Fuentes de xG** para alimentar `home_xg`/`away_xg`: Opta/TheAnalyst, Sofascore, FBref,
-> xgscore.io o el xG tracker de RealGM. (Sin xG, el modelo cae a goles crudos sin romperse.)
+> **xG real automatizado:** `python scrape_fifaphy.py` baja el xG oficial de FIFA (la fuente
+> detrás de [fifaphy](https://fifaphy.vercel.app/), sin API key) y lo pega como
+> `home_xg`/`away_xg` sobre los fixtures jugados del seed. Detalle de la fuente, la API y la
+> utilidad de cada métrica en [`REPORTE_FIFAPHY.md`](REPORTE_FIFAPHY.md). Otras fuentes de xG
+> válidas: Opta/TheAnalyst, Sofascore, FBref. (Sin xG, el modelo cae a goles crudos sin romperse.)
 
 ### Limitaciones (Mundial)
 
