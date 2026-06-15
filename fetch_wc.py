@@ -615,7 +615,10 @@ def _merge_results(fixtures, live):
         if r["completed"] and r["hs"] is not None and r["as"] is not None:
             f.update(status="played", home_score=r["hs"], away_score=r["as"])
             applied += 1
-        else:
+        elif not (f.get("status") == "played" and f.get("home_score") is not None):
+            # Un resultado ya finalizado (seed/FIFA, con score) es 'sticky': no lo degradamos
+            # a 'scheduled' por un dato en vivo transitorio (en juego / hueco del scoreboard /
+            # FIFA dice final y ESPN todavia no). Solo marcamos scheduled lo que aun no es resultado.
             f["status"] = "scheduled"
     return applied
 
