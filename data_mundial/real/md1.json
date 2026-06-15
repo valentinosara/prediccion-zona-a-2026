@@ -1,0 +1,32 @@
+{
+ "_note": "Datos REALES del Mundial 2026 levantados via busqueda web (WebSearch) el 15/06/2026. Resultados confirmados por varias fuentes (ESPN, FIFA, Opta, CBS, Yahoo). El Elo es una aproximacion pre-torneo (estilo World Football Elo) hecha a mano; con red, se reemplaza por eloratings.net. xG donde estaba publicado (Opta/xgscore/RealGM).",
+ "as_of": "2026-06-15",
+ "hosts": ["Mexico", "United States", "Canada"],
+ "elo": {
+   "Mexico": 1805, "South Africa": 1590, "South Korea": 1790, "Czechia": 1740,
+   "United States": 1800, "Paraguay": 1715, "Canada": 1755, "Bosnia and Herzegovina": 1685,
+   "Australia": 1715, "Turkiye": 1785, "Germany": 1965, "Curacao": 1380,
+   "Netherlands": 1990, "Japan": 1850, "Ivory Coast": 1760, "Ecuador": 1820,
+   "Sweden": 1705, "Tunisia": 1655, "Brazil": 2030, "Morocco": 1875,
+   "Spain": 2120, "Cabo Verde": 1590, "Belgium": 1945, "Egypt": 1780,
+   "Saudi Arabia": 1655, "Uruguay": 1895, "Iran": 1815, "New Zealand": 1490
+ },
+ "results": [
+   {"home": "Mexico", "away": "South Africa", "hs": 2, "as": 0, "date": "2026-06-11"},
+   {"home": "South Korea", "away": "Czechia", "hs": 2, "as": 1, "date": "2026-06-11"},
+   {"home": "United States", "away": "Paraguay", "hs": 4, "as": 1, "date": "2026-06-12"},
+   {"home": "Canada", "away": "Bosnia and Herzegovina", "hs": 1, "as": 1, "date": "2026-06-12"},
+   {"home": "Australia", "away": "Turkiye", "hs": 2, "as": 0, "date": "2026-06-13"},
+   {"home": "Germany", "away": "Curacao", "hs": 7, "as": 1, "date": "2026-06-14", "hxg": 3.9, "axg": 0.4},
+   {"home": "Netherlands", "away": "Japan", "hs": 2, "as": 2, "date": "2026-06-14", "hxg": 0.79, "axg": 0.54},
+   {"home": "Ivory Coast", "away": "Ecuador", "hs": 1, "as": 0, "date": "2026-06-14"},
+   {"home": "Sweden", "away": "Tunisia", "hs": 5, "as": 1, "date": "2026-06-14"},
+   {"home": "Brazil", "away": "Morocco", "hs": 1, "as": 1, "date": "2026-06-14"}
+ ],
+ "today": [
+   {"home": "Spain", "away": "Cabo Verde", "date": "2026-06-15", "group": "?", "hflag": "ES", "aflag": "CV"},
+   {"home": "Belgium", "away": "Egypt", "date": "2026-06-15", "group": "?", "hflag": "BE", "aflag": "EG"},
+   {"home": "Saudi Arabia", "away": "Uruguay", "date": "2026-06-15", "group": "?", "hflag": "SA", "aflag": "UY"},
+   {"home": "Iran", "away": "New Zealand", "date": "2026-06-15", "group": "?", "hflag": "IR", "aflag": "NZ"}
+ ]
+}

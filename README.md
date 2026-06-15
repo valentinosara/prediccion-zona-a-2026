@@ -214,13 +214,37 @@ gen_html_wc.py     arma docs/mundial_fechaN.html (self-contained)
 backtest_wc.py     auto-evaluación: puntos del prode en partidos ya jugados
 predict_cli.py     predecir cargando las cuotas a mano (sin fetch) → texto / HTML
 show_wc.py         muestra por consola las jugadas ya calculadas (lee pred_wc.json)
+analyze_real.py    analiza la Fecha 1 real (xG/calibración) — modelo viejo vs nuevo
 update_wc.py       ⭐ un comando: --fecha N → fetch + fit + predict + html
-data_mundial/      seed/ (datos reales versionados), cache/, state.json, salidas json
+data_mundial/      seed/ (datos reales), real/ (Fecha 1 + xG para el análisis), cache/, ...
 ```
 
 > Consola rápida del día: `python show_wc.py` (o `--dia YYYY-MM-DD`, `--match <equipo>`,
 > `--all`). Muestra la jugada recomendada, el de-vig del mercado, el top-5 por puntos
 > esperados y la confianza — idéntico a lo que sale en el HTML, con su procedencia.
+
+### Mejoras del modelo con datos reales (xG y calibración del total)
+
+Tras la Fecha 1 **real** del Mundial 2026 se ajustaron tres cosas — guiadas por los datos,
+no a dedo (`analyze_real.py` compara modelo viejo vs nuevo sobre los partidos jugados):
+
+1. **Fuerza desde xG, no desde goles crudos.** El rendimiento que actualiza atk/def de cada
+   selección se mide con **expected goals (xG)**, mucho menos ruidoso que el marcador. Caso
+   real: *Países Bajos 2-2 Japón* terminó 2-2 pero el xG fue **0.79–0.54**; con goles crudos
+   el ataque de Japón saltaba a ×1.6, con xG queda ×1.0 (lo correcto). El xG también templa
+   la magnitud del update de Elo. (`ratings_wc`, peso `XG_WEIGHT`; campos `home_xg`/`away_xg`.)
+2. **Total de goles calibrado de lo jugado.** En vez de un total fijo 2.6, el baseline `mu0`
+   se estima de los partidos disputados (la Fecha 1 promedió ~3.5 goles). (`calibrate_totals`,
+   ridge hacia el prior: con pocos partidos manda el prior, se afina solo fecha a fecha.)
+3. **Potencial de goleada en cruces desnivelados.** El total esperado sube —de forma
+   *saturada*— con la diferencia de Elo: el modelo viejo no podía predecir un *Alemania 7-1
+   Curaçao* (xG real ~3.9); ahora a esos cruces les asigna un total mayor. (`match_total`.)
+
+Efecto en el backtest del prode sobre la Fecha 1 real (solo-modelo, sin cuotas): de
+**32 → 40 / 120** puntos y mejor calibración del total (log-loss 2.22 → 2.04).
+
+> **Fuentes de xG** para alimentar `home_xg`/`away_xg`: Opta/TheAnalyst, Sofascore, FBref,
+> xgscore.io o el xG tracker de RealGM. (Sin xG, el modelo cae a goles crudos sin romperse.)
 
 ### Limitaciones (Mundial)
 

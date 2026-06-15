@@ -25,7 +25,7 @@ DOCS = os.path.join(HERE, "docs")
 DIAS = ["Lun", "Mar", "Mie", "Jue", "Vie", "Sab", "Dom"]
 CONF_CLASS = {"alta": "c-alta", "media": "c-media", "baja": "c-baja"}
 SRC_LABEL = {"live": "en vivo", "cache": "cache", "seed": "respaldo (seed)",
-             "manual": "cargado a mano"}
+             "manual": "cargado a mano", "model": "modelo Elo (sin cuotas)"}
 
 CSS = """
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -301,18 +301,25 @@ def backtest_block(bt, teams):
 
 def provenance_block(prov):
     pills = []
-    degraded = manual = False
+    degraded = manual = model = False
     for k, label in [("fixtures", "fixtures/resultados"), ("odds", "cuotas"),
                      ("teams", "Elo/fuerza")]:
         s = prov[k]["source"]
         if s == "manual":
             manual = True
+        elif s == "model":
+            model = True
         elif s != "live":
             degraded = True
         pills.append(f'<span class="pill {s}">{label}: {SRC_LABEL.get(s, s)} '
                      f'· {esc(fmt_dt(prov[k].get("fetched_at")))}</span>')
     banner = ""
-    if manual:
+    if model:
+        banner = ('<div class="banner">📐 <b>Predicción solo-modelo:</b> sin cuotas en '
+                  'vivo en este entorno, las probabilidades salen del modelo de fuerza '
+                  '(Elo + forma con xG + Dixon-Coles). Es menos afilado que con mercado: '
+                  'corriendo local con cuotas reales, el mercado ancla el "quién gana".</div>')
+    elif manual:
         banner = ('<div class="banner">✍️ <b>Cuotas cargadas a mano:</b> las '
                   'probabilidades 1X2 y los λ salen de las cuotas reales que ingresaste '
                   '(de-vigadas). El motor del prode es el mismo; solo cambia el origen de '

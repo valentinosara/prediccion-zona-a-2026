@@ -49,7 +49,8 @@ def build_prediction(match, teams, elo, elo0, form, odds_block, cfg):
     host_adv = ratings_wc.HOST_BONUS if home in cfg["host_codes"] else 0.0
 
     # --- modelo de fuerza (Elo + forma in-tournament, peso de forma crece con los PJ) ---
-    lh_mod, la_mod = ratings_wc.lambdas_from_elo(elo[home], elo[away], mu0, host_adv, rho)
+    lh_mod, la_mod = ratings_wc.lambdas_from_elo(elo[home], elo[away], mu0, host_adv, rho,
+                                                 cfg.get("k_mis", ratings_wc.K_MIS_DEFAULT))
     g_min = min(form.get(home, (0, 0, 0))[2], form.get(away, (0, 0, 0))[2])
     w_form = min(g_min / 6.0, 1.0) * 0.5
     lh_mod, la_mod = ratings_wc.apply_form(lh_mod, la_mod, home, away, form, w_form)
@@ -105,6 +106,7 @@ def played_history(fixtures):
         if f.get("status") == "played" and f.get("home_score") is not None:
             hist.append({"id": f["id"], "home": f["home"], "away": f["away"],
                          "hs": f["home_score"], "as": f["away_score"],
+                         "hxg": f.get("home_xg"), "axg": f.get("away_xg"),
                          "date": f["kickoff"][:10], "kickoff": f["kickoff"]})
     hist.sort(key=lambda m: m["kickoff"])
     return hist
@@ -118,10 +120,13 @@ def run(fecha, n_sims=50000):
     history = played_history(fixtures)
     elo_now = ratings_wc.update_ratings(elo0, history, HOST_CODES)
     asof = datetime.now()
-    form = ratings_wc.fit_form(history, elo0, asof, host_codes=HOST_CODES)
+    # Calibracion del total de goles (baseline + efecto desnivel) con lo ya jugado:
+    mu0_cal, k_mis_cal = ratings_wc.calibrate_totals(history, elo0, HOST_CODES)
+    form = ratings_wc.fit_form(history, elo0, asof, mu0=mu0_cal, host_codes=HOST_CODES,
+                               k_mis=k_mis_cal)
     tg_per_team = (2 * len(history)) / max(len(teams), 1)   # PJ promedio del torneo
 
-    cfg = {"mu0": ratings_wc.MU0_DEFAULT, "rho": model_wc.RHO_DEFAULT,
+    cfg = {"mu0": mu0_cal, "rho": model_wc.RHO_DEFAULT, "k_mis": k_mis_cal,
            "w_mkt": w_market(tg_per_team), "host_codes": HOST_CODES, "n_sims": n_sims}
 
     md = [f for f in fixtures if f["matchday"] == fecha]
@@ -147,7 +152,8 @@ def run(fecha, n_sims=50000):
         "meta": {
             "fecha": fecha, "generado": asof.isoformat(timespec="seconds"),
             "datos_al": datos_al, "n_pendientes": len(preds), "n_jugados": len(jugados_fx),
-            "ev_total": ev_total, "w_mkt": cfg["w_mkt"], "mu0": cfg["mu0"], "rho": cfg["rho"],
+            "ev_total": ev_total, "w_mkt": cfg["w_mkt"], "mu0": round(cfg["mu0"], 2),
+            "k_mis": round(cfg["k_mis"], 3), "rho": cfg["rho"],
             "tournament_games_per_team": round(tg_per_team, 2),
             "confianza_global": conf_counts, "provenance": bundle["provenance"],
             "n_sims": n_sims,

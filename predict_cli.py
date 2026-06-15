@@ -130,8 +130,9 @@ def report_text(pred, teams):
     return "\n".join(L)
 
 
-def write_html(preds_teams, cfg, titulo):
-    """Arma data_mundial/pred_wc.json (formato gen_html) y genera docs/mundial_hoy.html."""
+def write_html(preds_teams, cfg, titulo, source="manual", out_name="mundial_hoy.html"):
+    """Arma data_mundial/pred_wc.json (formato gen_html) y genera docs/<out_name>.
+    `source`: 'manual' (cuotas cargadas a mano) o 'model' (solo modelo, sin cuotas)."""
     import gen_html_wc
     teams = {}
     preds = []
@@ -142,9 +143,11 @@ def write_html(preds_teams, cfg, titulo):
     for p in preds:
         conf[p["confianza"]] += 1
     now = datetime.now().isoformat(timespec="seconds")
-    manual_prov = {"source": "manual", "fetched_at": now, "detail": "cuotas cargadas a mano"}
+    manual_prov = {"source": source, "fetched_at": now,
+                   "detail": "cuotas cargadas a mano" if source == "manual"
+                   else "predicción solo-modelo (Elo + forma xG)"}
     data = {
-        "meta": {"fecha": 0, "titulo": titulo, "out_name": "mundial_hoy.html",
+        "meta": {"fecha": 0, "titulo": titulo, "out_name": out_name,
                  "generado": now, "datos_al": now, "n_pendientes": len(preds), "n_jugados": 0,
                  "ev_total": round(sum(p["ev_rec"] for p in preds), 1), "w_mkt": cfg["w_mkt"],
                  "mu0": cfg["mu0"], "rho": cfg["rho"], "tournament_games_per_team": 0,
