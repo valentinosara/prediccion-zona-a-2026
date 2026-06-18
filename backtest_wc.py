@@ -24,6 +24,7 @@ def evaluate(md_played, full_history, elo0, odds_map, teams, cfg):
 
     rows = []
     total = brier = logloss = 0.0
+    total_ev = total_prob = 0          # puntos de cada estrategia (EV vs mas probable)
     acc = 0
     n = 0
     for f in sorted(md_played, key=lambda x: x["kickoff"]):
@@ -42,6 +43,13 @@ def evaluate(md_played, full_history, elo0, odds_map, teams, cfg):
         real = (f["home_score"], f["away_score"])
         pts = prode_wc.puntos(tuple(pred["rec"]), real)
         total += pts
+        # puntos de CADA estrategia (independiente del modo activo): EV = top-1 por E[pts],
+        # probable = marcador mas probable. Sirve para comparar ambas en la auto-evaluacion.
+        ev_score = pred["top"][0]["score"] if pred.get("top") else pred["rec"]
+        pts_ev = prode_wc.puntos(tuple(ev_score), real)
+        pts_prob = prode_wc.puntos(tuple(pred["modo"]), real)
+        total_ev += pts_ev
+        total_prob += pts_prob
 
         # calibracion del 1X2
         real_out = "1" if real[0] > real[1] else ("X" if real[0] == real[1] else "2")
@@ -54,16 +62,20 @@ def evaluate(md_played, full_history, elo0, odds_map, teams, cfg):
         rows.append({
             "id": f["id"], "group": f["group"], "home": f["home"], "away": f["away"],
             "real": [real[0], real[1]], "rec": pred["rec"], "pts": pts,
+            "pts_ev": pts_ev, "pts_prob": pts_prob,
+            "ev_score": list(ev_score), "modo": list(pred["modo"]),
             "p1": pred["p1"], "pX": pred["pX"], "p2": pred["p2"],
             "favorito": pred["favorito"], "acerto_ganador": (max(probs, key=probs.get) == real_out),
         })
 
     if not n:
-        return {"n": 0, "total_pts": 0, "max_pts": 0, "avg_pts": 0.0, "rows": []}
+        return {"n": 0, "total_pts": 0, "max_pts": 0, "avg_pts": 0.0,
+                "total_pts_ev": 0, "total_pts_prob": 0, "rows": []}
     return {
         "n": n, "total_pts": int(total), "max_pts": 12 * n,
         "avg_pts": round(total / n, 2),
         "pct_max": round(100 * total / (12 * n), 1),
+        "total_pts_ev": int(total_ev), "total_pts_prob": int(total_prob),
         "brier": round(brier / n, 4), "logloss": round(logloss / n, 4),
         "acc_ganador": round(acc / n, 3),
         "rows": rows,

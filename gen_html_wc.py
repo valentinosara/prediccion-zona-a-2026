@@ -309,24 +309,32 @@ def summary_table(preds, teams, ev_total):
 def backtest_block(bt, teams):
     if not bt.get("n"):
         return '<p class="note">Todavia no hay partidos jugados de esta fecha para auto-evaluar.</p>'
+    mx = bt["max_pts"]
+    ev_tot = bt.get("total_pts_ev", bt["total_pts"])
+    prob_tot = bt.get("total_pts_prob", bt["total_pts"])
     rows = []
     for r in bt["rows"]:
         h, a = teams[r["home"]], teams[r["away"]]
         ok = "✅" if r["acerto_ganador"] else "❌"
+        evs = r.get("ev_score", r["rec"]); pe = r.get("pts_ev", r["pts"])
+        ms = r.get("modo", r["rec"]); pp = r.get("pts_prob", r["pts"])
         rows.append(
-            f'<tr><td>{h["flag"]} {esc(h["name"])} {r["real"][0]}–{r["real"][1]} '
+            f'<tr><td>{ok} {h["flag"]} {esc(h["name"])} {r["real"][0]}–{r["real"][1]} '
             f'{esc(a["name"])} {a["flag"]}</td>'
-            f'<td><span class="rec-score">{r["rec"][0]}–{r["rec"][1]}</span></td>'
-            f'<td class="r">{ok} {r["pts"]}</td></tr>')
+            f'<td><span class="rec-score">{evs[0]}–{evs[1]}</span> · {pe} pt</td>'
+            f'<td>{ms[0]}–{ms[1]} · {pp} pt</td></tr>')
     return f"""
 <div class="bt-grid">
-  <div class="bt"><b>{bt['total_pts']}/{bt['max_pts']}</b><span>puntos del prode ({bt['pct_max']}% del maximo)</span></div>
-  <div class="bt"><b>{bt['avg_pts']}</b><span>promedio por partido</span></div>
+  <div class="bt"><b>{ev_tot}/{mx}</b><span>★ con EV ({round(100*ev_tot/mx,1)}%) — tu jugada</span></div>
+  <div class="bt"><b>{prob_tot}/{mx}</b><span>con marcador mas probable ({round(100*prob_tot/mx,1)}%)</span></div>
   <div class="bt"><b>{bt['acc_ganador']*100:.0f}%</b><span>acierto del ganador</span></div>
   <div class="bt"><b>{bt['brier']}</b><span>Brier score 1X2</span></div>
   <div class="bt"><b>{bt['logloss']}</b><span>log-loss 1X2</span></div>
 </div>
-<table class="top"><tr><th>Resultado real</th><th>Predijo</th><th class="r">Puntos</th></tr>
+<p class="note" style="margin:6px 0 2px">Comparativa honesta de estrategias sobre lo ya jugado:
+   la jugada de <b>maximo EV</b> (la que usás) vs el <b>marcador mas probable</b>. El prode se
+   gana a la larga por EV; en una fecha puntual cualquiera puede quedar arriba.</p>
+<table class="top"><tr><th>Resultado real</th><th>EV (tu jugada)</th><th>Mas probable</th></tr>
   {''.join(rows)}</table>"""
 
 
