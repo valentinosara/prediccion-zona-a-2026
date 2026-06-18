@@ -1,11 +1,11 @@
 {
  "meta": {
   "fecha": 2,
-  "generado": "2026-06-18T09:53:52",
+  "generado": "2026-06-18T09:57:35",
   "datos_al": "2026-06-17T23:00:00",
   "n_pendientes": 24,
   "n_jugados": 0,
-  "ev_total": 110.4,
+  "ev_total": 117.0,
   "w_mkt": 0.7,
   "mu0": 2.82,
   "k_mis": 0.12,
@@ -19,22 +19,22 @@
   "provenance": {
    "teams": {
     "source": "live",
-    "fetched_at": "2026-06-18T09:53:20-03:00",
+    "fetched_at": "2026-06-18T09:57:07-03:00",
     "detail": "Elo de eloratings.net (48 selecciones)"
    },
    "fixtures": {
     "source": "live",
-    "fetched_at": "2026-06-18T09:53:32-03:00",
+    "fetched_at": "2026-06-18T09:57:15-03:00",
     "detail": "ESPN scoreboard (24 resultados aplicados)"
    },
    "odds": {
     "source": "live",
-    "fetched_at": "2026-06-18T09:53:52-03:00",
+    "fetched_at": "2026-06-18T09:57:35-03:00",
     "detail": "ESPN core API (24 partidos proximos refrescados)"
    }
   },
   "n_sims": 50000,
-  "jugada": "probable"
+  "jugada": "ev"
  },
  "teams": {
   "MX": {
@@ -545,9 +545,9 @@
    "bookmaker": "DraftKings",
    "rec": [
     1,
-    1
+    0
    ],
-   "ev_rec": 3.53,
+   "ev_rec": 4.41,
    "gap": 0.158,
    "modo": [
     1,
@@ -697,10 +697,10 @@
    "market_used": true,
    "bookmaker": "DraftKings",
    "rec": [
-    2,
+    1,
     0
    ],
-   "ev_rec": 4.336,
+   "ev_rec": 4.728,
    "gap": 0.095,
    "modo": [
     2,
@@ -842,47 +842,47 @@
    "ganador": "Canada",
    "lh": 2.33,
    "la": 0.66,
-   "lh_mkt": 2.27,
-   "la_mkt": 0.7,
+   "lh_mkt": 2.26,
+   "la_mkt": 0.69,
    "lh_mod": 2.49,
    "la_mod": 0.58,
    "w_mkt": 0.7,
    "market_used": true,
    "bookmaker": "DraftKings",
    "rec": [
-    2,
+    1,
     0
    ],
-   "ev_rec": 5.089,
-   "gap": 0.064,
+   "ev_rec": 5.158,
+   "gap": 0.066,
    "modo": [
     2,
     0
    ],
-   "modo_prob": 0.1358,
+   "modo_prob": 0.1365,
    "top": [
     {
      "score": [
       1,
       0
      ],
-     "prob": 0.1087,
-     "ev": 5.153
+     "prob": 0.1096,
+     "ev": 5.158
     },
     {
      "score": [
       2,
       0
      ],
-     "prob": 0.1358,
-     "ev": 5.089
+     "prob": 0.1365,
+     "ev": 5.092
     },
     {
      "score": [
       2,
       1
      ],
-     "prob": 0.0897,
+     "prob": 0.0896,
      "ev": 5.025
     },
     {
@@ -890,68 +890,68 @@
       3,
       1
      ],
-     "prob": 0.0698,
-     "ev": 4.87
+     "prob": 0.0695,
+     "ev": 4.869
     },
     {
      "score": [
       3,
       0
      ],
-     "prob": 0.1057,
-     "ev": 4.703
+     "prob": 0.106,
+     "ev": 4.705
     }
    ],
    "heatmap": [
     [
-     0.0564,
-     0.0275,
-     0.0118,
+     0.0568,
+     0.0277,
+     0.0119,
      0.0026,
      0.0004,
      0.0001,
      0.0
     ],
     [
-     0.1087,
+     0.1096,
      0.0829,
-     0.0277,
-     0.0061,
+     0.0276,
+     0.006,
      0.001,
      0.0001,
      0.0
     ],
     [
-     0.1358,
-     0.0897,
-     0.0291,
-     0.0071,
+     0.1365,
+     0.0896,
+     0.0288,
+     0.007,
      0.0012,
      0.0002,
      0.0
     ],
     [
-     0.1057,
-     0.0698,
-     0.0231,
-     0.005,
+     0.106,
+     0.0695,
+     0.0228,
+     0.0049,
      0.0009,
      0.0001,
      0.0
     ],
     [
      0.0617,
-     0.0408,
-     0.0135,
-     0.003,
+     0.0405,
+     0.0133,
+     0.0029,
      0.0005,
      0.0001,
      0.0
     ],
     [
-     0.0288,
-     0.019,
-     0.0063,
+     0.0287,
+     0.0189,
+     0.0062,
      0.0014,
      0.0002,
      0.0,
@@ -959,7 +959,7 @@
     ],
     [
      0.0112,
-     0.0074,
+     0.0073,
      0.0024,
      0.0005,
      0.0001,
@@ -970,11 +970,11 @@
    "confianza": "alta",
    "entropia": 0.674,
    "mc": {
-    "p1": 0.73986,
-    "pX": 0.17362,
-    "p2": 0.08652,
-    "gh_mean": 2.33406,
-    "ga_mean": 0.67028,
+    "p1": 0.73954,
+    "pX": 0.1737,
+    "p2": 0.08676,
+    "gh_mean": 2.32796,
+    "ga_mean": 0.6671,
     "gh_p90": 4,
     "ga_p90": 2,
     "n": 50000
@@ -1004,9 +1004,9 @@
    "bookmaker": "DraftKings",
    "rec": [
     1,
-    1
+    0
    ],
-   "ev_rec": 3.729,
+   "ev_rec": 4.076,
    "gap": 0.168,
    "modo": [
     1,
@@ -1616,9 +1616,9 @@
    "bookmaker": "DraftKings",
    "rec": [
     1,
-    1
+    0
    ],
-   "ev_rec": 3.645,
+   "ev_rec": 4.187,
    "gap": 0.119,
    "modo": [
     1,
@@ -1769,9 +1769,9 @@
    "bookmaker": "DraftKings",
    "rec": [
     1,
-    1
+    0
    ],
-   "ev_rec": 3.272,
+   "ev_rec": 4.451,
    "gap": 0.06,
    "modo": [
     1,
@@ -1921,10 +1921,10 @@
    "market_used": true,
    "bookmaker": "DraftKings",
    "rec": [
-    2,
+    1,
     0
    ],
-   "ev_rec": 4.356,
+   "ev_rec": 4.607,
    "gap": 0.012,
    "modo": [
     2,
@@ -2228,9 +2228,9 @@
    "bookmaker": "DraftKings",
    "rec": [
     0,
-    2
+    1
    ],
-   "ev_rec": 4.491,
+   "ev_rec": 4.801,
    "gap": 0.184,
    "modo": [
     0,
@@ -2533,10 +2533,10 @@
    "market_used": true,
    "bookmaker": "DraftKings",
    "rec": [
-    2,
+    1,
     0
    ],
-   "ev_rec": 4.742,
+   "ev_rec": 5.022,
    "gap": 0.124,
    "modo": [
     2,
@@ -2686,10 +2686,10 @@
    "market_used": true,
    "bookmaker": "DraftKings",
    "rec": [
-    2,
+    1,
     0
    ],
-   "ev_rec": 4.684,
+   "ev_rec": 5.028,
    "gap": 0.294,
    "modo": [
     2,
@@ -2993,9 +2993,9 @@
    "bookmaker": "DraftKings",
    "rec": [
     1,
-    1
+    0
    ],
-   "ev_rec": 3.284,
+   "ev_rec": 4.617,
    "gap": 0.119,
    "modo": [
     1,
@@ -3145,10 +3145,10 @@
    "market_used": true,
    "bookmaker": "DraftKings",
    "rec": [
-    3,
+    2,
     0
    ],
-   "ev_rec": 5.694,
+   "ev_rec": 5.754,
    "gap": 0.06,
    "modo": [
     3,
@@ -3299,9 +3299,9 @@
    "bookmaker": "DraftKings",
    "rec": [
     1,
-    1
+    0
    ],
-   "ev_rec": 3.558,
+   "ev_rec": 3.579,
    "gap": 0.021,
    "modo": [
     1,
@@ -3604,10 +3604,10 @@
    "market_used": true,
    "bookmaker": "DraftKings",
    "rec": [
-    2,
+    1,
     0
    ],
-   "ev_rec": 5.422,
+   "ev_rec": 5.433,
    "gap": 0.011,
    "modo": [
     2,
@@ -3911,9 +3911,9 @@
    "bookmaker": "DraftKings",
    "rec": [
     0,
-    2
+    1
    ],
-   "ev_rec": 4.4,
+   "ev_rec": 4.765,
    "gap": 0.098,
    "modo": [
     0,
@@ -4063,10 +4063,10 @@
    "market_used": true,
    "bookmaker": "DraftKings",
    "rec": [
-    2,
+    1,
     0
    ],
-   "ev_rec": 4.65,
+   "ev_rec": 4.927,
    "gap": 0.277,
    "modo": [
     2,
