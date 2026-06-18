@@ -182,21 +182,52 @@ def heatmap_svg(P, rec, modo, hname, aname):
     return "".join(out)
 
 
-def match_card(p, teams):
+def match_card(p, teams, jugada="ev"):
     h, a = teams[p["home"]], teams[p["away"]]
     rec = p["rec"]; modo = p["modo"]
     conf_cls = CONF_CLASS.get(p["confianza"], "c-media")
     fav_txt = {"1": h["name"], "X": "Empate", "2": a["name"]}[p["favorito"]]
 
+    # Caja estrella = la jugada elegida (segun `jugada`); caja alterna = la otra estrategia,
+    # mostrando honestamente que se resigna. En modo "probable", rec ya es el mas probable.
+    ev_play = p["top"][0] if p.get("top") else {"score": rec, "ev": p["ev_rec"]}
+    if jugada == "probable":
+        star_k, star_v = "★ Tu jugada · marcador mas probable", f"{rec[0]}–{rec[1]}"
+        star_x = f"{p['modo_prob']*100:.1f}% de probabilidad · el resultado mas probable"
+        alt_k = "Maximo valor esperado (EV)"
+        if list(ev_play["score"]) == list(rec):   # el mas probable YA es el de maximo EV
+            alt_v, alt_x = f"{rec[0]}–{rec[1]}", "coincide: tu jugada ya es la de maximo EV"
+        else:
+            alt_v = f"{ev_play['score'][0]}–{ev_play['score'][1]}"
+            alt_x = f"{ev_play['ev']:.2f} pts esperados (rinde algo mas a la larga)"
+    else:
+        star_k, star_v = "★ Recomendado para el prode", f"{rec[0]}–{rec[1]}"
+        star_x = f"{p['ev_rec']:.2f} pts esperados · maximiza el puntaje"
+        alt_k, alt_v = "Marcador mas probable", f"{modo[0]}–{modo[1]}"
+        alt_x = f"{p['modo_prob']*100:.1f}% · ganador: {esc(fav_txt)}"
+
     top_rows = []
+    rec_in_top = False
     for c in p["top"]:
         best = (c["score"] == rec)
+        rec_in_top = rec_in_top or best
         cls = ' class="best"' if best else ""
         mark = " ⭐" if best else ""
         top_rows.append(
             f'<tr{cls}><td>{c["score"][0]}–{c["score"][1]}{mark}</td>'
             f'<td class="r">{c["prob"]*100:.1f}%</td>'
             f'<td class="r">{c["ev"]:.2f}</td></tr>')
+    if not rec_in_top:   # la jugada elegida (modo "probable") no entra en el top-5 por EV
+        rp = p["heatmap"][rec[0]][rec[1]] if rec[0] < 7 and rec[1] < 7 else 0.0
+        top_rows.append(
+            f'<tr class="best"><td>{rec[0]}–{rec[1]} ⭐</td>'
+            f'<td class="r">{rp*100:.1f}%</td><td class="r">{p["ev_rec"]:.2f}</td></tr>')
+
+    # Leyenda del heatmap: si la jugada coincide con el mas probable (siempre en modo
+    # "probable"), hay un solo borde -> no prometer un dorado que no se dibuja.
+    hm_cap = ("borde verde = tu jugada (= el marcador mas probable)"
+              if list(rec) == list(modo)
+              else "borde verde = recomendado · borde dorado = mas probable")
 
     lam_mkt = ("" if p["lh_mkt"] is None else
                f' · mercado {p["lh_mkt"]:.2f}–{p["la_mkt"]:.2f}')
@@ -219,14 +250,14 @@ def match_card(p, teams):
 
   <div class="plays">
     <div class="play hi">
-      <div class="k">★ Recomendado para el prode</div>
-      <div class="v">{rec[0]}–{rec[1]}</div>
-      <div class="x">{p['ev_rec']:.2f} pts esperados · maximiza el puntaje</div>
+      <div class="k">{star_k}</div>
+      <div class="v">{star_v}</div>
+      <div class="x">{star_x}</div>
     </div>
     <div class="play">
-      <div class="k">Marcador mas probable</div>
-      <div class="v">{modo[0]}–{modo[1]}</div>
-      <div class="x">{p['modo_prob']*100:.1f}% · ganador: {esc(fav_txt)}</div>
+      <div class="k">{alt_k}</div>
+      <div class="v">{alt_v}</div>
+      <div class="x">{alt_x}</div>
     </div>
   </div>
 
@@ -239,7 +270,7 @@ def match_card(p, teams):
     <div class="hmwrap">
       <div class="lbl">Mapa de calor P(h,a)</div>
       {heatmap_svg(p['heatmap'], rec, modo, h['name'], a['name'])}
-      <div class="hmcap">borde verde = recomendado · borde dorado = mas probable</div>
+      <div class="hmcap">{hm_cap}</div>
     </div>
   </div>
 
@@ -345,7 +376,10 @@ def build(fecha=None):
     out_name = m.get("out_name") or f"mundial_fecha{fecha}.html"
     cg = m["confianza_global"]
     banner, prov_html = provenance_block(m["provenance"])
-    cards = "".join(match_card(p, teams) for p in preds)
+    jugada = m.get("jugada", "ev")
+    jugada_sub = ("jugada: <b>marcador mas probable</b>" if jugada == "probable"
+                  else "jugada: <b>maximo valor esperado</b> (maximiza puntos del prode)")
+    cards = "".join(match_card(p, teams, jugada) for p in preds)
 
     body = f"""<!DOCTYPE html>
 <html lang="es"><head>
@@ -360,7 +394,7 @@ def build(fecha=None):
 <body>
 <div class="bar">
   <h1>⚽ Prode Mundial 2026 · {label}</h1>
-  <div class="sub">Predicciones optimizadas para MAXIMIZAR puntos del prode ·
+  <div class="sub">{jugada_sub} ·
      generado {esc(fmt_dt(m['generado']))} · datos al {esc(fmt_dt(m['datos_al']))}</div>
 </div>
 <div class="wrap">

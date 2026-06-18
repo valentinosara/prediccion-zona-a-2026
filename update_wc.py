@@ -20,14 +20,19 @@ def main():
     ap = argparse.ArgumentParser(description="Actualiza la prediccion del prode (una fecha)")
     ap.add_argument("--fecha", type=int, required=True, help="numero de fecha (1, 2 o 3)")
     ap.add_argument("--sims", type=int, default=50000, help="simulaciones Monte Carlo por partido")
+    ap.add_argument("--jugada", choices=["ev", "probable"], default="ev",
+                    help="ev = marcador de maximo valor esperado (gana mas a la larga; default); "
+                         "probable = marcador mas probable (mas realista, rinde un poco menos)")
     args = ap.parse_args()
 
     sys.path.insert(0, HERE)
     import predict_wc
     import gen_html_wc
 
-    print(f"\n▶ Prediciendo la Fecha {args.fecha} (fetch + re-fit + anclaje a mercado + optimizador del prode)")
-    out = predict_wc.run(args.fecha, n_sims=args.sims)
+    modo_txt = "MAX valor esperado" if args.jugada == "ev" else "marcador MAS PROBABLE"
+    print(f"\n▶ Prediciendo la Fecha {args.fecha} (fetch + re-fit + anclaje a mercado + "
+          f"jugada: {modo_txt})")
+    out = predict_wc.run(args.fecha, n_sims=args.sims, jugada=args.jugada)
     m = out["meta"]; src = m["provenance"]
     print(f"   {m['n_pendientes']} partidos pendientes · {m['n_jugados']} ya jugados · "
           f"datos: fixtures={src['fixtures']['source']}, cuotas={src['odds']['source']}")

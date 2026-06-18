@@ -73,7 +73,7 @@ def build_prediction(match, teams, elo, elo0, form, odds_block, cfg):
 
     p1, pX, p2 = model_wc.outcome_probs(P)
     fav = ["1", "X", "2"][int(np.argmax([p1, pX, p2]))]
-    opt = prode_wc.optimize(P, top=5)
+    opt = prode_wc.optimize(P, top=5, mode=cfg.get("jugada", "ev"))
     modo = model_wc.most_probable_score(P)
     mc = montecarlo_wc.simulate_match(P, n=cfg.get("n_sims", 50000))
     conf_label, H = montecarlo_wc.confidence(p1, pX, p2, opt["gap"])
@@ -112,7 +112,7 @@ def played_history(fixtures):
     return hist
 
 
-def run(fecha, n_sims=50000):
+def run(fecha, n_sims=50000, jugada="ev"):
     bundle = fetch_wc.load_all()
     teams, fixtures, odds = bundle["teams"], bundle["fixtures"], bundle["odds"]
     elo0 = {iso: float(t["elo"]) for iso, t in teams.items()}
@@ -127,7 +127,8 @@ def run(fecha, n_sims=50000):
     tg_per_team = (2 * len(history)) / max(len(teams), 1)   # PJ promedio del torneo
 
     cfg = {"mu0": mu0_cal, "rho": model_wc.RHO_DEFAULT, "k_mis": k_mis_cal,
-           "w_mkt": w_market(tg_per_team), "host_codes": HOST_CODES, "n_sims": n_sims}
+           "w_mkt": w_market(tg_per_team), "host_codes": HOST_CODES, "n_sims": n_sims,
+           "jugada": jugada}
 
     md = [f for f in fixtures if f["matchday"] == fecha]
     pendientes_fx = sorted((f for f in md if f.get("status") != "played"),
@@ -156,7 +157,7 @@ def run(fecha, n_sims=50000):
             "k_mis": round(cfg["k_mis"], 3), "rho": cfg["rho"],
             "tournament_games_per_team": round(tg_per_team, 2),
             "confianza_global": conf_counts, "provenance": bundle["provenance"],
-            "n_sims": n_sims,
+            "n_sims": n_sims, "jugada": jugada,
         },
         "teams": {iso: {k: t[k] for k in ("name", "iso2", "flag", "elo", "fifa_rank",
                                           "group", "host")}

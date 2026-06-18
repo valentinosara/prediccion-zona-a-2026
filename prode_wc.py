@@ -65,28 +65,39 @@ def expected_points(P):
     return np.tensordot(PTS, P[:RMAX + 1, :RMAX + 1], axes=([2, 3], [0, 1]))
 
 
-def optimize(P, top=5):
+def optimize(P, top=5, mode="ev"):
     """Devuelve la jugada del prode para la matriz P.
 
+    mode="ev"        -> la jugada que MAXIMIZA los puntos esperados (default; la que mas
+                        rinde a la larga en el prode).
+    mode="probable"  -> el marcador MAS PROBABLE entre los candidatos (0..PMAX). Mas
+                        "realista"/intuitivo, pero suele rendir un poco menos en E[pts].
+
     {
-      rec: (ph,pa),         marcador recomendado (max puntos esperados)  -> la jugada
-      ev_rec: float,        puntos esperados de la recomendacion
-      gap: float,           brecha de E[pts] entre la 1a y la 2a opcion (cuan clara es)
-      top: [ {score,(h,a) prob, ev}, ... top-N por puntos esperados ],
+      rec: (ph,pa),    marcador recomendado segun `mode`
+      ev_rec: float,   puntos esperados de esa recomendacion
+      gap: float,      brecha de E[pts] entre la 1a y la 2a jugada por EV (cuan clara es;
+                       independiente de `mode`, la usa montecarlo_wc.confidence)
+      top: [ {score, prob, ev}, ... top-N por puntos esperados ],
     }
     """
     E = expected_points(P)
     order = np.argsort(E, axis=None)[::-1]
-    best = np.unravel_index(int(order[0]), E.shape)
-    second_ev = float(E.flat[int(order[1])])
+    ev_best = np.unravel_index(int(order[0]), E.shape)
+    gap = float(E.flat[int(order[0])] - E.flat[int(order[1])])
     cands = []
     for idx in order[:top]:
         ph, pa = np.unravel_index(int(idx), E.shape)
         prob = float(P[ph, pa]) if (ph <= RMAX and pa <= RMAX) else 0.0
         cands.append({"score": [int(ph), int(pa)], "prob": prob, "ev": float(E[ph, pa])})
+    if mode == "probable":
+        Pc = P[:PMAX + 1, :PMAX + 1]
+        best = np.unravel_index(int(np.argmax(Pc)), Pc.shape)
+    else:
+        best = ev_best
     return {
         "rec": [int(best[0]), int(best[1])],
         "ev_rec": float(E[best]),
-        "gap": float(E[best] - second_ev),
+        "gap": gap,
         "top": cands,
     }
