@@ -14,10 +14,10 @@
   "xg_provenance": {
    "source": "FIFA EFI (api.fifa.com + fdh-api.fifa.com) via fifaphy",
    "engine": "playwright",
-   "fetched_at": "2026-06-15T17:05:08-03:00",
+   "fetched_at": "2026-06-18T09:40:54-03:00",
    "metric": "XG (Expected Goals)",
-   "n_matches": 13,
-   "n_applied": 13
+   "n_matches": 24,
+   "n_applied": 24
   }
  },
  "fixtures": [
@@ -238,9 +238,12 @@
    "away": "EG",
    "kickoff": "2026-06-15T16:00:00",
    "venue": "Lumen Field, Seattle, Washington",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 1,
+   "home_xg": 1.07,
+   "away_xg": 0.81,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-015",
@@ -251,9 +254,12 @@
    "away": "UY",
    "kickoff": "2026-06-15T19:00:00",
    "venue": "Hard Rock Stadium, Miami Gardens, Florida",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 1,
+   "home_xg": 1.057,
+   "away_xg": 1.502,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-016",
@@ -264,9 +270,12 @@
    "away": "NZ",
    "kickoff": "2026-06-15T22:00:00",
    "venue": "SoFi Stadium, Inglewood, California",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 2,
+   "away_score": 2,
+   "home_xg": 1.854,
+   "away_xg": 1.473,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-017",
@@ -277,9 +286,12 @@
    "away": "SN",
    "kickoff": "2026-06-16T16:00:00",
    "venue": "MetLife Stadium, East Rutherford, New Jersey",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 3,
+   "away_score": 1,
+   "home_xg": 1.616,
+   "away_xg": 0.386,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-018",
@@ -290,9 +302,12 @@
    "away": "NO",
    "kickoff": "2026-06-16T19:00:00",
    "venue": "Gillette Stadium, Foxborough, Massachusetts",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 4,
+   "home_xg": 1.2,
+   "away_xg": 2.411,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-019",
@@ -303,9 +318,12 @@
    "away": "DZ",
    "kickoff": "2026-06-16T22:00:00",
    "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 3,
+   "away_score": 0,
+   "home_xg": 1.584,
+   "away_xg": 0.411,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-020",
@@ -316,9 +334,12 @@
    "away": "JO",
    "kickoff": "2026-06-17T01:00:00",
    "venue": "Levi's Stadium, Santa Clara, California",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 3,
+   "away_score": 1,
+   "home_xg": 1.931,
+   "away_xg": 0.531,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-021",
@@ -329,9 +350,12 @@
    "away": "CD",
    "kickoff": "2026-06-17T14:00:00",
    "venue": "NRG Stadium, Houston, Texas",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 1,
+   "home_xg": 0.566,
+   "away_xg": 0.535,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-022",
@@ -342,9 +366,12 @@
    "away": "HR",
    "kickoff": "2026-06-17T17:00:00",
    "venue": "AT&T Stadium, Arlington, Texas",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 4,
+   "away_score": 2,
+   "home_xg": 3.329,
+   "away_xg": 0.818,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-023",
@@ -355,9 +382,12 @@
    "away": "PA",
    "kickoff": "2026-06-17T20:00:00",
    "venue": "BMO Field, Toronto",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 0,
+   "home_xg": 1.066,
+   "away_xg": 0.771,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-024",
@@ -368,9 +398,12 @@
    "away": "CO",
    "kickoff": "2026-06-17T23:00:00",
    "venue": "Estadio Banorte, Mexico City",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 3,
+   "home_xg": 1.105,
+   "away_xg": 1.161,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-025",
