@@ -14,7 +14,7 @@
   "xg_provenance": {
    "source": "FIFA EFI (api.fifa.com + fdh-api.fifa.com) via fifaphy",
    "engine": "playwright",
-   "fetched_at": "2026-06-24T08:34:12-03:00",
+   "fetched_at": "2026-06-24T09:06:37-03:00",
    "metric": "XG (Expected Goals)",
    "n_matches": 48,
    "n_applied": 48
