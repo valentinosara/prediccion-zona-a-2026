@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T19:07:32",
+  "generated_at": "2026-07-13T23:39:11",
   "career": {
     "pj": 156,
     "w": 59,
@@ -2307,7 +2307,69 @@
       "ga": 6,
       "pts": 8,
       "ppp": 1.33,
-      "effectiveness_pct": 44.4
+      "effectiveness_pct": 44.4,
+      "matches": [
+        {
+          "date": "2023-03-25",
+          "club": "Ferro",
+          "opponent": "Villa Dálmine",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-02-24",
+          "club": "Dep. Maipú",
+          "opponent": "San Martín (SJ)",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-08-10",
+          "club": "Dep. Maipú",
+          "opponent": "Tristán Suárez",
+          "home_away": "A",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-04-05",
+          "club": "Dep. Maipú",
+          "opponent": "Tristán Suárez",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-10-20",
+          "club": "Estudiantes",
+          "opponent": "Tristán Suárez",
+          "home_away": "A",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional - Reducido"
+        },
+        {
+          "date": "2025-11-02",
+          "club": "Estudiantes",
+          "opponent": "Tristán Suárez",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional - Reducido"
+        }
+      ]
     },
     {
       "coach_id": 56292,
@@ -2320,7 +2382,59 @@
       "ga": 4,
       "pts": 7,
       "ppp": 1.4,
-      "effectiveness_pct": 46.7
+      "effectiveness_pct": 46.7,
+      "matches": [
+        {
+          "date": "2022-05-14",
+          "club": "Dep. Maipú",
+          "opponent": "Estudiantes",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-06-09",
+          "club": "Dep. Maipú",
+          "opponent": "Estudiantes",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-10-27",
+          "club": "Dep. Maipú",
+          "opponent": "Estudiantes",
+          "home_away": "A",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-08-31",
+          "club": "Estudiantes",
+          "opponent": "Dep. Morón",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-06-21",
+          "club": "Ferro",
+          "opponent": "Dep. Morón",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 102454,
@@ -2333,7 +2447,49 @@
       "ga": 2,
       "pts": 7,
       "ppp": 1.75,
-      "effectiveness_pct": 58.3
+      "effectiveness_pct": 58.3,
+      "matches": [
+        {
+          "date": "2023-03-10",
+          "club": "Ferro",
+          "opponent": "Atl. Rafaela",
+          "home_away": "A",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-09-22",
+          "club": "Dep. Maipú",
+          "opponent": "Gimnasia (M)",
+          "home_away": "H",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-07-06",
+          "club": "Estudiantes",
+          "opponent": "Gimnasia (M)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-09-27",
+          "club": "Estudiantes",
+          "opponent": "Colon",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 70689,
@@ -2346,7 +2502,49 @@
       "ga": 6,
       "pts": 7,
       "ppp": 1.75,
-      "effectiveness_pct": 58.3
+      "effectiveness_pct": 58.3,
+      "matches": [
+        {
+          "date": "2022-09-04",
+          "club": "Dep. Maipú",
+          "opponent": "Estudiantes RC",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-09-07",
+          "club": "Dep. Maipú",
+          "opponent": "CA Güemes",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 4,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-03-23",
+          "club": "Dep. Maipú",
+          "opponent": "CA Güemes",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-07-05",
+          "club": "Ferro",
+          "opponent": "San Telmo",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 121826,
@@ -2359,7 +2557,49 @@
       "ga": 2,
       "pts": 7,
       "ppp": 1.75,
-      "effectiveness_pct": 58.3
+      "effectiveness_pct": 58.3,
+      "matches": [
+        {
+          "date": "2024-04-28",
+          "club": "Dep. Maipú",
+          "opponent": "Gimnasia (J)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-09-15",
+          "club": "Dep. Maipú",
+          "opponent": "Gimnasia (J)",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-07-12",
+          "club": "Estudiantes",
+          "opponent": "Gimnasia (J)",
+          "home_away": "H",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-07-11",
+          "club": "Ferro",
+          "opponent": "San Miguel",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 5093,
@@ -2372,7 +2612,49 @@
       "ga": 3,
       "pts": 6,
       "ppp": 1.5,
-      "effectiveness_pct": 50.0
+      "effectiveness_pct": 50.0,
+      "matches": [
+        {
+          "date": "2022-07-31",
+          "club": "Dep. Maipú",
+          "opponent": "Gimnasia (J)",
+          "home_away": "H",
+          "result": "W",
+          "gf": 3,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2023-02-10",
+          "club": "Ferro",
+          "opponent": "Gimnasia (J)",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-05-26",
+          "club": "Dep. Maipú",
+          "opponent": "Quilmes",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-05-18",
+          "club": "Dep. Maipú",
+          "opponent": "Arsenal Sarandí",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22155,
@@ -2385,7 +2667,49 @@
       "ga": 6,
       "pts": 5,
       "ppp": 1.25,
-      "effectiveness_pct": 41.7
+      "effectiveness_pct": 41.7,
+      "matches": [
+        {
+          "date": "2022-06-26",
+          "club": "Dep. Maipú",
+          "opponent": "All Boys",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2023-05-28",
+          "club": "Estudiantes",
+          "opponent": "Chacarita Jrs.",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-06-23",
+          "club": "Dep. Maipú",
+          "opponent": "Chacarita Jrs.",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-09-30",
+          "club": "Dep. Maipú",
+          "opponent": "Ferro",
+          "home_away": "A",
+          "result": "D",
+          "gf": 2,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 51281,
@@ -2398,7 +2722,49 @@
       "ga": 5,
       "pts": 3,
       "ppp": 0.75,
-      "effectiveness_pct": 25.0
+      "effectiveness_pct": 25.0,
+      "matches": [
+        {
+          "date": "2022-02-13",
+          "club": "Dep. Maipú",
+          "opponent": "Ind. Rivadavia",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-03-10",
+          "club": "Dep. Maipú",
+          "opponent": "Agropecuario",
+          "home_away": "H",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-09-01",
+          "club": "Dep. Maipú",
+          "opponent": "CA Alvarado",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-03-16",
+          "club": "Dep. Maipú",
+          "opponent": "Patronato",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22807,
@@ -2411,7 +2777,49 @@
       "ga": 5,
       "pts": 3,
       "ppp": 0.75,
-      "effectiveness_pct": 25.0
+      "effectiveness_pct": 25.0,
+      "matches": [
+        {
+          "date": "2023-05-10",
+          "club": "Estudiantes",
+          "opponent": "Barracas C.",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Copa Argentina"
+        },
+        {
+          "date": "2023-07-17",
+          "club": "Tigre",
+          "opponent": "Barracas C.",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Professional Football League (- 23/24)"
+        },
+        {
+          "date": "2024-10-13",
+          "club": "Dep. Maipú",
+          "opponent": "Quilmes",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-02-16",
+          "club": "Dep. Maipú",
+          "opponent": "Quilmes",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 23240,
@@ -2424,7 +2832,39 @@
       "ga": 3,
       "pts": 6,
       "ppp": 2.0,
-      "effectiveness_pct": 66.7
+      "effectiveness_pct": 66.7,
+      "matches": [
+        {
+          "date": "2025-08-10",
+          "club": "Estudiantes",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-03-14",
+          "club": "Estudiantes",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-05-11",
+          "club": "Ferro",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 23332,
@@ -2437,7 +2877,39 @@
       "ga": 2,
       "pts": 4,
       "ppp": 1.33,
-      "effectiveness_pct": 44.4
+      "effectiveness_pct": 44.4,
+      "matches": [
+        {
+          "date": "2022-05-02",
+          "club": "Dep. Maipú",
+          "opponent": "Atl. Rafaela",
+          "home_away": "H",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2022-09-11",
+          "club": "Dep. Maipú",
+          "opponent": "CA Alvarado",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-09-20",
+          "club": "Estudiantes",
+          "opponent": "CA Temperley",
+          "home_away": "A",
+          "result": "W",
+          "gf": 3,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 27814,
@@ -2450,7 +2922,39 @@
       "ga": 2,
       "pts": 3,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2025-08-17",
+          "club": "Estudiantes",
+          "opponent": "Estudiantes RC",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-11-08",
+          "club": "Estudiantes",
+          "opponent": "Estudiantes RC",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional - Reducido"
+        },
+        {
+          "date": "2025-11-15",
+          "club": "Estudiantes",
+          "opponent": "Estudiantes RC",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional - Reducido"
+        }
+      ]
     },
     {
       "coach_id": 57617,
@@ -2463,7 +2967,39 @@
       "ga": 5,
       "pts": 2,
       "ppp": 0.67,
-      "effectiveness_pct": 22.2
+      "effectiveness_pct": 22.2,
+      "matches": [
+        {
+          "date": "2022-03-06",
+          "club": "Dep. Maipú",
+          "opponent": "Sacachispas",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-03-03",
+          "club": "Dep. Maipú",
+          "opponent": "Guillermo Brown",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-04-20",
+          "club": "Dep. Maipú",
+          "opponent": "Los Andes",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 105413,
@@ -2476,7 +3012,39 @@
       "ga": 2,
       "pts": 1,
       "ppp": 0.33,
-      "effectiveness_pct": 11.1
+      "effectiveness_pct": 11.1,
+      "matches": [
+        {
+          "date": "2023-04-02",
+          "club": "Ferro",
+          "opponent": "Dep. Maipú",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2023-04-29",
+          "club": "Estudiantes",
+          "opponent": "Dep. Maipú",
+          "home_away": "H",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-06-01",
+          "club": "Dep. Maipú",
+          "opponent": "Atlanta",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22284,
@@ -2489,7 +3057,29 @@
       "ga": 0,
       "pts": 6,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2022-02-27",
+          "club": "Dep. Maipú",
+          "opponent": "Mitre (SdE)",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-07-21",
+          "club": "Dep. Maipú",
+          "opponent": "Guillermo Brown",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 11493,
@@ -2502,7 +3092,29 @@
       "ga": 1,
       "pts": 6,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2022-08-13",
+          "club": "Dep. Maipú",
+          "opponent": "CA Temperley",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-07-26",
+          "club": "Estudiantes",
+          "opponent": "San Telmo",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 102583,
@@ -2515,7 +3127,29 @@
       "ga": 1,
       "pts": 6,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2024-07-07",
+          "club": "Dep. Maipú",
+          "opponent": "Arsenal Sarandí",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-06-14",
+          "club": "Ferro",
+          "opponent": "Acassuso",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 106097,
@@ -2528,7 +3162,29 @@
       "ga": 1,
       "pts": 4,
       "ppp": 2.0,
-      "effectiveness_pct": 66.7
+      "effectiveness_pct": 66.7,
+      "matches": [
+        {
+          "date": "2024-07-28",
+          "club": "Dep. Maipú",
+          "opponent": "Agropecuario",
+          "home_away": "A",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-07-21",
+          "club": "Estudiantes",
+          "opponent": "Agropecuario",
+          "home_away": "A",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22802,
@@ -2541,7 +3197,29 @@
       "ga": 2,
       "pts": 4,
       "ppp": 2.0,
-      "effectiveness_pct": 66.7
+      "effectiveness_pct": 66.7,
+      "matches": [
+        {
+          "date": "2022-04-10",
+          "club": "Dep. Maipú",
+          "opponent": "Brown (Adrogué)",
+          "home_away": "A",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2023-02-25",
+          "club": "Ferro",
+          "opponent": "Brown (Adrogué)",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 26799,
@@ -2554,7 +3232,29 @@
       "ga": 1,
       "pts": 3,
       "ppp": 1.5,
-      "effectiveness_pct": 50.0
+      "effectiveness_pct": 50.0,
+      "matches": [
+        {
+          "date": "2026-02-23",
+          "club": "Estudiantes",
+          "opponent": "Mitre (SdE)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-04-19",
+          "club": "Ferro",
+          "opponent": "Mitre (SdE)",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 23342,
@@ -2567,7 +3267,29 @@
       "ga": 3,
       "pts": 3,
       "ppp": 1.5,
-      "effectiveness_pct": 50.0
+      "effectiveness_pct": 50.0,
+      "matches": [
+        {
+          "date": "2026-03-21",
+          "club": "Estudiantes",
+          "opponent": "Dep. Madryn",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-05-17",
+          "club": "Ferro",
+          "opponent": "Dep. Madryn",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 127010,
@@ -2580,7 +3302,29 @@
       "ga": 3,
       "pts": 3,
       "ppp": 1.5,
-      "effectiveness_pct": 50.0
+      "effectiveness_pct": 50.0,
+      "matches": [
+        {
+          "date": "2024-08-25",
+          "club": "Dep. Maipú",
+          "opponent": "Racing (Cba)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 2,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-02-09",
+          "club": "Dep. Maipú",
+          "opponent": "Racing (Cba)",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22800,
@@ -2593,7 +3337,29 @@
       "ga": 2,
       "pts": 3,
       "ppp": 1.5,
-      "effectiveness_pct": 50.0
+      "effectiveness_pct": 50.0,
+      "matches": [
+        {
+          "date": "2022-09-25",
+          "club": "Dep. Maipú",
+          "opponent": "Nueva Chicago",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2023-03-04",
+          "club": "Ferro",
+          "opponent": "Estudiantes",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 19755,
@@ -2606,7 +3372,29 @@
       "ga": 3,
       "pts": 3,
       "ppp": 1.5,
-      "effectiveness_pct": 50.0
+      "effectiveness_pct": 50.0,
+      "matches": [
+        {
+          "date": "2023-02-17",
+          "club": "Ferro",
+          "opponent": "Quilmes",
+          "home_away": "H",
+          "result": "L",
+          "gf": 2,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-05-24",
+          "club": "Ferro",
+          "opponent": "Central Norte",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 32891,
@@ -2619,7 +3407,29 @@
       "ga": 3,
       "pts": 3,
       "ppp": 1.5,
-      "effectiveness_pct": 50.0
+      "effectiveness_pct": 50.0,
+      "matches": [
+        {
+          "date": "2023-06-19",
+          "club": "Estudiantes",
+          "opponent": "Atlanta",
+          "home_away": "A",
+          "result": "L",
+          "gf": 2,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-04-13",
+          "club": "Dep. Maipú",
+          "opponent": "CA Alvarado",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 20232,
@@ -2632,7 +3442,29 @@
       "ga": 3,
       "pts": 3,
       "ppp": 1.5,
-      "effectiveness_pct": 50.0
+      "effectiveness_pct": 50.0,
+      "matches": [
+        {
+          "date": "2022-07-03",
+          "club": "Dep. Maipú",
+          "opponent": "CA Güemes",
+          "home_away": "A",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-03-31",
+          "club": "Dep. Maipú",
+          "opponent": "Patronato",
+          "home_away": "A",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22281,
@@ -2645,7 +3477,29 @@
       "ga": 3,
       "pts": 1,
       "ppp": 0.5,
-      "effectiveness_pct": 16.7
+      "effectiveness_pct": 16.7,
+      "matches": [
+        {
+          "date": "2024-05-18",
+          "club": "Dep. Maipú",
+          "opponent": "San Miguel",
+          "home_away": "A",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-10-06",
+          "club": "Dep. Maipú",
+          "opponent": "San Miguel",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 96234,
@@ -2658,7 +3512,29 @@
       "ga": 2,
       "pts": 1,
       "ppp": 0.5,
-      "effectiveness_pct": 16.7
+      "effectiveness_pct": 16.7,
+      "matches": [
+        {
+          "date": "2024-08-04",
+          "club": "Dep. Maipú",
+          "opponent": "All Boys",
+          "home_away": "H",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-05-12",
+          "club": "Dep. Maipú",
+          "opponent": "All Boys",
+          "home_away": "A",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 30073,
@@ -2671,7 +3547,29 @@
       "ga": 3,
       "pts": 1,
       "ppp": 0.5,
-      "effectiveness_pct": 16.7
+      "effectiveness_pct": 16.7,
+      "matches": [
+        {
+          "date": "2022-05-29",
+          "club": "Dep. Maipú",
+          "opponent": "San Martín (SJ)",
+          "home_away": "H",
+          "result": "D",
+          "gf": 2,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-07-14",
+          "club": "Dep. Maipú",
+          "opponent": "San Martín (SJ)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 29842,
@@ -2684,7 +3582,29 @@
       "ga": 4,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2023-05-06",
+          "club": "Estudiantes",
+          "opponent": "Ind. Rivadavia",
+          "home_away": "A",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-01-18",
+          "club": "Estudiantes",
+          "opponent": "Ind. Rivadavia",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Copa Argentina"
+        }
+      ]
     },
     {
       "coach_id": 31966,
@@ -2697,7 +3617,29 @@
       "ga": 5,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2023-05-21",
+          "club": "Estudiantes",
+          "opponent": "Mitre (SdE)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-03-08",
+          "club": "Dep. Maipú",
+          "opponent": "Ferro",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 6802,
@@ -2710,7 +3652,29 @@
       "ga": 3,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2023-07-13",
+          "club": "Tigre",
+          "opponent": "Libertad",
+          "home_away": "A",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Copa Sudamericana"
+        },
+        {
+          "date": "2023-07-20",
+          "club": "Tigre",
+          "opponent": "Libertad",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Copa Sudamericana"
+        }
+      ]
     },
     {
       "coach_id": 102733,
@@ -2723,7 +3687,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-10-12",
+          "club": "Estudiantes",
+          "opponent": "Dep. Maipú",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional - Reducido"
+        }
+      ]
     },
     {
       "coach_id": 22268,
@@ -2736,7 +3712,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2022-04-24",
+          "club": "Dep. Maipú",
+          "opponent": "Guillermo Brown",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 46084,
@@ -2749,7 +3737,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2024-05-04",
+          "club": "Dep. Maipú",
+          "opponent": "Gimnasia (M)",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22168,
@@ -2762,7 +3762,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2023-07-09",
+          "club": "Tigre",
+          "opponent": "Instituto ACC",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Professional Football League (- 23/24)"
+        }
+      ]
     },
     {
       "coach_id": 105962,
@@ -2775,7 +3787,19 @@
       "ga": 2,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2026-05-03",
+          "club": "Ferro",
+          "opponent": "Ciudad Bolívar",
+          "home_away": "A",
+          "result": "W",
+          "gf": 4,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 12785,
@@ -2788,7 +3812,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2023-05-15",
+          "club": "Estudiantes",
+          "opponent": "Chaco For Ever",
+          "home_away": "H",
+          "result": "W",
+          "gf": 3,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 70682,
@@ -2801,7 +3837,19 @@
       "ga": 1,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2024-08-18",
+          "club": "Dep. Maipú",
+          "opponent": "Patronato",
+          "home_away": "H",
+          "result": "W",
+          "gf": 3,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 4883,
@@ -2814,7 +3862,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-04-13",
+          "club": "Dep. Maipú",
+          "opponent": "Gimnasia y Tiro",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 133886,
@@ -2827,7 +3887,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-09-05",
+          "club": "Estudiantes",
+          "opponent": "Nueva Chicago",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 68612,
@@ -2840,7 +3912,19 @@
       "ga": 1,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2024-05-12",
+          "club": "Dep. Maipú",
+          "opponent": "Ferro",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 14536,
@@ -2853,7 +3937,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-08-23",
+          "club": "Estudiantes",
+          "opponent": "Talleres RE",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 126920,
@@ -2866,7 +3962,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2024-04-07",
+          "club": "Dep. Maipú",
+          "opponent": "Racing (Cba)",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 21642,
@@ -2879,7 +3987,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-08-03",
+          "club": "Estudiantes",
+          "opponent": "Chacarita Jrs.",
+          "home_away": "A",
+          "result": "W",
+          "gf": 3,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 57583,
@@ -2892,7 +4012,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-05-25",
+          "club": "Dep. Maipú",
+          "opponent": "Colegiales",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 128585,
@@ -2905,7 +4037,19 @@
       "ga": 1,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-03-02",
+          "club": "Dep. Maipú",
+          "opponent": "Almagro",
+          "home_away": "H",
+          "result": "W",
+          "gf": 3,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 68341,
@@ -2918,7 +4062,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2022-02-21",
+          "club": "Dep. Maipú",
+          "opponent": "Ferro",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 113848,
@@ -2931,7 +4087,19 @@
       "ga": 1,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2023-06-22",
+          "club": "Tigre",
+          "opponent": "Vélez Sarsfield",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Professional Football League (- 23/24)"
+        }
+      ]
     },
     {
       "coach_id": 122768,
@@ -2944,7 +4112,19 @@
       "ga": 2,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2024-06-01",
+          "club": "Dep. Maipú",
+          "opponent": "Talleres RE",
+          "home_away": "A",
+          "result": "W",
+          "gf": 3,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 3264,
@@ -2957,7 +4137,19 @@
       "ga": 1,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2023-07-25",
+          "club": "Tigre",
+          "opponent": "Colon",
+          "home_away": "A",
+          "result": "W",
+          "gf": 3,
+          "ga": 1,
+          "competition": "Professional Football League (- 23/24)"
+        }
+      ]
     },
     {
       "coach_id": 77918,
@@ -2970,7 +4162,19 @@
       "ga": 1,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2022-04-03",
+          "club": "Dep. Maipú",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
+          "result": "W",
+          "gf": 3,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 36084,
@@ -2983,7 +4187,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-05-04",
+          "club": "Dep. Maipú",
+          "opponent": "CA Alvarado",
+          "home_away": "H",
+          "result": "W",
+          "gf": 3,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 123801,
@@ -2996,7 +4212,19 @@
       "ga": 1,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2026-06-07",
+          "club": "Ferro",
+          "opponent": "Chaco For Ever",
+          "home_away": "A",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 106348,
@@ -3009,7 +4237,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2022-07-22",
+          "club": "Dep. Maipú",
+          "opponent": "Villa Dálmine",
+          "home_away": "H",
+          "result": "W",
+          "gf": 4,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 9293,
@@ -3022,7 +4262,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2023-07-29",
+          "club": "Tigre",
+          "opponent": "San Lorenzo",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Professional Football League (- 23/24)"
+        }
+      ]
     },
     {
       "coach_id": 99173,
@@ -3035,7 +4287,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2025-09-13",
+          "club": "Estudiantes",
+          "opponent": "CADU (Zarate)",
+          "home_away": "H",
+          "result": "W",
+          "gf": 3,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 94453,
@@ -3048,7 +4312,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2024-03-23",
+          "club": "Dep. Maipú",
+          "opponent": "Tristán Suárez",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 104786,
@@ -3061,7 +4337,19 @@
       "ga": 0,
       "pts": 3,
       "ppp": 3.0,
-      "effectiveness_pct": 100.0
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2022-06-12",
+          "club": "Dep. Maipú",
+          "opponent": "San Telmo",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 58917,
@@ -3074,7 +4362,19 @@
       "ga": 0,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-05-20",
+          "club": "Dep. Maipú",
+          "opponent": "Atlanta",
+          "home_away": "A",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 104911,
@@ -3087,7 +4387,19 @@
       "ga": 2,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-07-09",
+          "club": "Dep. Maipú",
+          "opponent": "Dep. Riestra",
+          "home_away": "H",
+          "result": "D",
+          "gf": 2,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 148039,
@@ -3100,7 +4412,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2025-10-05",
+          "club": "Estudiantes",
+          "opponent": "Mitre (SdE)",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 88083,
@@ -3113,7 +4437,19 @@
       "ga": 2,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-06-04",
+          "club": "Dep. Maipú",
+          "opponent": "Chaco For Ever",
+          "home_away": "A",
+          "result": "D",
+          "gf": 2,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22064,
@@ -3126,7 +4462,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2024-04-18",
+          "club": "Dep. Maipú",
+          "opponent": "Juv. Unida (SL)",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Copa Argentina"
+        }
+      ]
     },
     {
       "coach_id": 11494,
@@ -3139,7 +4487,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-08-07",
+          "club": "Dep. Maipú",
+          "opponent": "Flandria",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 93570,
@@ -3152,7 +4512,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2023-06-03",
+          "club": "Estudiantes",
+          "opponent": "Tristán Suárez",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 9494,
@@ -3165,7 +4537,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2025-06-14",
+          "club": "Dep. Maipú",
+          "opponent": "Racing (Cba)",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 6013,
@@ -3178,7 +4562,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-05-17",
+          "club": "Dep. Maipú",
+          "opponent": "Tristán Suárez",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 94302,
@@ -3191,7 +4587,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2025-04-26",
+          "club": "Dep. Maipú",
+          "opponent": "Dep. Madryn",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 89994,
@@ -3204,7 +4612,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-06-18",
+          "club": "Dep. Maipú",
+          "opponent": "Gimnasia (M)",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 55059,
@@ -3217,7 +4637,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-03-13",
+          "club": "Dep. Maipú",
+          "opponent": "Instituto ACC",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 102654,
@@ -3230,7 +4662,19 @@
       "ga": 0,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-05-09",
+          "club": "Dep. Maipú",
+          "opponent": "Santamarina",
+          "home_away": "A",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 4878,
@@ -3243,7 +4687,19 @@
       "ga": 0,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2024-10-20",
+          "club": "Dep. Maipú",
+          "opponent": "Talleres RE",
+          "home_away": "H",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 80732,
@@ -3256,7 +4712,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-04-17",
+          "club": "Dep. Maipú",
+          "opponent": "Chacarita Jrs.",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 154924,
@@ -3269,7 +4737,19 @@
       "ga": 0,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2026-05-29",
+          "club": "Ferro",
+          "opponent": "Racing (Cba)",
+          "home_away": "A",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 27073,
@@ -3282,7 +4762,19 @@
       "ga": 2,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2022-08-27",
+          "club": "Dep. Maipú",
+          "opponent": "Dep. Madryn",
+          "home_away": "H",
+          "result": "D",
+          "gf": 2,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 142171,
@@ -3295,7 +4787,19 @@
       "ga": 2,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2025-06-21",
+          "club": "Dep. Maipú",
+          "opponent": "Quilmes",
+          "home_away": "A",
+          "result": "D",
+          "gf": 2,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 47456,
@@ -3308,7 +4812,19 @@
       "ga": 1,
       "pts": 1,
       "ppp": 1.0,
-      "effectiveness_pct": 33.3
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2024-04-22",
+          "club": "Dep. Maipú",
+          "opponent": "CA Güemes",
+          "home_away": "H",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 69086,
@@ -3321,7 +4837,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2022-08-21",
+          "club": "Dep. Maipú",
+          "opponent": "Dep. Morón",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 94455,
@@ -3334,7 +4862,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2026-04-28",
+          "club": "Ferro",
+          "opponent": "Almirante Brown",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 63802,
@@ -3347,7 +4887,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2025-03-30",
+          "club": "Dep. Maipú",
+          "opponent": "San Martín (T)",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 77451,
@@ -3360,7 +4912,19 @@
       "ga": 3,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2024-03-16",
+          "club": "Dep. Maipú",
+          "opponent": "All Boys",
+          "home_away": "A",
+          "result": "L",
+          "gf": 2,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 66206,
@@ -3373,7 +4937,19 @@
       "ga": 2,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2024-06-30",
+          "club": "Dep. Maipú",
+          "opponent": "San Martín (T)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 4724,
@@ -3386,7 +4962,19 @@
       "ga": 2,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2023-06-27",
+          "club": "Tigre",
+          "opponent": "São Paulo",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Copa Sudamericana"
+        }
+      ]
     },
     {
       "coach_id": 101143,
@@ -3399,7 +4987,19 @@
       "ga": 2,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2022-03-18",
+          "club": "Dep. Maipú",
+          "opponent": "Agropecuario",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 88413,
@@ -3412,7 +5012,19 @@
       "ga": 2,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2023-08-26",
+          "club": "Tigre",
+          "opponent": "Racing Club",
+          "home_away": "H",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Copa de la Liga Profesional de Fútbol (- 23/24)"
+        }
+      ]
     },
     {
       "coach_id": 93327,
@@ -3425,7 +5037,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2022-07-17",
+          "club": "Dep. Maipú",
+          "opponent": "Belgrano",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 73494,
@@ -3438,7 +5062,19 @@
       "ga": 2,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2022-07-27",
+          "club": "Dep. Maipú",
+          "opponent": "Almirante Brown",
+          "home_away": "A",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 102554,
@@ -3451,7 +5087,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2023-07-02",
+          "club": "Tigre",
+          "opponent": "Defensa",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Professional Football League (- 23/24)"
+        }
+      ]
     },
     {
       "coach_id": 102555,
@@ -3464,7 +5112,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2022-09-18",
+          "club": "Dep. Maipú",
+          "opponent": "Almagro",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 59163,
@@ -3477,7 +5137,19 @@
       "ga": 2,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2023-07-05",
+          "club": "Tigre",
+          "opponent": "Banfield",
+          "home_away": "H",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Professional Football League (- 23/24)"
+        }
+      ]
     },
     {
       "coach_id": 143050,
@@ -3490,7 +5162,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2026-02-15",
+          "club": "Estudiantes",
+          "opponent": "Racing (Cba)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 43966,
@@ -3503,7 +5187,19 @@
       "ga": 2,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2023-08-20",
+          "club": "Tigre",
+          "opponent": "Sarmiento Junin",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Copa de la Liga Profesional de Fútbol (- 23/24)"
+        }
+      ]
     },
     {
       "coach_id": 57542,
@@ -3516,7 +5212,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2022-03-28",
+          "club": "Dep. Maipú",
+          "opponent": "San Martín (T)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 126734,
@@ -3529,7 +5237,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2026-03-01",
+          "club": "Estudiantes",
+          "opponent": "Almirante Brown",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 60365,
@@ -3542,7 +5262,19 @@
       "ga": 2,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2025-02-22",
+          "club": "Dep. Maipú",
+          "opponent": "San Miguel",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
     },
     {
       "coach_id": 22261,
@@ -3555,7 +5287,19 @@
       "ga": 1,
       "pts": 0,
       "ppp": 0.0,
-      "effectiveness_pct": 0.0
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2022-10-08",
+          "club": "Dep. Maipú",
+          "opponent": "Quilmes",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
     }
   ],
   "home_away_global": {

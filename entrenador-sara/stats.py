@@ -211,6 +211,21 @@ def build_home_away_global(matches):
 # ---------------------------------------------------------------------
 # MET-2: historial vs cada DT rival.
 # ---------------------------------------------------------------------
+def _coach_match_brief(matches_sorted):
+    """Detalle partido a partido para la fila expandible de un DT rival
+    (gen_html.py): una entrada por enfrentamiento, ya en orden cronologico,
+    con exactamente los campos que la tabla necesita. Deliberadamente
+    SEPARADO de `_run_brief` (usado por las rachas, MET-6): consumidor
+    distinto, forma garantizada distinta; reusar `_run_brief` aca
+    arriesgaria cambiar sin necesidad la forma ya verificada de streaks en
+    stats.json."""
+    return [{
+        "date": m["date"], "club": m["club"], "opponent": m["opponent"],
+        "home_away": m["home_away"], "result": m["result"],
+        "gf": m["gf"], "ga": m["ga"], "competition": m["competition"],
+    } for m in matches_sorted]
+
+
 def build_vs_coaches(matches):
     """PG-PE-PP/PPG por DT rival, agrupado por `opponent_coach_id` (mismo
     criterio de identidad estable que build_vs_clubs). Los partidos con DT
@@ -219,21 +234,33 @@ def build_vs_coaches(matches):
     esta lista - no hay ningun DT concreto al que atribuirselos - pero
     siguen contando normalmente en vs_clubs / general / streaks. Por eso el
     total de PJ sumado aca puede dar 155, no 156; es esperado, no un bug.
+    (Mismo criterio aplica al nuevo campo `matches`: 155 filas de detalle
+    en total, NO 156 - el unico partido sin DT rival identificado tampoco
+    tiene fila de detalle en ningun lado, por la misma razon.)
 
     Orden explicitamente pedido: por partidos jugados (desc, "mas
-    enfrentado" primero), PPP como desempate (desc)."""
-    by_id = collections.defaultdict(lambda: {"b": _bucket(), "names": collections.Counter()})
+    enfrentado" primero), PPP como desempate (desc). Cada fila incluye
+    ademas `matches`: el detalle partido a partido contra ese DT rival, en
+    orden cronologico (filas expandibles en gen_html.py). Los campos
+    agregados (pj/w/d/l/gf/ga/pts/ppp/effectiveness_pct) quedan sin tocar."""
+    by_id = collections.defaultdict(lambda: {
+        "b": _bucket(), "names": collections.Counter(), "matches": [],
+    })
     for m in matches:
         if m["opponent_coach_id"] is None:
             continue
         entry = by_id[m["opponent_coach_id"]]
         _add_match(entry["b"], m)
         entry["names"][m["opponent_coach"]] += 1
+        entry["matches"].append(m)
 
     rows = []
     for cid, entry in by_id.items():
         name = entry["names"].most_common(1)[0][0]
-        rows.append({"coach_id": cid, "name": name, **_finalize(entry["b"])})
+        rows.append({
+            "coach_id": cid, "name": name, **_finalize(entry["b"]),
+            "matches": _coach_match_brief(_sorted_chrono(entry["matches"])),
+        })
     rows.sort(key=lambda r: (-r["pj"], -(r["ppp"] or 0), r["name"]))
     return rows
 

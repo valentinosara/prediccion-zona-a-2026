@@ -71,6 +71,9 @@ def fmt_generated(iso_dt):
 LV_LABEL = {"H": "L", "A": "V"}
 LV_CLASS = {"H": "loc", "A": "vis"}
 
+RESULT_LABEL = {"W": "V", "D": "E", "L": "D"}
+RESULT_CLASS = {"W": "res-w", "D": "res-d", "L": "res-l"}
+
 
 # ------------------------------------------------------------------
 # Hero (resumen de carrera)
@@ -181,15 +184,51 @@ def vs_clubes_section(stats):
 
 
 # ------------------------------------------------------------------
-# Historial vs Entrenadores (MET-2)
+# Historial vs Entrenadores (MET-2) + detalle partido a partido (filas
+# expandibles: una fila padre por DT rival + una fila de detalle oculta,
+# con una mini tabla interna, una fila por enfrentamiento).
 # ------------------------------------------------------------------
-def vs_coach_row(r):
+def coach_match_row(m):
+    lv_cls = LV_CLASS.get(m["home_away"], "vis")
+    lv_label = LV_LABEL.get(m["home_away"], "?")
+    res_cls = RESULT_CLASS.get(m["result"], "")
+    res_label = RESULT_LABEL.get(m["result"], "?")
     return (
-        f'<tr><td class="t-club">{esc(r["name"])}</td>'
+        f'<tr><td>{esc(ddmmyyyy(m["date"]))}</td>'
+        f'<td>{esc(m["club"])}</td>'
+        f'<td>{esc(m["opponent"])}</td>'
+        f'<td><span class="w-lv {lv_cls}">{lv_label}</span></td>'
+        f'<td><span class="res {res_cls}">{res_label}</span></td>'
+        f'<td><span class="w-sc">{m["gf"]}-{m["ga"]}</span></td>'
+        f'<td>{esc(m["competition"])}</td></tr>'
+    )
+
+
+def coach_detail_inner_table(matches):
+    body_rows = "".join(coach_match_row(m) for m in matches)
+    return (
+        '<table class="inner-tbl"><thead><tr>'
+        '<th>Fecha</th><th>Club de Sara</th><th>Club del DT rival</th>'
+        '<th>Condición</th><th>Resultado</th><th>Marcador</th><th>Competición</th>'
+        f'</tr></thead><tbody>{body_rows}</tbody></table>'
+    )
+
+
+def vs_coach_row(r):
+    row_id = f'coach-{r["coach_id"]}'
+    detail_id = f'{row_id}-detail'
+    inner = coach_detail_inner_table(r["matches"])
+    parent = (
+        f'<tr class="coach-row" id="{row_id}" role="button" tabindex="0" '
+        f'aria-expanded="false" aria-controls="{detail_id}">'
+        f'<td class="chev-cell"><span class="chev" aria-hidden="true"></span></td>'
+        f'<td class="t-club">{esc(r["name"])}</td>'
         f'<td data-sort="{data_sort(r["pj"])}">{r["pj"]}</td>'
         f'<td class="wdl" data-sort="{data_sort(r["w"])}">{r["w"]}-{r["d"]}-{r["l"]}</td>'
         f'<td data-sort="{data_sort(r["ppp"])}"><b>{fmt_ppp(r["ppp"])}</b></td></tr>'
     )
+    detail = f'<tr class="detail-row" id="{detail_id}" hidden><td colspan="5">{inner}</td></tr>'
+    return parent + detail
 
 
 def vs_entrenadores_section(stats):
@@ -198,10 +237,12 @@ def vs_entrenadores_section(stats):
     <section class="card" id="vs-entrenadores">
       <h2 class="sec-t">Historial vs entrenadores rivales</h2>
       <p class="sec-d">{len(stats["vs_coaches"])} DTs rivales distintos. Ordenado por partidos jugados
-      (el más enfrentado primero) y, ante empate, por puntos por partido (PPP).</p>
+      (el más enfrentado primero) y, ante empate, por puntos por partido (PPP).
+      Cada fila puede desplegarse para ver el detalle partido a partido.</p>
       <div class="table-wrap table-scroll">
         <table class="tbl sortable-table">
           <thead><tr>
+            <th></th>
             <th class="sortable" aria-sort="none">DT rival</th>
             <th class="sortable" aria-sort="none">PJ</th>
             <th class="sortable" aria-sort="none">PG-PE-PP</th>
@@ -519,6 +560,26 @@ def build_html(stats):
   th.sortable[aria-sort="ascending"]::after {{ content:"▲"; opacity:1; }}
   th.sortable[aria-sort="descending"]::after {{ content:"▼"; opacity:1; }}
 
+  td.chev-cell {{ width:1.8em; text-align:center; }}
+  td.chev-cell .chev {{ display:inline-block; margin-left:0; }}
+  tr.coach-row {{ cursor:pointer; }}
+  tr.coach-row:hover {{ filter:brightness(1.04); }}
+  tr.coach-row:focus-visible {{ outline:2px solid var(--accent); outline-offset:-2px; }}
+  tr.coach-row[aria-expanded="true"] .chev {{ transform:rotate(225deg); }}
+  tr.detail-row > td {{ padding:0; border-bottom:1px solid var(--line); background:var(--bg); }}
+  table.inner-tbl {{ width:100%; border-collapse:collapse; font-size:.8rem; white-space:nowrap; }}
+  table.inner-tbl th, table.inner-tbl td {{ padding:7px 11px; border-bottom:1px solid var(--line); text-align:left; }}
+  table.inner-tbl thead th {{
+    background:transparent; color:var(--muted); font-weight:700; font-size:.7rem;
+    text-transform:uppercase; letter-spacing:.3px;
+  }}
+  table.inner-tbl tbody tr:last-child td {{ border-bottom:none; }}
+
+  .res {{ display:inline-block; font-size:.7rem; font-weight:800; padding:2px 8px; border-radius:999px; }}
+  .res-w {{ background:var(--win-bg); color:var(--win); }}
+  .res-d {{ background:var(--chip); color:var(--muted); }}
+  .res-l {{ background:var(--loss-bg); color:var(--loss); }}
+
   .teams {{ margin-top:2px; }}
   details.team {{ border-top:1px solid var(--line); }}
   details.team:first-child {{ border-top:none; }}
@@ -627,9 +688,9 @@ def build_html(stats):
     var n = Number(v);
     return isFinite(n);
   }}
-  function columnIsNumeric(tbody, idx) {{
-    for (var i = 0; i < tbody.rows.length; i++) {{
-      var td = tbody.rows[i].cells[idx];
+  function columnIsNumeric(rows, idx) {{
+    for (var i = 0; i < rows.length; i++) {{
+      var td = rows[i].cells[idx];
       if (!td) continue;
       var v = cellValue(td);
       if (v === NA) continue;
@@ -654,12 +715,30 @@ def build_html(stats):
     Array.prototype.forEach.call(headerRow.querySelectorAll('th.sortable'), function (h) {{
       h.setAttribute('aria-sort', h === th ? (asc ? 'ascending' : 'descending') : 'none');
     }});
-    var numeric = columnIsNumeric(tbody, idx);
-    var rows = Array.prototype.slice.call(tbody.rows);
-    rows.sort(function (r1, r2) {{
-      return compareValues(cellValue(r1.cells[idx]), cellValue(r2.cells[idx]), numeric, asc);
+    // Pair each primary row with its detail row (if any) BEFORE moving
+    // anything: expandable tables (vs-entrenadores) interleave a
+    // "detail-row" sibling that carries no sort key of its own and must
+    // travel glued to its parent, so content + expand state survive
+    // every re-sort. Snapshotting the pairing up front (rather than
+    // re-reading nextElementSibling mid-loop) avoids desync from the
+    // appendChild moves below.
+    var pairs = [];
+    Array.prototype.forEach.call(tbody.rows, function (r) {{
+      if (r.classList.contains('detail-row')) return;
+      var next = r.nextElementSibling;
+      pairs.push({{
+        row: r,
+        detail: (next && next.classList.contains('detail-row')) ? next : null,
+      }});
     }});
-    rows.forEach(function (r) {{ tbody.appendChild(r); }});
+    var numeric = columnIsNumeric(pairs.map(function (p) {{ return p.row; }}), idx);
+    pairs.sort(function (p1, p2) {{
+      return compareValues(cellValue(p1.row.cells[idx]), cellValue(p2.row.cells[idx]), numeric, asc);
+    }});
+    pairs.forEach(function (p) {{
+      tbody.appendChild(p.row);
+      if (p.detail) tbody.appendChild(p.detail);
+    }});
   }}
   document.addEventListener('click', function (e) {{
     var th = e.target.closest('th.sortable');
@@ -667,6 +746,33 @@ def build_html(stats):
     var table = th.closest('table.sortable-table');
     if (!table) return;
     sortTable(table, th);
+  }});
+}})();
+</script>
+<script>
+(function () {{
+  function hasSelection() {{
+    var sel = window.getSelection();
+    return !!sel && sel.toString().length > 0;
+  }}
+  function toggleCoachRow(row) {{
+    var detail = row.nextElementSibling;
+    if (!detail || !detail.classList.contains('detail-row')) return;
+    var willOpen = row.getAttribute('aria-expanded') !== 'true';
+    row.setAttribute('aria-expanded', String(willOpen));
+    detail.hidden = !willOpen;
+  }}
+  document.addEventListener('click', function (e) {{
+    var row = e.target.closest('tr.coach-row');
+    if (!row || hasSelection()) return;
+    toggleCoachRow(row);
+  }});
+  document.addEventListener('keydown', function (e) {{
+    if (e.key !== 'Enter' && e.key !== ' ' && e.key !== 'Spacebar') return;
+    var row = e.target.closest('tr.coach-row');
+    if (!row) return;
+    e.preventDefault();
+    toggleCoachRow(row);
   }});
 }})();
 </script>
