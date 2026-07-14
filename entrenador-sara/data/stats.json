@@ -1,0 +1,4594 @@
+{
+  "generated_at": "2026-07-13T19:07:32",
+  "career": {
+    "pj": 156,
+    "w": 59,
+    "d": 43,
+    "l": 54,
+    "gf": 164,
+    "ga": 155,
+    "pts": 220,
+    "ppp": 1.41,
+    "effectiveness_pct": 47.0
+  },
+  "spells": [
+    {
+      "i": 6,
+      "club": "Dep. Maipú",
+      "appointed": "2022-01-01",
+      "until": "2022-10-24",
+      "pj": 36,
+      "w": 11,
+      "d": 15,
+      "l": 10,
+      "gf": 39,
+      "ga": 32,
+      "pts": 48,
+      "ppp": 1.33,
+      "effectiveness_pct": 44.4,
+      "matches_tm": 36,
+      "ppg_tm": 1.33
+    },
+    {
+      "i": 5,
+      "club": "Ferro",
+      "appointed": "2022-10-24",
+      "until": "2023-04-03",
+      "pj": 8,
+      "w": 1,
+      "d": 3,
+      "l": 4,
+      "gf": 6,
+      "ga": 11,
+      "pts": 6,
+      "ppp": 0.75,
+      "effectiveness_pct": 25.0,
+      "matches_tm": 8,
+      "ppg_tm": 0.75
+    },
+    {
+      "i": 4,
+      "club": "Estudiantes",
+      "appointed": "2023-04-25",
+      "until": "2023-06-19",
+      "pj": 8,
+      "w": 2,
+      "d": 2,
+      "l": 4,
+      "gf": 9,
+      "ga": 11,
+      "pts": 8,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "matches_tm": 8,
+      "ppg_tm": 1.0
+    },
+    {
+      "i": 3,
+      "club": "Tigre",
+      "appointed": "2023-06-20",
+      "until": "2023-08-30",
+      "pj": 12,
+      "w": 4,
+      "d": 0,
+      "l": 8,
+      "gf": 11,
+      "ga": 15,
+      "pts": 12,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "matches_tm": 12,
+      "ppg_tm": 1.0
+    },
+    {
+      "i": 2,
+      "club": "Dep. Maipú",
+      "appointed": "2024-02-21",
+      "until": "2025-06-23",
+      "pj": 55,
+      "w": 19,
+      "d": 18,
+      "l": 18,
+      "gf": 57,
+      "ga": 62,
+      "pts": 75,
+      "ppp": 1.36,
+      "effectiveness_pct": 45.5,
+      "matches_tm": 55,
+      "ppg_tm": 1.35
+    },
+    {
+      "i": 1,
+      "club": "Estudiantes",
+      "appointed": "2025-07-01",
+      "until": "2026-03-23",
+      "pj": 25,
+      "w": 12,
+      "d": 4,
+      "l": 9,
+      "gf": 25,
+      "ga": 17,
+      "pts": 40,
+      "ppp": 1.6,
+      "effectiveness_pct": 53.3,
+      "matches_tm": 25,
+      "ppg_tm": 1.6
+    },
+    {
+      "i": 0,
+      "club": "Ferro",
+      "appointed": "2026-04-14",
+      "until": null,
+      "pj": 12,
+      "w": 10,
+      "d": 1,
+      "l": 1,
+      "gf": 17,
+      "ga": 7,
+      "pts": 31,
+      "ppp": 2.58,
+      "effectiveness_pct": 86.1,
+      "matches_tm": 12,
+      "ppg_tm": 2.58
+    }
+  ],
+  "own_clubs": {
+    "Ferro": {
+      "pj": 20,
+      "w": 11,
+      "d": 4,
+      "l": 5,
+      "gf": 23,
+      "ga": 18,
+      "pts": 37,
+      "ppp": 1.85,
+      "effectiveness_pct": 61.7,
+      "spell_indices": [
+        0,
+        5
+      ]
+    },
+    "Estudiantes": {
+      "pj": 33,
+      "w": 14,
+      "d": 6,
+      "l": 13,
+      "gf": 34,
+      "ga": 28,
+      "pts": 48,
+      "ppp": 1.45,
+      "effectiveness_pct": 48.5,
+      "spell_indices": [
+        1,
+        4
+      ]
+    },
+    "Dep. Maipú": {
+      "pj": 91,
+      "w": 30,
+      "d": 33,
+      "l": 28,
+      "gf": 96,
+      "ga": 94,
+      "pts": 123,
+      "ppp": 1.35,
+      "effectiveness_pct": 45.1,
+      "spell_indices": [
+        2,
+        6
+      ]
+    },
+    "Tigre": {
+      "pj": 12,
+      "w": 4,
+      "d": 0,
+      "l": 8,
+      "gf": 11,
+      "ga": 15,
+      "pts": 12,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "spell_indices": [
+        3
+      ]
+    }
+  },
+  "vs_clubs": [
+    {
+      "verein_id": 1771,
+      "name": "Tristán Suárez",
+      "pj": 7,
+      "w": 3,
+      "d": 4,
+      "l": 0,
+      "gf": 7,
+      "ga": 4,
+      "pts": 13,
+      "ppp": 1.86,
+      "effectiveness_pct": 61.9,
+      "home": {
+        "pj": 3,
+        "w": 2,
+        "d": 1,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "pts": 7,
+        "ppp": 2.33,
+        "effectiveness_pct": 77.8
+      },
+      "away": {
+        "pj": 4,
+        "w": 1,
+        "d": 3,
+        "l": 0,
+        "gf": 4,
+        "ga": 3,
+        "pts": 6,
+        "ppp": 1.5,
+        "effectiveness_pct": 50.0
+      }
+    },
+    {
+      "verein_id": 1826,
+      "name": "Quilmes",
+      "pj": 6,
+      "w": 1,
+      "d": 2,
+      "l": 3,
+      "gf": 7,
+      "ga": 10,
+      "pts": 5,
+      "ppp": 0.83,
+      "effectiveness_pct": 27.8,
+      "home": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 5,
+        "ga": 4,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      },
+      "away": {
+        "pj": 3,
+        "w": 0,
+        "d": 1,
+        "l": 2,
+        "gf": 2,
+        "ga": 6,
+        "pts": 1,
+        "ppp": 0.33,
+        "effectiveness_pct": 11.1
+      }
+    },
+    {
+      "verein_id": 10403,
+      "name": "Racing (Cba)",
+      "pj": 6,
+      "w": 2,
+      "d": 2,
+      "l": 2,
+      "gf": 5,
+      "ga": 5,
+      "pts": 8,
+      "ppp": 1.33,
+      "effectiveness_pct": 44.4,
+      "home": {
+        "pj": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 4,
+        "ppp": 2.0,
+        "effectiveness_pct": 66.7
+      },
+      "away": {
+        "pj": 4,
+        "w": 1,
+        "d": 1,
+        "l": 2,
+        "gf": 3,
+        "ga": 4,
+        "pts": 4,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      }
+    },
+    {
+      "verein_id": 14318,
+      "name": "Dep. Madryn",
+      "pj": 5,
+      "w": 1,
+      "d": 3,
+      "l": 1,
+      "gf": 4,
+      "ga": 6,
+      "pts": 6,
+      "ppp": 1.2,
+      "effectiveness_pct": 40.0,
+      "home": {
+        "pj": 2,
+        "w": 0,
+        "d": 2,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "pts": 2,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      }
+    },
+    {
+      "verein_id": 10885,
+      "name": "Gimnasia (J)",
+      "pj": 5,
+      "w": 2,
+      "d": 2,
+      "l": 1,
+      "gf": 6,
+      "ga": 3,
+      "pts": 8,
+      "ppp": 1.6,
+      "effectiveness_pct": 53.3,
+      "home": {
+        "pj": 3,
+        "w": 2,
+        "d": 1,
+        "l": 0,
+        "gf": 5,
+        "ga": 0,
+        "pts": 7,
+        "ppp": 2.33,
+        "effectiveness_pct": 77.8
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
+      }
+    },
+    {
+      "verein_id": 30038,
+      "name": "Mitre (SdE)",
+      "pj": 5,
+      "w": 2,
+      "d": 1,
+      "l": 2,
+      "gf": 3,
+      "ga": 5,
+      "pts": 7,
+      "ppp": 1.4,
+      "effectiveness_pct": 46.7,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 4,
+        "w": 1,
+        "d": 1,
+        "l": 2,
+        "gf": 2,
+        "ga": 5,
+        "pts": 4,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      }
+    },
+    {
+      "verein_id": 38545,
+      "name": "Agropecuario",
+      "pj": 4,
+      "w": 1,
+      "d": 1,
+      "l": 2,
+      "gf": 3,
+      "ga": 5,
+      "pts": 4,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      }
+    },
+    {
+      "verein_id": 12100,
+      "name": "All Boys",
+      "pj": 4,
+      "w": 0,
+      "d": 2,
+      "l": 2,
+      "gf": 4,
+      "ga": 6,
+      "pts": 2,
+      "ppp": 0.5,
+      "effectiveness_pct": 16.7,
+      "home": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
+      }
+    },
+    {
+      "verein_id": 12563,
+      "name": "CA Alvarado",
+      "pj": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 5,
+      "ga": 2,
+      "pts": 7,
+      "ppp": 1.75,
+      "effectiveness_pct": 58.3,
+      "home": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 4,
+        "ga": 2,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 58188,
+      "name": "CA Güemes",
+      "pj": 4,
+      "w": 0,
+      "d": 2,
+      "l": 2,
+      "gf": 3,
+      "ga": 8,
+      "pts": 2,
+      "ppp": 0.5,
+      "effectiveness_pct": 16.7,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 3,
+        "w": 0,
+        "d": 1,
+        "l": 2,
+        "gf": 2,
+        "ga": 7,
+        "pts": 1,
+        "ppp": 0.33,
+        "effectiveness_pct": 11.1
+      }
+    },
+    {
+      "verein_id": 2154,
+      "name": "Chacarita Jrs.",
+      "pj": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 6,
+      "ga": 4,
+      "pts": 7,
+      "ppp": 1.75,
+      "effectiveness_pct": 58.3,
+      "home": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 3,
+        "ga": 4,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 6062,
+      "name": "Def. Belgrano",
+      "pj": 4,
+      "w": 3,
+      "d": 0,
+      "l": 1,
+      "gf": 7,
+      "ga": 4,
+      "pts": 9,
+      "ppp": 2.25,
+      "effectiveness_pct": 75.0,
+      "home": {
+        "pj": 4,
+        "w": 3,
+        "d": 0,
+        "l": 1,
+        "gf": 7,
+        "ga": 4,
+        "pts": 9,
+        "ppp": 2.25,
+        "effectiveness_pct": 75.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 14312,
+      "name": "Estudiantes",
+      "pj": 4,
+      "w": 1,
+      "d": 0,
+      "l": 3,
+      "gf": 2,
+      "ga": 5,
+      "pts": 3,
+      "ppp": 0.75,
+      "effectiveness_pct": 25.0,
+      "home": {
+        "pj": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 3,
+        "pts": 3,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 14602,
+      "name": "Estudiantes RC",
+      "pj": 4,
+      "w": 2,
+      "d": 0,
+      "l": 2,
+      "gf": 2,
+      "ga": 2,
+      "pts": 6,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 2,
+        "pts": 3,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      }
+    },
+    {
+      "verein_id": 4557,
+      "name": "Ferro",
+      "pj": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 5,
+      "ga": 5,
+      "pts": 7,
+      "ppp": 1.75,
+      "effectiveness_pct": 58.3,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 3,
+        "ga": 4,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      }
+    },
+    {
+      "verein_id": 14687,
+      "name": "Gimnasia (M)",
+      "pj": 4,
+      "w": 1,
+      "d": 2,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
+      "pts": 5,
+      "ppp": 1.25,
+      "effectiveness_pct": 41.7,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 2,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      }
+    },
+    {
+      "verein_id": 19634,
+      "name": "San Miguel",
+      "pj": 4,
+      "w": 1,
+      "d": 1,
+      "l": 2,
+      "gf": 3,
+      "ga": 5,
+      "pts": 4,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 2,
+        "ga": 4,
+        "pts": 3,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      }
+    },
+    {
+      "verein_id": 12672,
+      "name": "Almirante Brown",
+      "pj": 3,
+      "w": 0,
+      "d": 0,
+      "l": 3,
+      "gf": 1,
+      "ga": 4,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 8057,
+      "name": "Atlanta",
+      "pj": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
+      "gf": 2,
+      "ga": 4,
+      "pts": 1,
+      "ppp": 0.33,
+      "effectiveness_pct": 11.1,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
+      }
+    },
+    {
+      "verein_id": 12681,
+      "name": "Chaco For Ever",
+      "pj": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
+      "gf": 7,
+      "ga": 3,
+      "pts": 7,
+      "ppp": 2.33,
+      "effectiveness_pct": 77.8,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 3,
+        "pts": 4,
+        "ppp": 2.0,
+        "effectiveness_pct": 66.7
+      }
+    },
+    {
+      "verein_id": 19523,
+      "name": "Dep. Maipú",
+      "pj": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
+      "gf": 1,
+      "ga": 1,
+      "pts": 4,
+      "ppp": 1.33,
+      "effectiveness_pct": 44.4,
+      "home": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 1,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 12458,
+      "name": "Dep. Morón",
+      "pj": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
+      "pts": 4,
+      "ppp": 1.33,
+      "effectiveness_pct": 44.4,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
+      }
+    },
+    {
+      "verein_id": 14683,
+      "name": "Guillermo Brown",
+      "pj": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 7,
+      "ppp": 2.33,
+      "effectiveness_pct": 77.8,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 4,
+        "ppp": 2.0,
+        "effectiveness_pct": 66.7
+      }
+    },
+    {
+      "verein_id": 12179,
+      "name": "Ind. Rivadavia",
+      "pj": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
+      "gf": 2,
+      "ga": 5,
+      "pts": 1,
+      "ppp": 0.33,
+      "effectiveness_pct": 11.1,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 4,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 19806,
+      "name": "Patronato",
+      "pj": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
+      "gf": 6,
+      "ga": 3,
+      "pts": 7,
+      "ppp": 2.33,
+      "effectiveness_pct": 77.8,
+      "home": {
+        "pj": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 4,
+        "ga": 2,
+        "pts": 4,
+        "ppp": 2.0,
+        "effectiveness_pct": 66.7
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 10511,
+      "name": "San Martín (SJ)",
+      "pj": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
+      "gf": 2,
+      "ga": 5,
+      "pts": 1,
+      "ppp": 0.33,
+      "effectiveness_pct": 11.1,
+      "home": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 12709,
+      "name": "San Martín (T)",
+      "pj": 3,
+      "w": 0,
+      "d": 0,
+      "l": 3,
+      "gf": 1,
+      "ga": 4,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 3,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 13651,
+      "name": "San Telmo",
+      "pj": 3,
+      "w": 3,
+      "d": 0,
+      "l": 0,
+      "gf": 6,
+      "ga": 1,
+      "pts": 9,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 3,
+        "w": 3,
+        "d": 0,
+        "l": 0,
+        "gf": 6,
+        "ga": 1,
+        "pts": 9,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 14519,
+      "name": "Talleres RE",
+      "pj": 3,
+      "w": 2,
+      "d": 1,
+      "l": 0,
+      "gf": 5,
+      "ga": 2,
+      "pts": 7,
+      "ppp": 2.33,
+      "effectiveness_pct": 77.8,
+      "home": {
+        "pj": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 0,
+        "pts": 4,
+        "ppp": 2.0,
+        "effectiveness_pct": 66.7
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 2,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 14977,
+      "name": "Almagro",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 2,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 4673,
+      "name": "Arsenal Sarandí",
+      "pj": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 4,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7,
+      "home": {
+        "pj": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 4,
+        "ppp": 2.0,
+        "effectiveness_pct": 66.7
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 10233,
+      "name": "Atl. Rafaela",
+      "pj": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 4,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 25184,
+      "name": "Barracas C.",
+      "pj": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 0,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 14681,
+      "name": "Brown (Adrogué)",
+      "pj": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 3,
+      "ga": 2,
+      "pts": 4,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 3,
+        "ga": 2,
+        "pts": 4,
+        "ppp": 2.0,
+        "effectiveness_pct": 66.7
+      }
+    },
+    {
+      "verein_id": 14542,
+      "name": "CA Temperley",
+      "pj": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 5,
+      "ga": 2,
+      "pts": 6,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 1070,
+      "name": "Colon",
+      "pj": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 1,
+      "pts": 6,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 1829,
+      "name": "Instituto ACC",
+      "pj": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 4,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 9875,
+      "name": "Libertad",
+      "pj": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 1,
+      "ga": 3,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 10534,
+      "name": "Nueva Chicago",
+      "pj": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 0,
+      "pts": 6,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 2,
+        "w": 2,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "pts": 6,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 8356,
+      "name": "Villa Dálmine",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 4,
+      "ga": 2,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 12677,
+      "name": "Acassuso",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 830,
+      "name": "Banfield",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 2417,
+      "name": "Belgrano",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 24749,
+      "name": "CADU (Zarate)",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 3,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 14670,
+      "name": "Central Norte",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 91422,
+      "name": "Ciudad Bolívar",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 2,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 2,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 13339,
+      "name": "Colegiales",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
+      "verein_id": 2402,
+      "name": "Defensa",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 1,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 19775,
+      "name": "Dep. Riestra",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 2,
+        "ga": 2,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 13341,
+      "name": "Flandria",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      }
+    },
+    {
+      "verein_id": 14688,
+      "name": "Gimnasia y Tiro",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 18911,
+      "name": "Juv. Unida (SL)",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 5208,
+      "name": "Los Andes",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 3,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 3,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 1444,
+      "name": "Racing Club",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 25374,
+      "name": "Sacachispas",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      }
+    },
+    {
+      "verein_id": 1775,
+      "name": "San Lorenzo",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
+      "verein_id": 9638,
+      "name": "Santamarina",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      }
+    },
+    {
+      "verein_id": 12454,
+      "name": "Sarmiento Junin",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 585,
+      "name": "São Paulo",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 0,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 1029,
+      "name": "Vélez Sarsfield",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 2,
+        "ga": 1,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    }
+  ],
+  "vs_coaches": [
+    {
+      "coach_id": 18065,
+      "name": "José María Martínez",
+      "pj": 6,
+      "w": 2,
+      "d": 2,
+      "l": 2,
+      "gf": 4,
+      "ga": 6,
+      "pts": 8,
+      "ppp": 1.33,
+      "effectiveness_pct": 44.4
+    },
+    {
+      "coach_id": 56292,
+      "name": "Walter Otta",
+      "pj": 5,
+      "w": 2,
+      "d": 1,
+      "l": 2,
+      "gf": 4,
+      "ga": 4,
+      "pts": 7,
+      "ppp": 1.4,
+      "effectiveness_pct": 46.7
+    },
+    {
+      "coach_id": 102454,
+      "name": "Ezequiel Medrán",
+      "pj": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 3,
+      "ga": 2,
+      "pts": 7,
+      "ppp": 1.75,
+      "effectiveness_pct": 58.3
+    },
+    {
+      "coach_id": 70689,
+      "name": "Marcelo Vázquez",
+      "pj": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 4,
+      "ga": 6,
+      "pts": 7,
+      "ppp": 1.75,
+      "effectiveness_pct": 58.3
+    },
+    {
+      "coach_id": 121826,
+      "name": "Matías Módolo",
+      "pj": 4,
+      "w": 2,
+      "d": 1,
+      "l": 1,
+      "gf": 3,
+      "ga": 2,
+      "pts": 7,
+      "ppp": 1.75,
+      "effectiveness_pct": 58.3
+    },
+    {
+      "coach_id": 5093,
+      "name": "Darío Franco",
+      "pj": 4,
+      "w": 1,
+      "d": 3,
+      "l": 0,
+      "gf": 6,
+      "ga": 3,
+      "pts": 6,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0
+    },
+    {
+      "coach_id": 22155,
+      "name": "Aníbal Biggeri",
+      "pj": 4,
+      "w": 1,
+      "d": 2,
+      "l": 1,
+      "gf": 5,
+      "ga": 6,
+      "pts": 5,
+      "ppp": 1.25,
+      "effectiveness_pct": 41.7
+    },
+    {
+      "coach_id": 51281,
+      "name": "Gabriel Gómez",
+      "pj": 4,
+      "w": 0,
+      "d": 3,
+      "l": 1,
+      "gf": 4,
+      "ga": 5,
+      "pts": 3,
+      "ppp": 0.75,
+      "effectiveness_pct": 25.0
+    },
+    {
+      "coach_id": 22807,
+      "name": "Sergio Rondina",
+      "pj": 4,
+      "w": 1,
+      "d": 0,
+      "l": 3,
+      "gf": 2,
+      "ga": 5,
+      "pts": 3,
+      "ppp": 0.75,
+      "effectiveness_pct": 25.0
+    },
+    {
+      "coach_id": 23240,
+      "name": "Fabián Nardozza",
+      "pj": 3,
+      "w": 2,
+      "d": 0,
+      "l": 1,
+      "gf": 4,
+      "ga": 3,
+      "pts": 6,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7
+    },
+    {
+      "coach_id": 23332,
+      "name": "Rubén Forestello",
+      "pj": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
+      "gf": 3,
+      "ga": 2,
+      "pts": 4,
+      "ppp": 1.33,
+      "effectiveness_pct": 44.4
+    },
+    {
+      "coach_id": 27814,
+      "name": "Iván Delfino",
+      "pj": 3,
+      "w": 1,
+      "d": 0,
+      "l": 2,
+      "gf": 1,
+      "ga": 2,
+      "pts": 3,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 57617,
+      "name": "Leonardo Lemos",
+      "pj": 3,
+      "w": 0,
+      "d": 2,
+      "l": 1,
+      "gf": 2,
+      "ga": 5,
+      "pts": 2,
+      "ppp": 0.67,
+      "effectiveness_pct": 22.2
+    },
+    {
+      "coach_id": 105413,
+      "name": "Luis García",
+      "pj": 3,
+      "w": 0,
+      "d": 1,
+      "l": 2,
+      "gf": 0,
+      "ga": 2,
+      "pts": 1,
+      "ppp": 0.33,
+      "effectiveness_pct": 11.1
+    },
+    {
+      "coach_id": 22284,
+      "name": "Arnaldo Sialle",
+      "pj": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 0,
+      "pts": 6,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 11493,
+      "name": "José María Bianco",
+      "pj": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 1,
+      "pts": 6,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 102583,
+      "name": "Tobías Kohan",
+      "pj": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 6,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 106097,
+      "name": "Adrián Adrover",
+      "pj": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 4,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7
+    },
+    {
+      "coach_id": 22802,
+      "name": "Pablo Vicó",
+      "pj": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 3,
+      "ga": 2,
+      "pts": 4,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7
+    },
+    {
+      "coach_id": 26799,
+      "name": "Carlos Mayor",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0
+    },
+    {
+      "coach_id": 23342,
+      "name": "Cristian Díaz",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0
+    },
+    {
+      "coach_id": 127010,
+      "name": "Diego Cochas",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 3,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0
+    },
+    {
+      "coach_id": 22800,
+      "name": "Fernando Ruiz",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0
+    },
+    {
+      "coach_id": 19755,
+      "name": "Mario Sciacqua",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 3,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0
+    },
+    {
+      "coach_id": 32891,
+      "name": "Mauricio Giganti",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 3,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0
+    },
+    {
+      "coach_id": 20232,
+      "name": "Walter Perazzo",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 3,
+      "ga": 3,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0
+    },
+    {
+      "coach_id": 22281,
+      "name": "Gustavo Coleoni",
+      "pj": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 3,
+      "pts": 1,
+      "ppp": 0.5,
+      "effectiveness_pct": 16.7
+    },
+    {
+      "coach_id": 96234,
+      "name": "Mariano Campodónico",
+      "pj": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "pts": 1,
+      "ppp": 0.5,
+      "effectiveness_pct": 16.7
+    },
+    {
+      "coach_id": 30073,
+      "name": "Raúl Antuña",
+      "pj": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 3,
+      "pts": 1,
+      "ppp": 0.5,
+      "effectiveness_pct": 16.7
+    },
+    {
+      "coach_id": 29842,
+      "name": "Alfredo Berti",
+      "pj": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 1,
+      "ga": 4,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 31966,
+      "name": "Alfredo Grelak",
+      "pj": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 0,
+      "ga": 5,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 6802,
+      "name": "Daniel Garnero",
+      "pj": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 1,
+      "ga": 3,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 102733,
+      "name": "Alexis Matteo",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 22268,
+      "name": "Andrés Yllana",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 46084,
+      "name": "Darío Alaniz",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 22168,
+      "name": "Diego Dabove",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 105962,
+      "name": "Diego Funes",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 2,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 12785,
+      "name": "Diego Osella",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 70682,
+      "name": "Diego Pozo",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 4883,
+      "name": "Fernando Quiroz",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 133886,
+      "name": "Gastón Lotitto",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 68612,
+      "name": "Jorge Cordon",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 14536,
+      "name": "Jorge Vivaldo",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 126920,
+      "name": "Juan Carlos Olave",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 21642,
+      "name": "Juan Manuel Azconzábal",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 57583,
+      "name": "Leonardo Fernández",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 128585,
+      "name": "Lucas Sparapani",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 68341,
+      "name": "Manuel Fernández",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 113848,
+      "name": "Marcelo Bravo",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 122768,
+      "name": "Martín Rolón",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 2,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 3264,
+      "name": "Néstor Gorosito",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 77918,
+      "name": "Pablo Frontini",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 36084,
+      "name": "Pablo Quatrocchi",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 123801,
+      "name": "Pedro Llorens",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 106348,
+      "name": "Raúl Cardozo",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 4,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 9293,
+      "name": "Rubén Insúa",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 99173,
+      "name": "Santiago Davio",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 94453,
+      "name": "Sebastián Salomón",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 104786,
+      "name": "Sergio Luis Arias",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 2,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0
+    },
+    {
+      "coach_id": 58917,
+      "name": "Alejandro Orfila",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 104911,
+      "name": "Cristian Fabbiani",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 148039,
+      "name": "Cristian Mazzón",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 88083,
+      "name": "Daniel Cravero",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 22064,
+      "name": "Duilio Botella",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 11494,
+      "name": "Felipe de la Riva",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 93570,
+      "name": "Gabriel Di Noia",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 9494,
+      "name": "Héctor Arzubialde",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 6013,
+      "name": "Juan Manuel Llop",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 94302,
+      "name": "Leandro Gracián",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 89994,
+      "name": "Luca Marcogiuseppe",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 55059,
+      "name": "Lucas Bovaglio",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 102654,
+      "name": "Mariano González",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 4878,
+      "name": "Mario Gómez",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 80732,
+      "name": "Pablo Centrone",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 154924,
+      "name": "Ramiro Torres",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 27073,
+      "name": "Ricardo Pancaldo",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 142171,
+      "name": "Ricardo Vendakis",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 2,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 47456,
+      "name": "Walter Marchesi",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 1,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3
+    },
+    {
+      "coach_id": 69086,
+      "name": "Alejandro Migliardi",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 94455,
+      "name": "Andrés Montenegro",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 63802,
+      "name": "Ariel Martos",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 77451,
+      "name": "César Monasterio",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 3,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 66206,
+      "name": "Diego Flores",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 4724,
+      "name": "Dorival Júnior",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 101143,
+      "name": "Federico Hernández",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 88413,
+      "name": "Fernando Gago",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 93327,
+      "name": "Guillermo Farré",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 73494,
+      "name": "Jorge Benítez",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 102554,
+      "name": "Julio Vaccari",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 102555,
+      "name": "Norberto Paparatto",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 59163,
+      "name": "Omar Piccoli",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 143050,
+      "name": "Pablo Fornasari",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 43966,
+      "name": "Pablo Lavallén",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 57542,
+      "name": "Pablo de Muner",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 126734,
+      "name": "Rodrigo Alonso",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 60365,
+      "name": "Sebastián Battaglia",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 2,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    },
+    {
+      "coach_id": 22261,
+      "name": "Walter Coyette",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0
+    }
+  ],
+  "home_away_global": {
+    "home": {
+      "pj": 77,
+      "w": 37,
+      "d": 22,
+      "l": 18,
+      "gf": 94,
+      "ga": 57,
+      "pts": 133,
+      "ppp": 1.73,
+      "effectiveness_pct": 57.6
+    },
+    "away": {
+      "pj": 79,
+      "w": 22,
+      "d": 21,
+      "l": 36,
+      "gf": 70,
+      "ga": 98,
+      "pts": 87,
+      "ppp": 1.1,
+      "effectiveness_pct": 36.7
+    }
+  },
+  "scorers": {
+    "per_spell": [
+      {
+        "i": 0,
+        "club": "Ferro",
+        "scorers": [
+          {
+            "player": "Emanuel Dening",
+            "goals": 4
+          },
+          {
+            "player": "Lautaro Parisi",
+            "goals": 4
+          },
+          {
+            "player": "Enzo Hoyos",
+            "goals": 2
+          },
+          {
+            "player": "Gustavo Canto",
+            "goals": 2
+          },
+          {
+            "player": "Ángel González",
+            "goals": 2
+          },
+          {
+            "player": "Felipe Obradovich",
+            "goals": 1
+          },
+          {
+            "player": "Mateo Acosta",
+            "goals": 1
+          },
+          {
+            "player": "Matías Kabalin",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "i": 1,
+        "club": "Estudiantes",
+        "scorers": [
+          {
+            "player": "Mateo Acosta",
+            "goals": 8
+          },
+          {
+            "player": "Gonzalo Berterame",
+            "goals": 3
+          },
+          {
+            "player": "Santiago Briñone",
+            "goals": 3
+          },
+          {
+            "player": "Darío Rostagno",
+            "goals": 2
+          },
+          {
+            "player": "Jorge Correa",
+            "goals": 2
+          },
+          {
+            "player": "Tomás Squie",
+            "goals": 2
+          },
+          {
+            "player": "Agustín Massaccesi",
+            "goals": 1
+          },
+          {
+            "player": "Delfor Minervino",
+            "goals": 1
+          },
+          {
+            "player": "Franco Cáceres",
+            "goals": 1
+          },
+          {
+            "player": "Jorge Benítez",
+            "goals": 1
+          },
+          {
+            "player": "Sebastián Ramírez",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "i": 2,
+        "club": "Dep. Maipú",
+        "scorers": [
+          {
+            "player": "Misael Sosa",
+            "goals": 12
+          },
+          {
+            "player": "Matías Viguet",
+            "goals": 9
+          },
+          {
+            "player": "Federico Rasic",
+            "goals": 6
+          },
+          {
+            "player": "Pio Bonacci",
+            "goals": 6
+          },
+          {
+            "player": "Ezequiel Almirón",
+            "goals": 4
+          },
+          {
+            "player": "Marcelo Eggel",
+            "goals": 3
+          },
+          {
+            "player": "Agustín Gaitán",
+            "goals": 2
+          },
+          {
+            "player": "Diego Ramírez",
+            "goals": 2
+          },
+          {
+            "player": "Gastón Mansilla",
+            "goals": 2
+          },
+          {
+            "player": "Juan Cruz Arno",
+            "goals": 2
+          },
+          {
+            "player": "Luciano Paredes",
+            "goals": 2
+          },
+          {
+            "player": "Santiago Moyano",
+            "goals": 2
+          },
+          {
+            "player": "Emiliano Ozuna",
+            "goals": 1
+          },
+          {
+            "player": "Gonzalo Gómez",
+            "goals": 1
+          },
+          {
+            "player": "Iván Sandoval",
+            "goals": 1
+          },
+          {
+            "player": "Maximiliano Solari",
+            "goals": 1
+          },
+          {
+            "player": "Tomás Silva",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "i": 3,
+        "club": "Tigre",
+        "scorers": [
+          {
+            "player": "Blas Armoa",
+            "goals": 2
+          },
+          {
+            "player": "Tomás Badaloni",
+            "goals": 2
+          },
+          {
+            "player": "Aarón Molinas",
+            "goals": 1
+          },
+          {
+            "player": "Abel Luciatti",
+            "goals": 1
+          },
+          {
+            "player": "Agustín Cardozo",
+            "goals": 1
+          },
+          {
+            "player": "Lucas Menossi",
+            "goals": 1
+          },
+          {
+            "player": "Mateo Retegui",
+            "goals": 1
+          },
+          {
+            "player": "Miguel Brizuela",
+            "goals": 1
+          },
+          {
+            "player": "Robert Rojas",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "i": 4,
+        "club": "Estudiantes",
+        "scorers": [
+          {
+            "player": "Martín Garnerone",
+            "goals": 5
+          },
+          {
+            "player": "Tomás Bolzicco",
+            "goals": 2
+          },
+          {
+            "player": "Enzo Acosta",
+            "goals": 1
+          },
+          {
+            "player": "Santiago Briñone",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "i": 5,
+        "club": "Ferro",
+        "scorers": [
+          {
+            "player": "Pablo Palacio",
+            "goals": 2
+          },
+          {
+            "player": "Cristian Erbes",
+            "goals": 1
+          },
+          {
+            "player": "Ignacio Colombini",
+            "goals": 1
+          },
+          {
+            "player": "Martín Rodríguez",
+            "goals": 1
+          },
+          {
+            "player": "Nicolás Retamar",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "i": 6,
+        "club": "Dep. Maipú",
+        "scorers": [
+          {
+            "player": "Damián De Hoyos",
+            "goals": 8
+          },
+          {
+            "player": "Bruno Nasta",
+            "goals": 6
+          },
+          {
+            "player": "Fausto Montero",
+            "goals": 6
+          },
+          {
+            "player": "Marcelo Eggel",
+            "goals": 4
+          },
+          {
+            "player": "Álvaro Veliez",
+            "goals": 3
+          },
+          {
+            "player": "Facundo Castelli",
+            "goals": 2
+          },
+          {
+            "player": "Lucas Faggioli",
+            "goals": 2
+          },
+          {
+            "player": "Santiago Moyano",
+            "goals": 2
+          },
+          {
+            "player": "Alejandro Cabral",
+            "goals": 1
+          },
+          {
+            "player": "Fernando Cosciuc",
+            "goals": 1
+          },
+          {
+            "player": "Guillermo Cosaro",
+            "goals": 1
+          },
+          {
+            "player": "Luciano Herrera",
+            "goals": 1
+          },
+          {
+            "player": "Matías Persia",
+            "goals": 1
+          },
+          {
+            "player": "Nicolás Del Priore",
+            "goals": 1
+          }
+        ]
+      }
+    ],
+    "aggregate": [
+      {
+        "player": "Misael Sosa",
+        "goals": 12
+      },
+      {
+        "player": "Mateo Acosta",
+        "goals": 9
+      },
+      {
+        "player": "Matías Viguet",
+        "goals": 9
+      },
+      {
+        "player": "Damián De Hoyos",
+        "goals": 8
+      },
+      {
+        "player": "Marcelo Eggel",
+        "goals": 7
+      },
+      {
+        "player": "Bruno Nasta",
+        "goals": 6
+      },
+      {
+        "player": "Fausto Montero",
+        "goals": 6
+      },
+      {
+        "player": "Federico Rasic",
+        "goals": 6
+      },
+      {
+        "player": "Pio Bonacci",
+        "goals": 6
+      },
+      {
+        "player": "Martín Garnerone",
+        "goals": 5
+      },
+      {
+        "player": "Emanuel Dening",
+        "goals": 4
+      },
+      {
+        "player": "Ezequiel Almirón",
+        "goals": 4
+      },
+      {
+        "player": "Lautaro Parisi",
+        "goals": 4
+      },
+      {
+        "player": "Santiago Briñone",
+        "goals": 4
+      },
+      {
+        "player": "Santiago Moyano",
+        "goals": 4
+      },
+      {
+        "player": "Gonzalo Berterame",
+        "goals": 3
+      },
+      {
+        "player": "Álvaro Veliez",
+        "goals": 3
+      },
+      {
+        "player": "Agustín Gaitán",
+        "goals": 2
+      },
+      {
+        "player": "Blas Armoa",
+        "goals": 2
+      },
+      {
+        "player": "Darío Rostagno",
+        "goals": 2
+      },
+      {
+        "player": "Diego Ramírez",
+        "goals": 2
+      },
+      {
+        "player": "Enzo Hoyos",
+        "goals": 2
+      },
+      {
+        "player": "Facundo Castelli",
+        "goals": 2
+      },
+      {
+        "player": "Gastón Mansilla",
+        "goals": 2
+      },
+      {
+        "player": "Gustavo Canto",
+        "goals": 2
+      },
+      {
+        "player": "Jorge Correa",
+        "goals": 2
+      },
+      {
+        "player": "Juan Cruz Arno",
+        "goals": 2
+      },
+      {
+        "player": "Lucas Faggioli",
+        "goals": 2
+      },
+      {
+        "player": "Luciano Paredes",
+        "goals": 2
+      },
+      {
+        "player": "Pablo Palacio",
+        "goals": 2
+      },
+      {
+        "player": "Tomás Badaloni",
+        "goals": 2
+      },
+      {
+        "player": "Tomás Bolzicco",
+        "goals": 2
+      },
+      {
+        "player": "Tomás Squie",
+        "goals": 2
+      },
+      {
+        "player": "Ángel González",
+        "goals": 2
+      },
+      {
+        "player": "Aarón Molinas",
+        "goals": 1
+      },
+      {
+        "player": "Abel Luciatti",
+        "goals": 1
+      },
+      {
+        "player": "Agustín Cardozo",
+        "goals": 1
+      },
+      {
+        "player": "Agustín Massaccesi",
+        "goals": 1
+      },
+      {
+        "player": "Alejandro Cabral",
+        "goals": 1
+      },
+      {
+        "player": "Cristian Erbes",
+        "goals": 1
+      },
+      {
+        "player": "Delfor Minervino",
+        "goals": 1
+      },
+      {
+        "player": "Emiliano Ozuna",
+        "goals": 1
+      },
+      {
+        "player": "Enzo Acosta",
+        "goals": 1
+      },
+      {
+        "player": "Felipe Obradovich",
+        "goals": 1
+      },
+      {
+        "player": "Fernando Cosciuc",
+        "goals": 1
+      },
+      {
+        "player": "Franco Cáceres",
+        "goals": 1
+      },
+      {
+        "player": "Gonzalo Gómez",
+        "goals": 1
+      },
+      {
+        "player": "Guillermo Cosaro",
+        "goals": 1
+      },
+      {
+        "player": "Ignacio Colombini",
+        "goals": 1
+      },
+      {
+        "player": "Iván Sandoval",
+        "goals": 1
+      },
+      {
+        "player": "Jorge Benítez",
+        "goals": 1
+      },
+      {
+        "player": "Lucas Menossi",
+        "goals": 1
+      },
+      {
+        "player": "Luciano Herrera",
+        "goals": 1
+      },
+      {
+        "player": "Martín Rodríguez",
+        "goals": 1
+      },
+      {
+        "player": "Mateo Retegui",
+        "goals": 1
+      },
+      {
+        "player": "Matías Kabalin",
+        "goals": 1
+      },
+      {
+        "player": "Matías Persia",
+        "goals": 1
+      },
+      {
+        "player": "Maximiliano Solari",
+        "goals": 1
+      },
+      {
+        "player": "Miguel Brizuela",
+        "goals": 1
+      },
+      {
+        "player": "Nicolás Del Priore",
+        "goals": 1
+      },
+      {
+        "player": "Nicolás Retamar",
+        "goals": 1
+      },
+      {
+        "player": "Robert Rojas",
+        "goals": 1
+      },
+      {
+        "player": "Sebastián Ramírez",
+        "goals": 1
+      },
+      {
+        "player": "Tomás Silva",
+        "goals": 1
+      }
+    ]
+  },
+  "streaks": {
+    "global": {
+      "best_win": {
+        "len": 5,
+        "matches": [
+          {
+            "date": "2026-06-07",
+            "club": "Ferro",
+            "opponent": "Chaco For Ever",
+            "home_away": "A",
+            "gf": 2,
+            "ga": 1,
+            "competition": "Primera Nacional"
+          },
+          {
+            "date": "2026-06-14",
+            "club": "Ferro",
+            "opponent": "Acassuso",
+            "home_away": "H",
+            "gf": 2,
+            "ga": 1,
+            "competition": "Primera Nacional"
+          },
+          {
+            "date": "2026-06-21",
+            "club": "Ferro",
+            "opponent": "Dep. Morón",
+            "home_away": "H",
+            "gf": 1,
+            "ga": 0,
+            "competition": "Primera Nacional"
+          },
+          {
+            "date": "2026-07-05",
+            "club": "Ferro",
+            "opponent": "San Telmo",
+            "home_away": "H",
+            "gf": 2,
+            "ga": 1,
+            "competition": "Primera Nacional"
+          },
+          {
+            "date": "2026-07-11",
+            "club": "Ferro",
+            "opponent": "San Miguel",
+            "home_away": "A",
+            "gf": 1,
+            "ga": 0,
+            "competition": "Primera Nacional"
+          }
+        ]
+      },
+      "best_loss": {
+        "len": 7,
+        "matches": [
+          {
+            "date": "2025-11-15",
+            "club": "Estudiantes",
+            "opponent": "Estudiantes RC",
+            "home_away": "A",
+            "gf": 0,
+            "ga": 1,
+            "competition": "Primera Nacional - Reducido"
+          },
+          {
+            "date": "2026-01-18",
+            "club": "Estudiantes",
+            "opponent": "Ind. Rivadavia",
+            "home_away": "A",
+            "gf": 0,
+            "ga": 2,
+            "competition": "Copa Argentina"
+          },
+          {
+            "date": "2026-02-15",
+            "club": "Estudiantes",
+            "opponent": "Racing (Cba)",
+            "home_away": "A",
+            "gf": 0,
+            "ga": 1,
+            "competition": "Primera Nacional"
+          },
+          {
+            "date": "2026-02-23",
+            "club": "Estudiantes",
+            "opponent": "Mitre (SdE)",
+            "home_away": "A",
+            "gf": 0,
+            "ga": 1,
+            "competition": "Primera Nacional"
+          },
+          {
+            "date": "2026-03-01",
+            "club": "Estudiantes",
+            "opponent": "Almirante Brown",
+            "home_away": "H",
+            "gf": 0,
+            "ga": 1,
+            "competition": "Primera Nacional"
+          },
+          {
+            "date": "2026-03-14",
+            "club": "Estudiantes",
+            "opponent": "Def. Belgrano",
+            "home_away": "H",
+            "gf": 0,
+            "ga": 2,
+            "competition": "Primera Nacional"
+          },
+          {
+            "date": "2026-03-21",
+            "club": "Estudiantes",
+            "opponent": "Dep. Madryn",
+            "home_away": "A",
+            "gf": 0,
+            "ga": 3,
+            "competition": "Primera Nacional"
+          }
+        ]
+      }
+    },
+    "per_club": {
+      "Ferro": {
+        "best_win": {
+          "len": 5,
+          "matches": [
+            {
+              "date": "2026-06-07",
+              "club": "Ferro",
+              "opponent": "Chaco For Ever",
+              "home_away": "A",
+              "gf": 2,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2026-06-14",
+              "club": "Ferro",
+              "opponent": "Acassuso",
+              "home_away": "H",
+              "gf": 2,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2026-06-21",
+              "club": "Ferro",
+              "opponent": "Dep. Morón",
+              "home_away": "H",
+              "gf": 1,
+              "ga": 0,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2026-07-05",
+              "club": "Ferro",
+              "opponent": "San Telmo",
+              "home_away": "H",
+              "gf": 2,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2026-07-11",
+              "club": "Ferro",
+              "opponent": "San Miguel",
+              "home_away": "A",
+              "gf": 1,
+              "ga": 0,
+              "competition": "Primera Nacional"
+            }
+          ]
+        },
+        "best_loss": {
+          "len": 2,
+          "matches": [
+            {
+              "date": "2023-03-25",
+              "club": "Ferro",
+              "opponent": "Villa Dálmine",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 2,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2023-04-02",
+              "club": "Ferro",
+              "opponent": "Dep. Maipú",
+              "home_away": "H",
+              "gf": 0,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            }
+          ]
+        }
+      },
+      "Estudiantes": {
+        "best_win": {
+          "len": 4,
+          "matches": [
+            {
+              "date": "2025-07-21",
+              "club": "Estudiantes",
+              "opponent": "Agropecuario",
+              "home_away": "A",
+              "gf": 2,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2025-07-26",
+              "club": "Estudiantes",
+              "opponent": "San Telmo",
+              "home_away": "H",
+              "gf": 2,
+              "ga": 0,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2025-08-03",
+              "club": "Estudiantes",
+              "opponent": "Chacarita Jrs.",
+              "home_away": "A",
+              "gf": 3,
+              "ga": 0,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2025-08-10",
+              "club": "Estudiantes",
+              "opponent": "Def. Belgrano",
+              "home_away": "H",
+              "gf": 2,
+              "ga": 0,
+              "competition": "Primera Nacional"
+            }
+          ]
+        },
+        "best_loss": {
+          "len": 7,
+          "matches": [
+            {
+              "date": "2025-11-15",
+              "club": "Estudiantes",
+              "opponent": "Estudiantes RC",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 1,
+              "competition": "Primera Nacional - Reducido"
+            },
+            {
+              "date": "2026-01-18",
+              "club": "Estudiantes",
+              "opponent": "Ind. Rivadavia",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 2,
+              "competition": "Copa Argentina"
+            },
+            {
+              "date": "2026-02-15",
+              "club": "Estudiantes",
+              "opponent": "Racing (Cba)",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2026-02-23",
+              "club": "Estudiantes",
+              "opponent": "Mitre (SdE)",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2026-03-01",
+              "club": "Estudiantes",
+              "opponent": "Almirante Brown",
+              "home_away": "H",
+              "gf": 0,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2026-03-14",
+              "club": "Estudiantes",
+              "opponent": "Def. Belgrano",
+              "home_away": "H",
+              "gf": 0,
+              "ga": 2,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2026-03-21",
+              "club": "Estudiantes",
+              "opponent": "Dep. Madryn",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 3,
+              "competition": "Primera Nacional"
+            }
+          ]
+        }
+      },
+      "Dep. Maipú": {
+        "best_win": {
+          "len": 4,
+          "matches": [
+            {
+              "date": "2024-03-23",
+              "club": "Dep. Maipú",
+              "opponent": "Tristán Suárez",
+              "home_away": "H",
+              "gf": 1,
+              "ga": 0,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2024-03-31",
+              "club": "Dep. Maipú",
+              "opponent": "Patronato",
+              "home_away": "A",
+              "gf": 2,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2024-04-07",
+              "club": "Dep. Maipú",
+              "opponent": "Racing (Cba)",
+              "home_away": "H",
+              "gf": 1,
+              "ga": 0,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2024-04-13",
+              "club": "Dep. Maipú",
+              "opponent": "CA Alvarado",
+              "home_away": "A",
+              "gf": 1,
+              "ga": 0,
+              "competition": "Primera Nacional"
+            }
+          ]
+        },
+        "best_loss": {
+          "len": 2,
+          "matches": [
+            {
+              "date": "2022-03-18",
+              "club": "Dep. Maipú",
+              "opponent": "Agropecuario",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 2,
+              "competition": "Primera Nacional"
+            },
+            {
+              "date": "2022-03-28",
+              "club": "Dep. Maipú",
+              "opponent": "San Martín (T)",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 1,
+              "competition": "Primera Nacional"
+            }
+          ]
+        }
+      },
+      "Tigre": {
+        "best_win": {
+          "len": 2,
+          "matches": [
+            {
+              "date": "2023-07-25",
+              "club": "Tigre",
+              "opponent": "Colon",
+              "home_away": "A",
+              "gf": 3,
+              "ga": 1,
+              "competition": "Professional Football League (- 23/24)"
+            },
+            {
+              "date": "2023-07-29",
+              "club": "Tigre",
+              "opponent": "San Lorenzo",
+              "home_away": "H",
+              "gf": 2,
+              "ga": 0,
+              "competition": "Professional Football League (- 23/24)"
+            }
+          ]
+        },
+        "best_loss": {
+          "len": 3,
+          "matches": [
+            {
+              "date": "2023-06-27",
+              "club": "Tigre",
+              "opponent": "São Paulo",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 2,
+              "competition": "Copa Sudamericana"
+            },
+            {
+              "date": "2023-07-02",
+              "club": "Tigre",
+              "opponent": "Defensa",
+              "home_away": "A",
+              "gf": 0,
+              "ga": 1,
+              "competition": "Professional Football League (- 23/24)"
+            },
+            {
+              "date": "2023-07-05",
+              "club": "Tigre",
+              "opponent": "Banfield",
+              "home_away": "H",
+              "gf": 1,
+              "ga": 2,
+              "competition": "Professional Football League (- 23/24)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

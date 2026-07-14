@@ -1,0 +1,4556 @@
+[
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-04-19",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Mitre (SdE)",
+    "opponent_verein_id": 30038,
+    "opponent_coach": "Carlos Mayor",
+    "opponent_coach_id": 26799,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4797765,
+    "scorers": [
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-04-28",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Almirante Brown",
+    "opponent_verein_id": 12672,
+    "opponent_coach": "Andrés Montenegro",
+    "opponent_coach_id": 94455,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4797786,
+    "scorers": [
+      {
+        "player": "Gustavo Cabral",
+        "minute": null,
+        "team": "opp",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-05-03",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Ciudad Bolívar",
+    "opponent_verein_id": 91422,
+    "opponent_coach": "Diego Funes",
+    "opponent_coach_id": 105962,
+    "gf": 4,
+    "ga": 2,
+    "result": "W",
+    "spielbericht_id": 4797800,
+    "scorers": [
+      {
+        "player": "Emanuel Dening",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Maximiliano Gutiérrez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Felipe Obradovich",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Arnaldo González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Emanuel Dening",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Gustavo Canto",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-05-11",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Def. Belgrano",
+    "opponent_verein_id": 6062,
+    "opponent_coach": "Fabián Nardozza",
+    "opponent_coach_id": 23240,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4797823,
+    "scorers": [
+      {
+        "player": "Ángel González",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Jonathan Dellarossa",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Lautaro Parisi",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-05-17",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Dep. Madryn",
+    "opponent_verein_id": 14318,
+    "opponent_coach": "Cristian Díaz",
+    "opponent_coach_id": 23342,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4797835,
+    "scorers": [
+      {
+        "player": "Emanuel Dening",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-05-24",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Central Norte",
+    "opponent_verein_id": 14670,
+    "opponent_coach": "Mario Sciacqua",
+    "opponent_coach_id": 19755,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4797860,
+    "scorers": [
+      {
+        "player": "Ángel González",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-05-29",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Racing (Cba)",
+    "opponent_verein_id": 10403,
+    "opponent_coach": "Ramiro Torres",
+    "opponent_coach_id": 154924,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4797870,
+    "scorers": []
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-06-07",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Chaco For Ever",
+    "opponent_verein_id": 12681,
+    "opponent_coach": "Pedro Llorens",
+    "opponent_coach_id": 123801,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4797896,
+    "scorers": [
+      {
+        "player": "Enzo Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Imanol Enríquez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Gustavo Canto",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-06-14",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Acassuso",
+    "opponent_verein_id": 12677,
+    "opponent_coach": "Tobías Kohan",
+    "opponent_coach_id": 102583,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4797907,
+    "scorers": [
+      {
+        "player": "Matías Kabalin",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Ramiro Reynoso",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Lautaro Parisi",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-06-21",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Dep. Morón",
+    "opponent_verein_id": 12458,
+    "opponent_coach": "Walter Otta",
+    "opponent_coach_id": 56292,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4797693,
+    "scorers": [
+      {
+        "player": "Lautaro Parisi",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-07-05",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "San Telmo",
+    "opponent_verein_id": 13651,
+    "opponent_coach": "Marcelo Vázquez",
+    "opponent_coach_id": 70689,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4797931,
+    "scorers": [
+      {
+        "player": "Lautaro Parisi",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Enzo Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Martín Batallini",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-07-11",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "San Miguel",
+    "opponent_verein_id": 19634,
+    "opponent_coach": "Matías Módolo",
+    "opponent_coach_id": 121826,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4797944,
+    "scorers": [
+      {
+        "player": "Emanuel Dening",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-07-06",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Gimnasia (M)",
+    "opponent_verein_id": 14687,
+    "opponent_coach": "Ezequiel Medrán",
+    "opponent_coach_id": 102454,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4564026,
+    "scorers": [
+      {
+        "player": "Imanol González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-07-12",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Gimnasia (J)",
+    "opponent_verein_id": 10885,
+    "opponent_coach": "Matías Módolo",
+    "opponent_coach_id": 121826,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4564044,
+    "scorers": []
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-07-21",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Agropecuario",
+    "opponent_verein_id": 38545,
+    "opponent_coach": "Adrián Adrover",
+    "opponent_coach_id": 106097,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4564063,
+    "scorers": [
+      {
+        "player": "Rodrigo Mosqueira",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      },
+      {
+        "player": "Tomás Squie",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-07-26",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "San Telmo",
+    "opponent_verein_id": 13651,
+    "opponent_coach": "José María Bianco",
+    "opponent_coach_id": 11493,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4564079,
+    "scorers": [
+      {
+        "player": "Gonzalo Berterame",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Darío Rostagno",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-08-03",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Chacarita Jrs.",
+    "opponent_verein_id": 2154,
+    "opponent_coach": "Juan Manuel Azconzábal",
+    "opponent_coach_id": 21642,
+    "gf": 3,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4564100,
+    "scorers": [
+      {
+        "player": "Franco Cáceres",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Santiago Briñone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Jorge Benítez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-08-10",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Def. Belgrano",
+    "opponent_verein_id": 6062,
+    "opponent_coach": "Fabián Nardozza",
+    "opponent_coach_id": 23240,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4564120,
+    "scorers": [
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      },
+      {
+        "player": "Agustín Massaccesi",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-08-17",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Estudiantes RC",
+    "opponent_verein_id": 14602,
+    "opponent_coach": "Iván Delfino",
+    "opponent_coach_id": 27814,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4564137,
+    "scorers": [
+      {
+        "player": "Brian Orosco",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-08-23",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Talleres RE",
+    "opponent_verein_id": 14519,
+    "opponent_coach": "Jorge Vivaldo",
+    "opponent_coach_id": 14536,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4564149,
+    "scorers": [
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Delfor Minervino",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-08-31",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Dep. Morón",
+    "opponent_verein_id": 12458,
+    "opponent_coach": "Walter Otta",
+    "opponent_coach_id": 56292,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4564174,
+    "scorers": [
+      {
+        "player": "Yair González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Santiago Briñone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-09-05",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Nueva Chicago",
+    "opponent_verein_id": 10534,
+    "opponent_coach": "Gastón Lotitto",
+    "opponent_coach_id": 133886,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4564184,
+    "scorers": [
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Tomás Squie",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-09-13",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "CADU (Zarate)",
+    "opponent_verein_id": 24749,
+    "opponent_coach": "Santiago Davio",
+    "opponent_coach_id": 99173,
+    "gf": 3,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4564210,
+    "scorers": [
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Gonzalo Berterame",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Darío Rostagno",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-09-20",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "CA Temperley",
+    "opponent_verein_id": 14542,
+    "opponent_coach": "Rubén Forestello",
+    "opponent_coach_id": 23332,
+    "gf": 3,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4564221,
+    "scorers": [
+      {
+        "player": "Jorge Correa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Adrián Arregui",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Santiago Briñone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Jorge Correa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-09-27",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Colon",
+    "opponent_verein_id": 1070,
+    "opponent_coach": "Ezequiel Medrán",
+    "opponent_coach_id": 102454,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4564245,
+    "scorers": [
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-10-05",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Mitre (SdE)",
+    "opponent_verein_id": 30038,
+    "opponent_coach": "Cristian Mazzón",
+    "opponent_coach_id": 148039,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4564258,
+    "scorers": [
+      {
+        "player": "Javier Martínez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-10-12",
+    "competition": "Primera Nacional - Reducido",
+    "home_away": "H",
+    "opponent": "Dep. Maipú",
+    "opponent_verein_id": 19523,
+    "opponent_coach": "Alexis Matteo",
+    "opponent_coach_id": 102733,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4742753,
+    "scorers": [
+      {
+        "player": "Gonzalo Berterame",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-10-20",
+    "competition": "Primera Nacional - Reducido",
+    "home_away": "A",
+    "opponent": "Tristán Suárez",
+    "opponent_verein_id": 1771,
+    "opponent_coach": "José María Martínez",
+    "opponent_coach_id": 18065,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4748037,
+    "scorers": []
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-11-02",
+    "competition": "Primera Nacional - Reducido",
+    "home_away": "H",
+    "opponent": "Tristán Suárez",
+    "opponent_verein_id": 1771,
+    "opponent_coach": "José María Martínez",
+    "opponent_coach_id": 18065,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4748041,
+    "scorers": [
+      {
+        "player": "Sebastián Ramírez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-11-08",
+    "competition": "Primera Nacional - Reducido",
+    "home_away": "H",
+    "opponent": "Estudiantes RC",
+    "opponent_verein_id": 14602,
+    "opponent_coach": "Iván Delfino",
+    "opponent_coach_id": 27814,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4762012,
+    "scorers": [
+      {
+        "player": "Mateo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2025-11-15",
+    "competition": "Primera Nacional - Reducido",
+    "home_away": "A",
+    "opponent": "Estudiantes RC",
+    "opponent_verein_id": 14602,
+    "opponent_coach": "Iván Delfino",
+    "opponent_coach_id": 27814,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4762014,
+    "scorers": [
+      {
+        "player": "Lucas González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2026-01-18",
+    "competition": "Copa Argentina",
+    "home_away": "A",
+    "opponent": "Ind. Rivadavia",
+    "opponent_verein_id": 12179,
+    "opponent_coach": "Alfredo Berti",
+    "opponent_coach_id": 29842,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4807472,
+    "scorers": [
+      {
+        "player": "Álex Arce",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Gonzalo Ríos",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2026-02-15",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Racing (Cba)",
+    "opponent_verein_id": 10403,
+    "opponent_coach": "Pablo Fornasari",
+    "opponent_coach_id": 143050,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4797654,
+    "scorers": [
+      {
+        "player": "Alan Olinick",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2026-02-23",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Mitre (SdE)",
+    "opponent_verein_id": 30038,
+    "opponent_coach": "Carlos Mayor",
+    "opponent_coach_id": 26799,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4797680,
+    "scorers": [
+      {
+        "player": "Claudio Salto",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2026-03-01",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Almirante Brown",
+    "opponent_verein_id": 12672,
+    "opponent_coach": "Rodrigo Alonso",
+    "opponent_coach_id": 126734,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4797601,
+    "scorers": [
+      {
+        "player": "Santiago Vera",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2026-03-14",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Def. Belgrano",
+    "opponent_verein_id": 6062,
+    "opponent_coach": "Fabián Nardozza",
+    "opponent_coach_id": 23240,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4797638,
+    "scorers": [
+      {
+        "player": "Enzo González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Enzo González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "date": "2026-03-21",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Dep. Madryn",
+    "opponent_verein_id": 14318,
+    "opponent_coach": "Cristian Díaz",
+    "opponent_coach_id": 23342,
+    "gf": 0,
+    "ga": 3,
+    "result": "L",
+    "spielbericht_id": 4797624,
+    "scorers": [
+      {
+        "player": "Yvo Calleros",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Nicolás Servetto",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Julián Cosi",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-02-24",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "San Martín (SJ)",
+    "opponent_verein_id": 10511,
+    "opponent_coach": "José María Martínez",
+    "opponent_coach_id": 18065,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4291367,
+    "scorers": [
+      {
+        "player": "Federico González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Federico González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-03-03",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Guillermo Brown",
+    "opponent_verein_id": 14683,
+    "opponent_coach": "Leonardo Lemos",
+    "opponent_coach_id": 57617,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4296943,
+    "scorers": [
+      {
+        "player": "Patricio Ostachuk",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-03-10",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Agropecuario",
+    "opponent_verein_id": 38545,
+    "opponent_coach": "Gabriel Gómez",
+    "opponent_coach_id": 51281,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4296961,
+    "scorers": [
+      {
+        "player": "Alejo Montero",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Alejandro Melo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-03-16",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "All Boys",
+    "opponent_verein_id": 12100,
+    "opponent_coach": "César Monasterio",
+    "opponent_coach_id": 77451,
+    "gf": 2,
+    "ga": 3,
+    "result": "L",
+    "spielbericht_id": 4306683,
+    "scorers": [
+      {
+        "player": "Alexis Vega",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Franco Toloza",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Tobias Bovone",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Ezequiel Almirón",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-03-23",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Tristán Suárez",
+    "opponent_verein_id": 1771,
+    "opponent_coach": "Sebastián Salomón",
+    "opponent_coach_id": 94453,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4306699,
+    "scorers": [
+      {
+        "player": "Emiliano Ozuna",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-03-31",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Patronato",
+    "opponent_verein_id": 19806,
+    "opponent_coach": "Walter Perazzo",
+    "opponent_coach_id": 20232,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4306722,
+    "scorers": [
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Gustavo Turraca",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Federico Rasic",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-04-07",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Racing (Cba)",
+    "opponent_verein_id": 10403,
+    "opponent_coach": "Juan Carlos Olave",
+    "opponent_coach_id": 126920,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4306736,
+    "scorers": [
+      {
+        "player": "Santiago Moyano",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-04-13",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "CA Alvarado",
+    "opponent_verein_id": 12563,
+    "opponent_coach": "Mauricio Giganti",
+    "opponent_coach_id": 32891,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4306761,
+    "scorers": [
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-04-18",
+    "competition": "Copa Argentina",
+    "home_away": "H",
+    "opponent": "Juv. Unida (SL)",
+    "opponent_verein_id": 18911,
+    "opponent_coach": "Duilio Botella",
+    "opponent_coach_id": 22064,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4244651,
+    "scorers": [
+      {
+        "player": "Federico Rasic",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Tomás Garro",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-04-22",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "CA Güemes",
+    "opponent_verein_id": 58188,
+    "opponent_coach": "Walter Marchesi",
+    "opponent_coach_id": 47456,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4306773,
+    "scorers": [
+      {
+        "player": "Federico Rasic",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Iván Santa Cruz",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-04-28",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Gimnasia (J)",
+    "opponent_verein_id": 10885,
+    "opponent_coach": "Matías Módolo",
+    "opponent_coach_id": 121826,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4306800,
+    "scorers": [
+      {
+        "player": "Franco Camargo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Emiliano Endrizzi",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-05-04",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Gimnasia (M)",
+    "opponent_verein_id": 14687,
+    "opponent_coach": "Darío Alaniz",
+    "opponent_coach_id": 46084,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4306810,
+    "scorers": [
+      {
+        "player": "Federico Rasic",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-05-12",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Ferro",
+    "opponent_verein_id": 4557,
+    "opponent_coach": "Jorge Cordon",
+    "opponent_coach_id": 68612,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4307050,
+    "scorers": [
+      {
+        "player": "Claudio Mosca",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-05-18",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "San Miguel",
+    "opponent_verein_id": 19634,
+    "opponent_coach": "Gustavo Coleoni",
+    "opponent_coach_id": 22281,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4306820,
+    "scorers": [
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Nahuel Luján",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Catriel Sánchez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-05-26",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Quilmes",
+    "opponent_verein_id": 1826,
+    "opponent_coach": "Darío Franco",
+    "opponent_coach_id": 5093,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4306856,
+    "scorers": [
+      {
+        "player": "Martín Giménez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-06-01",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Talleres RE",
+    "opponent_verein_id": 14519,
+    "opponent_coach": "Martín Rolón",
+    "opponent_coach_id": 122768,
+    "gf": 3,
+    "ga": 2,
+    "result": "W",
+    "spielbericht_id": 4306869,
+    "scorers": [
+      {
+        "player": "Fernando Enrique",
+        "minute": null,
+        "team": "opp",
+        "kind": "pen"
+      },
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Juan Cruz Arno",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Ciro Campuzano",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-06-09",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Estudiantes",
+    "opponent_verein_id": 14312,
+    "opponent_coach": "Walter Otta",
+    "opponent_coach_id": 56292,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4306912,
+    "scorers": [
+      {
+        "player": "Juan Cruz Arno",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-06-23",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Chacarita Jrs.",
+    "opponent_verein_id": 2154,
+    "opponent_coach": "Aníbal Biggeri",
+    "opponent_coach_id": 22155,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4306889,
+    "scorers": [
+      {
+        "player": "Matías Pisano",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Sebastián Cocimano",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-06-30",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "San Martín (T)",
+    "opponent_verein_id": 12709,
+    "opponent_coach": "Diego Flores",
+    "opponent_coach_id": 66206,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4306930,
+    "scorers": [
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Agustín Dattola",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Gonzalo Klusener",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-07-07",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Arsenal Sarandí",
+    "opponent_verein_id": 4673,
+    "opponent_coach": "Tobías Kohan",
+    "opponent_coach_id": 102583,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4306947,
+    "scorers": [
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-07-14",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "San Martín (SJ)",
+    "opponent_verein_id": 10511,
+    "opponent_coach": "Raúl Antuña",
+    "opponent_coach_id": 30073,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4306967,
+    "scorers": [
+      {
+        "player": "Patricio Ostachuk",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-07-21",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Guillermo Brown",
+    "opponent_verein_id": 14683,
+    "opponent_coach": "Arnaldo Sialle",
+    "opponent_coach_id": 22284,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4306973,
+    "scorers": [
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-07-28",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Agropecuario",
+    "opponent_verein_id": 38545,
+    "opponent_coach": "Adrián Adrover",
+    "opponent_coach_id": 106097,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4306994,
+    "scorers": []
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-08-04",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "All Boys",
+    "opponent_verein_id": 12100,
+    "opponent_coach": "Mariano Campodónico",
+    "opponent_coach_id": 96234,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4307015,
+    "scorers": [
+      {
+        "player": "Franco Toloza",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Federico Rasic",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Agustín Gallo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-08-10",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Tristán Suárez",
+    "opponent_verein_id": 1771,
+    "opponent_coach": "José María Martínez",
+    "opponent_coach_id": 18065,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4307031,
+    "scorers": [
+      {
+        "player": "Ezequiel Almirón",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Ángel Almada",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Maximiliano Solari",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-08-18",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Patronato",
+    "opponent_verein_id": 19806,
+    "opponent_coach": "Diego Pozo",
+    "opponent_coach_id": 70682,
+    "gf": 3,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4307092,
+    "scorers": [
+      {
+        "player": "Santiago Moyano",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Emanuel Dening",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Agustín Gaitán",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Gonzalo Gómez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-08-25",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Racing (Cba)",
+    "opponent_verein_id": 10403,
+    "opponent_coach": "Diego Cochas",
+    "opponent_coach_id": 127010,
+    "gf": 2,
+    "ga": 3,
+    "result": "L",
+    "spielbericht_id": 4307068,
+    "scorers": [
+      {
+        "player": "Bruno Nasta",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Federico Rasic",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Abel Bustos",
+        "minute": null,
+        "team": "opp",
+        "kind": "pen"
+      },
+      {
+        "player": "Abel Bustos",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-09-01",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "CA Alvarado",
+    "opponent_verein_id": 12563,
+    "opponent_coach": "Gabriel Gómez",
+    "opponent_coach_id": 51281,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4307150,
+    "scorers": [
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Ezequiel Almirón",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-09-07",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "CA Güemes",
+    "opponent_verein_id": 58188,
+    "opponent_coach": "Marcelo Vázquez",
+    "opponent_coach_id": 70689,
+    "gf": 0,
+    "ga": 4,
+    "result": "L",
+    "spielbericht_id": 4307105,
+    "scorers": [
+      {
+        "player": "Lautaro Belleggia",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Pablo Palacios Alvarenga",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Claudio Vega",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Iván Santa Cruz",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-09-15",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Gimnasia (J)",
+    "opponent_verein_id": 10885,
+    "opponent_coach": "Matías Módolo",
+    "opponent_coach_id": 121826,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4307132,
+    "scorers": [
+      {
+        "player": "Ezequiel Almirón",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-09-22",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Gimnasia (M)",
+    "opponent_verein_id": 14687,
+    "opponent_coach": "Ezequiel Medrán",
+    "opponent_coach_id": 102454,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4307180,
+    "scorers": []
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-09-30",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Ferro",
+    "opponent_verein_id": 4557,
+    "opponent_coach": "Aníbal Biggeri",
+    "opponent_coach_id": 22155,
+    "gf": 2,
+    "ga": 2,
+    "result": "D",
+    "spielbericht_id": 4307189,
+    "scorers": [
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      },
+      {
+        "player": "Misael Sosa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Ricardo Blanco",
+        "minute": null,
+        "team": "opp",
+        "kind": "pen"
+      },
+      {
+        "player": "Mateo Levato",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-10-06",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "San Miguel",
+    "opponent_verein_id": 19634,
+    "opponent_coach": "Gustavo Coleoni",
+    "opponent_coach_id": 22281,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4307200,
+    "scorers": [
+      {
+        "player": "Agustín Gaitán",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Lautaro Villegas",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-10-13",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Quilmes",
+    "opponent_verein_id": 1826,
+    "opponent_coach": "Sergio Rondina",
+    "opponent_coach_id": 22807,
+    "gf": 0,
+    "ga": 3,
+    "result": "L",
+    "spielbericht_id": 4307264,
+    "scorers": [
+      {
+        "player": "Emanuel Herrera",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Lautaro Parisi",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Tomás González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-10-20",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Talleres RE",
+    "opponent_verein_id": 14519,
+    "opponent_coach": "Mario Gómez",
+    "opponent_coach_id": 4878,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4307220,
+    "scorers": []
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2024-10-27",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Estudiantes",
+    "opponent_verein_id": 14312,
+    "opponent_coach": "Walter Otta",
+    "opponent_coach_id": 56292,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4307244,
+    "scorers": [
+      {
+        "player": "Elías Contreras",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Ezequiel Almirón",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Jorge Benítez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-02-09",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Racing (Cba)",
+    "opponent_verein_id": 10403,
+    "opponent_coach": "Diego Cochas",
+    "opponent_coach_id": 127010,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4514626,
+    "scorers": [
+      {
+        "player": "Iván Sandoval",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-02-16",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Quilmes",
+    "opponent_verein_id": 1826,
+    "opponent_coach": "Sergio Rondina",
+    "opponent_coach_id": 22807,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4514644,
+    "scorers": [
+      {
+        "player": "Marcelo Eggel",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Pio Bonacci",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-02-22",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "San Miguel",
+    "opponent_verein_id": 19634,
+    "opponent_coach": "Sebastián Battaglia",
+    "opponent_coach_id": 60365,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4514662,
+    "scorers": [
+      {
+        "player": "Facundo Cardozo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Bruno Nasta",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-03-02",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Almagro",
+    "opponent_verein_id": 14977,
+    "opponent_coach": "Lucas Sparapani",
+    "opponent_coach_id": 128585,
+    "gf": 3,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4553025,
+    "scorers": [
+      {
+        "player": "Patricio Cucchi",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Gastón Mansilla",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Marcelo Eggel",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-03-08",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Ferro",
+    "opponent_verein_id": 4557,
+    "opponent_coach": "Alfredo Grelak",
+    "opponent_coach_id": 31966,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4554278,
+    "scorers": [
+      {
+        "player": "Mateo Benegas",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Mateo Benegas",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-03-16",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Patronato",
+    "opponent_verein_id": 19806,
+    "opponent_coach": "Gabriel Gómez",
+    "opponent_coach_id": 51281,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4554293,
+    "scorers": [
+      {
+        "player": "Luciano Paredes",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Julián Marcioni",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-03-23",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "CA Güemes",
+    "opponent_verein_id": 58188,
+    "opponent_coach": "Marcelo Vázquez",
+    "opponent_coach_id": 70689,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4563781,
+    "scorers": [
+      {
+        "player": "Nicolás Monserrat",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Diego Ramírez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-03-30",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "San Martín (T)",
+    "opponent_verein_id": 12709,
+    "opponent_coach": "Ariel Martos",
+    "opponent_coach_id": 63802,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4563804,
+    "scorers": [
+      {
+        "player": "Franco García",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-04-05",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Tristán Suárez",
+    "opponent_verein_id": 1771,
+    "opponent_coach": "José María Martínez",
+    "opponent_coach_id": 18065,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4563816,
+    "scorers": [
+      {
+        "player": "Diego Ramírez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Alexander Sosa",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-04-13",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Gimnasia y Tiro",
+    "opponent_verein_id": 14688,
+    "opponent_coach": "Fernando Quiroz",
+    "opponent_coach_id": 4883,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4563841,
+    "scorers": [
+      {
+        "player": "Marcelo Eggel",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-04-20",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Los Andes",
+    "opponent_verein_id": 5208,
+    "opponent_coach": "Leonardo Lemos",
+    "opponent_coach_id": 57617,
+    "gf": 0,
+    "ga": 3,
+    "result": "L",
+    "spielbericht_id": 4563851,
+    "scorers": [
+      {
+        "player": "Mauricio Asenjo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Francisco Marco",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Facundo Villarreal",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-04-26",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Dep. Madryn",
+    "opponent_verein_id": 14318,
+    "opponent_coach": "Leandro Gracián",
+    "opponent_coach_id": 94302,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4563877,
+    "scorers": [
+      {
+        "player": "Pio Bonacci",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Alejandro Gutiérrez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-05-04",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "CA Alvarado",
+    "opponent_verein_id": 12563,
+    "opponent_coach": "Pablo Quatrocchi",
+    "opponent_coach_id": 36084,
+    "gf": 3,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4563888,
+    "scorers": [
+      {
+        "player": "Gastón Mansilla",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Pio Bonacci",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Pio Bonacci",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-05-12",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "All Boys",
+    "opponent_verein_id": 12100,
+    "opponent_coach": "Mariano Campodónico",
+    "opponent_coach_id": 96234,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4563912,
+    "scorers": []
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-05-18",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Arsenal Sarandí",
+    "opponent_verein_id": 4673,
+    "opponent_coach": "Darío Franco",
+    "opponent_coach_id": 5093,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4563925,
+    "scorers": [
+      {
+        "player": "Matías Viguet",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Fabián Bordagaray",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-05-25",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Colegiales",
+    "opponent_verein_id": 13339,
+    "opponent_coach": "Leonardo Fernández",
+    "opponent_coach_id": 57583,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4563947,
+    "scorers": [
+      {
+        "player": "Tomás Silva",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-06-01",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Atlanta",
+    "opponent_verein_id": 8057,
+    "opponent_coach": "Luis García",
+    "opponent_coach_id": 105413,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4563962,
+    "scorers": [
+      {
+        "player": "Marcos Echeverría",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-06-14",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Racing (Cba)",
+    "opponent_verein_id": 10403,
+    "opponent_coach": "Héctor Arzubialde",
+    "opponent_coach_id": 9494,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4563982,
+    "scorers": [
+      {
+        "player": "Julián Vignolo",
+        "minute": null,
+        "team": "opp",
+        "kind": "pen"
+      },
+      {
+        "player": "Pio Bonacci",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "date": "2025-06-21",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Quilmes",
+    "opponent_verein_id": 1826,
+    "opponent_coach": "Ricardo Vendakis",
+    "opponent_coach_id": 142171,
+    "gf": 2,
+    "ga": 2,
+    "result": "D",
+    "spielbericht_id": 4563999,
+    "scorers": [
+      {
+        "player": "Pio Bonacci",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      },
+      {
+        "player": "Juan Ignacio Capano",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Gabriel Aranda",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Luciano Paredes",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-06-22",
+    "competition": "Professional Football League (- 23/24)",
+    "home_away": "H",
+    "opponent": "Vélez Sarsfield",
+    "opponent_verein_id": 1029,
+    "opponent_coach": "Marcelo Bravo",
+    "opponent_coach_id": 113848,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4080407,
+    "scorers": [
+      {
+        "player": "Aarón Molinas",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Elías Cabrera",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Miguel Brizuela",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-06-27",
+    "competition": "Copa Sudamericana",
+    "home_away": "A",
+    "opponent": "São Paulo",
+    "opponent_verein_id": 585,
+    "opponent_coach": "Dorival Júnior",
+    "opponent_coach_id": 4724,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4093730,
+    "scorers": [
+      {
+        "player": "Juan",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Wellington Rato",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-07-02",
+    "competition": "Professional Football League (- 23/24)",
+    "home_away": "A",
+    "opponent": "Defensa",
+    "opponent_verein_id": 2402,
+    "opponent_coach": "Julio Vaccari",
+    "opponent_coach_id": 102554,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4081138,
+    "scorers": [
+      {
+        "player": "Nicolás Fernández",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-07-05",
+    "competition": "Professional Football League (- 23/24)",
+    "home_away": "H",
+    "opponent": "Banfield",
+    "opponent_verein_id": 830,
+    "opponent_coach": "Omar Piccoli",
+    "opponent_coach_id": 59163,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4083162,
+    "scorers": [
+      {
+        "player": "Juan Bisanz",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Juan Bisanz",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Abel Luciatti",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-07-09",
+    "competition": "Professional Football League (- 23/24)",
+    "home_away": "A",
+    "opponent": "Instituto ACC",
+    "opponent_verein_id": 1829,
+    "opponent_coach": "Diego Dabove",
+    "opponent_coach_id": 22168,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4083172,
+    "scorers": [
+      {
+        "player": "Mateo Retegui",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-07-13",
+    "competition": "Copa Sudamericana",
+    "home_away": "A",
+    "opponent": "Libertad",
+    "opponent_verein_id": 9875,
+    "opponent_coach": "Daniel Garnero",
+    "opponent_coach_id": 6802,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4100861,
+    "scorers": [
+      {
+        "player": "Blas Armoa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Lorenzo Melgarejo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Óscar Cardozo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-07-17",
+    "competition": "Professional Football League (- 23/24)",
+    "home_away": "H",
+    "opponent": "Barracas C.",
+    "opponent_verein_id": 25184,
+    "opponent_coach": "Sergio Rondina",
+    "opponent_coach_id": 22807,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4083178,
+    "scorers": [
+      {
+        "player": "Alan Cantero",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-07-20",
+    "competition": "Copa Sudamericana",
+    "home_away": "H",
+    "opponent": "Libertad",
+    "opponent_verein_id": 9875,
+    "opponent_coach": "Daniel Garnero",
+    "opponent_coach_id": 6802,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4100869,
+    "scorers": [
+      {
+        "player": "Alexander Barboza",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-07-25",
+    "competition": "Professional Football League (- 23/24)",
+    "home_away": "A",
+    "opponent": "Colon",
+    "opponent_verein_id": 1070,
+    "opponent_coach": "Néstor Gorosito",
+    "opponent_coach_id": 3264,
+    "gf": 3,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4083196,
+    "scorers": [
+      {
+        "player": "Tomás Badaloni",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Laureano Troncoso",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Blas Armoa",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Agustín Cardozo",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-07-29",
+    "competition": "Professional Football League (- 23/24)",
+    "home_away": "H",
+    "opponent": "San Lorenzo",
+    "opponent_verein_id": 1775,
+    "opponent_coach": "Rubén Insúa",
+    "opponent_coach_id": 9293,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4083218,
+    "scorers": [
+      {
+        "player": "Lucas Menossi",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Tomás Badaloni",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-08-20",
+    "competition": "Copa de la Liga Profesional de Fútbol (- 23/24)",
+    "home_away": "A",
+    "opponent": "Sarmiento Junin",
+    "opponent_verein_id": 12454,
+    "opponent_coach": "Pablo Lavallén",
+    "opponent_coach_id": 43966,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4148203,
+    "scorers": [
+      {
+        "player": "Franco Paredes",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Diego Calcaterra",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "date": "2023-08-26",
+    "competition": "Copa de la Liga Profesional de Fútbol (- 23/24)",
+    "home_away": "H",
+    "opponent": "Racing Club",
+    "opponent_verein_id": 1444,
+    "opponent_coach": "Fernando Gago",
+    "opponent_coach_id": 88413,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4158158,
+    "scorers": [
+      {
+        "player": "Juan Fernando Quintero",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Baltasar Rodríguez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Robert Rojas",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "date": "2023-04-29",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Dep. Maipú",
+    "opponent_verein_id": 19523,
+    "opponent_coach": "Luis García",
+    "opponent_coach_id": 105413,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4058782,
+    "scorers": []
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "date": "2023-05-06",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Ind. Rivadavia",
+    "opponent_verein_id": 12179,
+    "opponent_coach": "Alfredo Berti",
+    "opponent_coach_id": 29842,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4065126,
+    "scorers": [
+      {
+        "player": "Martín Garnerone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Álex Arce",
+        "minute": null,
+        "team": "opp",
+        "kind": "pen"
+      },
+      {
+        "player": "Juan Elordi",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "date": "2023-05-10",
+    "competition": "Copa Argentina",
+    "home_away": "A",
+    "opponent": "Barracas C.",
+    "opponent_verein_id": 25184,
+    "opponent_coach": "Sergio Rondina",
+    "opponent_coach_id": 22807,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 3967117,
+    "scorers": [
+      {
+        "player": "Rodrigo Insúa",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "date": "2023-05-15",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Chaco For Ever",
+    "opponent_verein_id": 12681,
+    "opponent_coach": "Diego Osella",
+    "opponent_coach_id": 12785,
+    "gf": 3,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4065141,
+    "scorers": [
+      {
+        "player": "Tomás Bolzicco",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      },
+      {
+        "player": "Martín Garnerone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Santiago Briñone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "date": "2023-05-21",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Mitre (SdE)",
+    "opponent_verein_id": 30038,
+    "opponent_coach": "Alfredo Grelak",
+    "opponent_coach_id": 31966,
+    "gf": 0,
+    "ga": 3,
+    "result": "L",
+    "spielbericht_id": 4077757,
+    "scorers": [
+      {
+        "player": "David Romero",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Matías Vega",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "David Romero",
+        "minute": null,
+        "team": "opp",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "date": "2023-05-28",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Chacarita Jrs.",
+    "opponent_verein_id": 2154,
+    "opponent_coach": "Aníbal Biggeri",
+    "opponent_coach_id": 22155,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4077747,
+    "scorers": [
+      {
+        "player": "Tomás Bolzicco",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Andrés Zanini",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Martín Garnerone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "date": "2023-06-03",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Tristán Suárez",
+    "opponent_verein_id": 1771,
+    "opponent_coach": "Gabriel Di Noia",
+    "opponent_coach_id": 93570,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4083749,
+    "scorers": [
+      {
+        "player": "Martín Garnerone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Pablo Ruiz",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "date": "2023-06-19",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Atlanta",
+    "opponent_verein_id": 8057,
+    "opponent_coach": "Mauricio Giganti",
+    "opponent_coach_id": 32891,
+    "gf": 2,
+    "ga": 3,
+    "result": "L",
+    "spielbericht_id": 4088313,
+    "scorers": [
+      {
+        "player": "Enzo Acosta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Juan Galeano",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Nicolás Mazzola",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Martín Garnerone",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Juan Galeano",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "date": "2023-02-10",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Gimnasia (J)",
+    "opponent_verein_id": 10885,
+    "opponent_coach": "Darío Franco",
+    "opponent_coach_id": 5093,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3991866,
+    "scorers": [
+      {
+        "player": "Fernando Brandán",
+        "minute": null,
+        "team": "opp",
+        "kind": "pen"
+      },
+      {
+        "player": "Pablo Palacio",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "date": "2023-02-17",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Quilmes",
+    "opponent_verein_id": 1826,
+    "opponent_coach": "Mario Sciacqua",
+    "opponent_coach_id": 19755,
+    "gf": 2,
+    "ga": 3,
+    "result": "L",
+    "spielbericht_id": 4019236,
+    "scorers": [
+      {
+        "player": "Martín Rodríguez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Nicolás Retamar",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Federico Anselmo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Tomás Sandoval",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Facundo Castro",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "date": "2023-02-25",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Brown (Adrogué)",
+    "opponent_verein_id": 14681,
+    "opponent_coach": "Pablo Vicó",
+    "opponent_coach_id": 22802,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4019248,
+    "scorers": [
+      {
+        "player": "Ignacio Colombini",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Iván Sandoval",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "date": "2023-03-04",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Estudiantes",
+    "opponent_verein_id": 14312,
+    "opponent_coach": "Fernando Ruiz",
+    "opponent_coach_id": 22800,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4028508,
+    "scorers": [
+      {
+        "player": "Delfor Minervino",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Tomás Bolzicco",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "date": "2023-03-10",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Atl. Rafaela",
+    "opponent_verein_id": 10233,
+    "opponent_coach": "Ezequiel Medrán",
+    "opponent_coach_id": 102454,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 4028493,
+    "scorers": [
+      {
+        "player": "Cristian Erbes",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Federico Torres",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Pablo Palacio",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "date": "2023-03-17",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Dep. Madryn",
+    "opponent_verein_id": 14318,
+    "opponent_coach": null,
+    "opponent_coach_id": null,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4039272,
+    "scorers": []
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "date": "2023-03-25",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Villa Dálmine",
+    "opponent_verein_id": 8356,
+    "opponent_coach": "José María Martínez",
+    "opponent_coach_id": 18065,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4039308,
+    "scorers": [
+      {
+        "player": "Lucas Jofré",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Francisco Molina",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "date": "2023-04-02",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Dep. Maipú",
+    "opponent_verein_id": 19523,
+    "opponent_coach": "Luis García",
+    "opponent_coach_id": 105413,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 4039324,
+    "scorers": [
+      {
+        "player": "Santiago González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-02-13",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Ind. Rivadavia",
+    "opponent_verein_id": 12179,
+    "opponent_coach": "Gabriel Gómez",
+    "opponent_coach_id": 51281,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3730161,
+    "scorers": [
+      {
+        "player": "Franco Coronel",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Santiago Moyano",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-02-21",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Ferro",
+    "opponent_verein_id": 4557,
+    "opponent_coach": "Manuel Fernández",
+    "opponent_coach_id": 68341,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 3730277,
+    "scorers": [
+      {
+        "player": "Facundo Castelli",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-02-27",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Mitre (SdE)",
+    "opponent_verein_id": 30038,
+    "opponent_coach": "Arnaldo Sialle",
+    "opponent_coach_id": 22284,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 3753006,
+    "scorers": [
+      {
+        "player": "Facundo Castelli",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-03-06",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Sacachispas",
+    "opponent_verein_id": 25374,
+    "opponent_coach": "Leonardo Lemos",
+    "opponent_coach_id": 57617,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3757521,
+    "scorers": [
+      {
+        "player": "Gonzalo Errecalde",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Bruno Nasta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-03-13",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Instituto ACC",
+    "opponent_verein_id": 1829,
+    "opponent_coach": "Lucas Bovaglio",
+    "opponent_coach_id": 55059,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3762475,
+    "scorers": [
+      {
+        "player": "Damián De Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Joaquín Molina",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-03-18",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Agropecuario",
+    "opponent_verein_id": 38545,
+    "opponent_coach": "Federico Hernández",
+    "opponent_coach_id": 101143,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 3766622,
+    "scorers": [
+      {
+        "player": "Emanuel Dening",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Brian Blando",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-03-28",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "San Martín (T)",
+    "opponent_verein_id": 12709,
+    "opponent_coach": "Pablo de Muner",
+    "opponent_coach_id": 57542,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 3775367,
+    "scorers": [
+      {
+        "player": "Juan Miritello",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-04-03",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Def. Belgrano",
+    "opponent_verein_id": 6062,
+    "opponent_coach": "Pablo Frontini",
+    "opponent_coach_id": 77918,
+    "gf": 3,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 3776654,
+    "scorers": [
+      {
+        "player": "Bruno Nasta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Juan Manuel Olivares",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Bruno Nasta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Bruno Nasta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-04-10",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Brown (Adrogué)",
+    "opponent_verein_id": 14681,
+    "opponent_coach": "Pablo Vicó",
+    "opponent_coach_id": 22802,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 3793707,
+    "scorers": [
+      {
+        "player": "Fausto Montero",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Matías Sánchez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Nicolás Del Priore",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-04-17",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Chacarita Jrs.",
+    "opponent_verein_id": 2154,
+    "opponent_coach": "Pablo Centrone",
+    "opponent_coach_id": 80732,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3796324,
+    "scorers": [
+      {
+        "player": "Lucas Faggioli",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Juan González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-04-24",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Guillermo Brown",
+    "opponent_verein_id": 14683,
+    "opponent_coach": "Andrés Yllana",
+    "opponent_coach_id": 22268,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 3801648,
+    "scorers": [
+      {
+        "player": "Alejandro Cabral",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-05-02",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Atl. Rafaela",
+    "opponent_verein_id": 10233,
+    "opponent_coach": "Rubén Forestello",
+    "opponent_coach_id": 23332,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 3807867,
+    "scorers": []
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-05-09",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Santamarina",
+    "opponent_verein_id": 9638,
+    "opponent_coach": "Mariano González",
+    "opponent_coach_id": 102654,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 3813097,
+    "scorers": []
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-05-14",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Estudiantes",
+    "opponent_verein_id": 14312,
+    "opponent_coach": "Walter Otta",
+    "opponent_coach_id": 56292,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 3813662,
+    "scorers": [
+      {
+        "player": "Facundo Pereyra",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-05-17",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Tristán Suárez",
+    "opponent_verein_id": 1771,
+    "opponent_coach": "Juan Manuel Llop",
+    "opponent_coach_id": 6013,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3773034,
+    "scorers": [
+      {
+        "player": "Bruno Nasta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Brian Oyola",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-05-20",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Atlanta",
+    "opponent_verein_id": 8057,
+    "opponent_coach": "Alejandro Orfila",
+    "opponent_coach_id": 58917,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 3813678,
+    "scorers": []
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-05-29",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "San Martín (SJ)",
+    "opponent_verein_id": 10511,
+    "opponent_coach": "Raúl Antuña",
+    "opponent_coach_id": 30073,
+    "gf": 2,
+    "ga": 2,
+    "result": "D",
+    "spielbericht_id": 3813697,
+    "scorers": [
+      {
+        "player": "Damián De Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Sebastián González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Matías Giménez",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Bruno Nasta",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-06-04",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Chaco For Ever",
+    "opponent_verein_id": 12681,
+    "opponent_coach": "Daniel Cravero",
+    "opponent_coach_id": 88083,
+    "gf": 2,
+    "ga": 2,
+    "result": "D",
+    "spielbericht_id": 3813715,
+    "scorers": [
+      {
+        "player": "Martín Garnerone",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Álvaro Veliez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Damián De Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      },
+      {
+        "player": "Gastón Novero",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-06-12",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "San Telmo",
+    "opponent_verein_id": 13651,
+    "opponent_coach": "Sergio Luis Arias",
+    "opponent_coach_id": 104786,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 3813732,
+    "scorers": [
+      {
+        "player": "Damián De Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Luciano Herrera",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-06-18",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Gimnasia (M)",
+    "opponent_verein_id": 14687,
+    "opponent_coach": "Luca Marcogiuseppe",
+    "opponent_coach_id": 89994,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3813752,
+    "scorers": [
+      {
+        "player": "Mariano Barbieri",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Fausto Montero",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-06-26",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "All Boys",
+    "opponent_verein_id": 12100,
+    "opponent_coach": "Aníbal Biggeri",
+    "opponent_coach_id": 22155,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3845871,
+    "scorers": [
+      {
+        "player": "Damián De Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Octavio Bianchi",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-07-03",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "CA Güemes",
+    "opponent_verein_id": 58188,
+    "opponent_coach": "Walter Perazzo",
+    "opponent_coach_id": 20232,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 3850323,
+    "scorers": [
+      {
+        "player": "Fausto Montero",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Nicolás Retamar",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Nicolás Retamar",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-07-09",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Dep. Riestra",
+    "opponent_verein_id": 19775,
+    "opponent_coach": "Cristian Fabbiani",
+    "opponent_coach_id": 104911,
+    "gf": 2,
+    "ga": 2,
+    "result": "D",
+    "spielbericht_id": 3865669,
+    "scorers": [
+      {
+        "player": "Rodrigo Insúa",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Lázaro Romero",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Fernando Cosciuc",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Damián De Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-07-17",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Belgrano",
+    "opponent_verein_id": 2417,
+    "opponent_coach": "Guillermo Farré",
+    "opponent_coach_id": 93327,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 3871429,
+    "scorers": [
+      {
+        "player": "Maximiliano Comba",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-07-22",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Villa Dálmine",
+    "opponent_verein_id": 8356,
+    "opponent_coach": "Raúl Cardozo",
+    "opponent_coach_id": 106348,
+    "gf": 4,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 3884788,
+    "scorers": [
+      {
+        "player": "Marcelo Eggel",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Marcelo Eggel",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Santiago Moyano",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Álvaro Veliez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-07-27",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Almirante Brown",
+    "opponent_verein_id": 12672,
+    "opponent_coach": "Jorge Benítez",
+    "opponent_coach_id": 73494,
+    "gf": 1,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 3884815,
+    "scorers": [
+      {
+        "player": "Matías Piteo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Milton Céliz",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Fausto Montero",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-07-31",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Gimnasia (J)",
+    "opponent_verein_id": 10885,
+    "opponent_coach": "Darío Franco",
+    "opponent_coach_id": 5093,
+    "gf": 3,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 3884828,
+    "scorers": [
+      {
+        "player": "Marcelo Eggel",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Guillermo Cosaro",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Fausto Montero",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-08-07",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Flandria",
+    "opponent_verein_id": 13341,
+    "opponent_coach": "Felipe de la Riva",
+    "opponent_coach_id": 11494,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 3884857,
+    "scorers": [
+      {
+        "player": "Benjamín Borasi",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Lucas Faggioli",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-08-13",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "CA Temperley",
+    "opponent_verein_id": 14542,
+    "opponent_coach": "José María Bianco",
+    "opponent_coach_id": 11493,
+    "gf": 2,
+    "ga": 1,
+    "result": "W",
+    "spielbericht_id": 3898043,
+    "scorers": [
+      {
+        "player": "Tobías Reinhart",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Fausto Montero",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Marcelo Eggel",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-08-21",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Dep. Morón",
+    "opponent_verein_id": 12458,
+    "opponent_coach": "Alejandro Migliardi",
+    "opponent_coach_id": 69086,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 3898049,
+    "scorers": [
+      {
+        "player": "Gonzalo Salega",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-08-27",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Dep. Madryn",
+    "opponent_verein_id": 14318,
+    "opponent_coach": "Ricardo Pancaldo",
+    "opponent_coach_id": 27073,
+    "gf": 2,
+    "ga": 2,
+    "result": "D",
+    "spielbericht_id": 3911773,
+    "scorers": [
+      {
+        "player": "Rodrigo Castillo",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Lucas González",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Damián De Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Damián De Hoyos",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-09-04",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Estudiantes RC",
+    "opponent_verein_id": 14602,
+    "opponent_coach": "Marcelo Vázquez",
+    "opponent_coach_id": 70689,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 3916950,
+    "scorers": [
+      {
+        "player": "Matías Persia",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-09-11",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "CA Alvarado",
+    "opponent_verein_id": 12563,
+    "opponent_coach": "Rubén Forestello",
+    "opponent_coach_id": 23332,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 3917008,
+    "scorers": [
+      {
+        "player": "Facundo Pons",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-09-18",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Almagro",
+    "opponent_verein_id": 14977,
+    "opponent_coach": "Norberto Paparatto",
+    "opponent_coach_id": 102555,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 3917018,
+    "scorers": [
+      {
+        "player": "Walter Rueda",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-09-25",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Nueva Chicago",
+    "opponent_verein_id": 10534,
+    "opponent_coach": "Fernando Ruiz",
+    "opponent_coach_id": 22800,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 3917053,
+    "scorers": [
+      {
+        "player": "Álvaro Veliez",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "date": "2022-10-08",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Quilmes",
+    "opponent_verein_id": 1826,
+    "opponent_coach": "Walter Coyette",
+    "opponent_coach_id": 22261,
+    "gf": 0,
+    "ga": 1,
+    "result": "L",
+    "spielbericht_id": 3930536,
+    "scorers": [
+      {
+        "player": "Julián Bonetto",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  }
+]

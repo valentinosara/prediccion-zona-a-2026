@@ -1,0 +1,96 @@
+[
+  {
+    "i": 0,
+    "club": "Ferro",
+    "slug": "club-ferro-carril-oeste",
+    "verein_id": 4557,
+    "appointed": "2026-04-14",
+    "until": null,
+    "saison_ids": [
+      2025
+    ],
+    "matches_tm": 12,
+    "ppg_tm": 2.58
+  },
+  {
+    "i": 1,
+    "club": "Estudiantes",
+    "slug": "ca-estudiantes-buenos-aires-",
+    "verein_id": 14312,
+    "appointed": "2025-07-01",
+    "until": "2026-03-23",
+    "saison_ids": [
+      2024,
+      2025
+    ],
+    "matches_tm": 25,
+    "ppg_tm": 1.6
+  },
+  {
+    "i": 2,
+    "club": "Dep. Maipú",
+    "slug": "cd-maipu-mendoza-",
+    "verein_id": 19523,
+    "appointed": "2024-02-21",
+    "until": "2025-06-23",
+    "saison_ids": [
+      2023,
+      2024
+    ],
+    "matches_tm": 55,
+    "ppg_tm": 1.35
+  },
+  {
+    "i": 3,
+    "club": "Tigre",
+    "slug": "club-atletico-tigre",
+    "verein_id": 11831,
+    "appointed": "2023-06-20",
+    "until": "2023-08-30",
+    "saison_ids": [
+      2022
+    ],
+    "matches_tm": 12,
+    "ppg_tm": 1.0
+  },
+  {
+    "i": 4,
+    "club": "Estudiantes",
+    "slug": "ca-estudiantes-buenos-aires-",
+    "verein_id": 14312,
+    "appointed": "2023-04-25",
+    "until": "2023-06-19",
+    "saison_ids": [
+      2022
+    ],
+    "matches_tm": 8,
+    "ppg_tm": 1.0
+  },
+  {
+    "i": 5,
+    "club": "Ferro",
+    "slug": "club-ferro-carril-oeste",
+    "verein_id": 4557,
+    "appointed": "2022-10-24",
+    "until": "2023-04-03",
+    "saison_ids": [
+      2021,
+      2022
+    ],
+    "matches_tm": 8,
+    "ppg_tm": 0.75
+  },
+  {
+    "i": 6,
+    "club": "Dep. Maipú",
+    "slug": "cd-maipu-mendoza-",
+    "verein_id": 19523,
+    "appointed": "2022-01-01",
+    "until": "2022-10-24",
+    "saison_ids": [
+      2021
+    ],
+    "matches_tm": 36,
+    "ppg_tm": 1.33
+  }
+]
