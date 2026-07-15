@@ -218,8 +218,9 @@ TEMPLATE = r"""<!DOCTYPE html>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const DATA=JSON.parse(document.getElementById('data').textContent);
-let V='calibrado', F=14, timer=null;  // F = PASO en orden cronologico (1..36). 14 = presente
 const NSTEPS=DATA.variants.calibrado.standings_by_fecha.length;
+const _fi=DATA.variants.calibrado.standings_by_fecha.findIndex(s=>!s.is_real);
+let V='calibrado', F=_fi===-1?NSTEPS:_fi+1, timer=null;
 const r2el=document.getElementById('r2'); if(r2el) r2el.textContent=Math.round(DATA.meta.prior_r2*100)+'%';
 {const a=document.getElementById('asof'); if(a) a.textContent=DATA.meta.datos_al||DATA.meta.generado;
  const ga=document.getElementById('genat'); if(ga) ga.textContent=DATA.meta.generado;}
