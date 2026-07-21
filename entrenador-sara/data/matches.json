@@ -347,6 +347,35 @@
     ]
   },
   {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-07-17",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Colon",
+    "opponent_verein_id": 1070,
+    "opponent_coach": "Ezequiel Medrán",
+    "opponent_coach_id": 102454,
+    "gf": 2,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4797966,
+    "scorers": [
+      {
+        "player": "Laureano Marra",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Lautaro Parisi",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
     "i": 1,
     "club": "Estudiantes",
     "date": "2025-07-06",
