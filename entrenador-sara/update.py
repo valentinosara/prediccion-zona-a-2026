@@ -31,6 +31,18 @@ STEPS = [
 
 
 def main():
+    # Fuerza UTF-8 tambien en la salida DE ESTE proceso, no solo en el env
+    # que se pasa a los subprocesos de abajo: en Windows, cuando stdout no
+    # es una consola interactiva (ej. capturado/redirigido, como en una
+    # corrida automatizada), Python usa el codepage legacy del sistema
+    # (cp1252) en vez de UTF-8, y los prints con "▶/✓/✗" de este mismo
+    # archivo rompen con UnicodeEncodeError. Confirmado en vivo: la primera
+    # corrida real de update.py fallo exactamente asi.
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8")
+        except (AttributeError, ValueError):
+            pass
     env = dict(os.environ, PYTHONIOENCODING="utf-8")
     for script, desc in STEPS:
         print(f"\n▶ {desc} ({script})")
