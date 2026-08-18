@@ -35,12 +35,12 @@ PEN_A = 0.5                       # penales = moneda (honesto; sin sesgo de tand
 
 # slug de ESPN -> (nombre es-AR, orden, nombre de archivo HTML)
 ROUNDS = {
-    "round-of-32":  ("16avos", 1, "mundial_16avos.html"),
-    "round-of-16":  ("octavos", 2, "mundial_octavos.html"),
-    "quarterfinals": ("cuartos", 3, "mundial_cuartos.html"),
-    "semifinals":   ("semifinales", 4, "mundial_semifinales.html"),
-    "third-place":  ("tercer puesto", 5, "mundial_tercer_puesto.html"),
-    "final":        ("final", 6, "mundial_final.html"),
+    "round-of-32":  ("16avos", 1, "16avos.html"),
+    "round-of-16":  ("octavos", 2, "octavos.html"),
+    "quarterfinals": ("cuartos", 3, "cuartos.html"),
+    "semifinals":   ("semifinales", 4, "semifinales.html"),
+    "third-place":  ("tercer puesto", 5, "tercer_puesto.html"),
+    "final":        ("final", 6, "final.html"),
 }
 # nombres amigables -> slug
 ALIAS = {"16avos": "round-of-32", "dieciseisavos": "round-of-32", "r32": "round-of-32",

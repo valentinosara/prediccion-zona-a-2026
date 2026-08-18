@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-18T11:17:20",
+  "generated_at": "2026-08-25T11:48:00",
   "career": {
-    "pj": 161,
-    "w": 62,
+    "pj": 162,
+    "w": 63,
     "d": 43,
     "l": 56,
-    "gf": 172,
+    "gf": 173,
     "ga": 164,
-    "pts": 229,
-    "ppp": 1.42,
-    "effectiveness_pct": 47.4
+    "pts": 232,
+    "ppp": 1.43,
+    "effectiveness_pct": 47.7
   },
   "spells": [
     {
@@ -119,30 +119,30 @@
       "club": "Ferro",
       "appointed": "2026-04-14",
       "until": null,
-      "pj": 17,
-      "w": 13,
+      "pj": 18,
+      "w": 14,
       "d": 1,
       "l": 3,
-      "gf": 25,
+      "gf": 26,
       "ga": 16,
-      "pts": 40,
-      "ppp": 2.35,
-      "effectiveness_pct": 78.4,
-      "matches_tm": 17,
-      "ppg_tm": 2.35
+      "pts": 43,
+      "ppp": 2.39,
+      "effectiveness_pct": 79.6,
+      "matches_tm": 18,
+      "ppg_tm": 2.39
     }
   ],
   "own_clubs": {
     "Ferro": {
-      "pj": 25,
-      "w": 14,
+      "pj": 26,
+      "w": 15,
       "d": 4,
       "l": 7,
-      "gf": 31,
+      "gf": 32,
       "ga": 27,
-      "pts": 46,
-      "ppp": 1.84,
-      "effectiveness_pct": 61.3,
+      "pts": 49,
+      "ppp": 1.88,
+      "effectiveness_pct": 62.8,
       "spell_indices": [
         0,
         5
@@ -300,6 +300,41 @@
       }
     },
     {
+      "verein_id": 12100,
+      "name": "All Boys",
+      "pj": 5,
+      "w": 1,
+      "d": 2,
+      "l": 2,
+      "gf": 5,
+      "ga": 6,
+      "pts": 5,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 3,
+        "ga": 3,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
+      }
+    },
+    {
       "verein_id": 14318,
       "name": "Dep. Madryn",
       "pj": 5,
@@ -437,41 +472,6 @@
         "pts": 4,
         "ppp": 1.33,
         "effectiveness_pct": 44.4
-      }
-    },
-    {
-      "verein_id": 12100,
-      "name": "All Boys",
-      "pj": 4,
-      "w": 0,
-      "d": 2,
-      "l": 2,
-      "gf": 4,
-      "ga": 6,
-      "pts": 2,
-      "ppp": 0.5,
-      "effectiveness_pct": 16.7,
-      "home": {
-        "pj": 2,
-        "w": 0,
-        "d": 1,
-        "l": 1,
-        "gf": 2,
-        "ga": 3,
-        "pts": 1,
-        "ppp": 0.5,
-        "effectiveness_pct": 16.7
-      },
-      "away": {
-        "pj": 2,
-        "w": 0,
-        "d": 1,
-        "l": 1,
-        "gf": 2,
-        "ga": 3,
-        "pts": 1,
-        "ppp": 0.5,
-        "effectiveness_pct": 16.7
       }
     },
     {
@@ -2547,6 +2547,61 @@
       ]
     },
     {
+      "coach_id": 23240,
+      "name": "Fabián Nardozza",
+      "pj": 4,
+      "w": 3,
+      "d": 0,
+      "l": 1,
+      "gf": 5,
+      "ga": 3,
+      "pts": 9,
+      "ppp": 2.25,
+      "effectiveness_pct": 75.0,
+      "matches": [
+        {
+          "date": "2025-08-10",
+          "club": "Estudiantes",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-03-14",
+          "club": "Estudiantes",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-05-11",
+          "club": "Ferro",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-08-24",
+          "club": "Ferro",
+          "opponent": "All Boys",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
       "coach_id": 70689,
       "name": "Marcelo Vázquez",
       "pj": 4,
@@ -2927,51 +2982,6 @@
           "result": "W",
           "gf": 2,
           "ga": 0,
-          "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
-      "coach_id": 23240,
-      "name": "Fabián Nardozza",
-      "pj": 3,
-      "w": 2,
-      "d": 0,
-      "l": 1,
-      "gf": 4,
-      "ga": 3,
-      "pts": 6,
-      "ppp": 2.0,
-      "effectiveness_pct": 66.7,
-      "matches": [
-        {
-          "date": "2025-08-10",
-          "club": "Estudiantes",
-          "opponent": "Def. Belgrano",
-          "home_away": "H",
-          "result": "W",
-          "gf": 2,
-          "ga": 0,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2026-03-14",
-          "club": "Estudiantes",
-          "opponent": "Def. Belgrano",
-          "home_away": "H",
-          "result": "L",
-          "gf": 0,
-          "ga": 2,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2026-05-11",
-          "club": "Ferro",
-          "opponent": "Def. Belgrano",
-          "home_away": "H",
-          "result": "W",
-          "gf": 2,
-          "ga": 1,
           "competition": "Primera Nacional"
         }
       ]
@@ -5404,15 +5414,15 @@
   ],
   "home_away_global": {
     "home": {
-      "pj": 80,
-      "w": 39,
+      "pj": 81,
+      "w": 40,
       "d": 22,
       "l": 19,
-      "gf": 100,
+      "gf": 101,
       "ga": 61,
-      "pts": 139,
-      "ppp": 1.74,
-      "effectiveness_pct": 57.9
+      "pts": 142,
+      "ppp": 1.75,
+      "effectiveness_pct": 58.4
     },
     "away": {
       "pj": 81,
@@ -5438,7 +5448,7 @@
           },
           {
             "player": "Emanuel Dening",
-            "goals": 4
+            "goals": 5
           },
           {
             "player": "Enzo Hoyos",
@@ -5797,12 +5807,12 @@
         "goals": 6
       },
       {
-        "player": "Martín Garnerone",
+        "player": "Emanuel Dening",
         "goals": 5
       },
       {
-        "player": "Emanuel Dening",
-        "goals": 4
+        "player": "Martín Garnerone",
+        "goals": 5
       },
       {
         "player": "Ezequiel Almirón",

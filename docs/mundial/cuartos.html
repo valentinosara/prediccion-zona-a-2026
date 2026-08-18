@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mundial 2026 · Cuartos — Pronóstico del Prode</title>
+<style>
+  :root { --bg:#0b1020; --card:#151b30; --line:#26304d; --txt:#e8ecf6; --mut:#9aa6c4;
+          --home:#3b82f6; --away:#ef4444; --acc:#22d3ee; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt);
+         font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 18px 60px; }
+  header { background:linear-gradient(135deg,#1d4ed8,#7c3aed 60%,#db2777); padding:38px 18px 30px; text-align:center; }
+  header h1 { margin:0; font-size:30px; letter-spacing:.3px; }
+  header p { margin:8px 0 0; color:#e7e9ff; opacity:.92; font-size:15px; }
+  .perf { display:inline-flex; gap:18px; flex-wrap:wrap; justify-content:center; margin-top:16px;
+          background:rgba(255,255,255,.12); padding:10px 16px; border-radius:12px; font-size:13px; }
+  .perf b { font-size:16px; }
+  section.note { background:var(--card); border:1px solid var(--line); border-radius:14px;
+               padding:16px 18px; margin:22px 0; font-size:14px; color:var(--mut); line-height:1.55; }
+  section.note b { color:var(--txt); }
+  .scoring { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin-top:12px; }
+  .scoring div { background:#0e1428; border:1px solid var(--line); border-radius:9px; padding:8px 10px; font-size:13px; }
+  .scoring .pt { color:var(--acc); font-weight:700; }
+  .pending { background:#3a2a12; border:1px solid #6b4e1e; color:#f0d9a8; border-radius:12px;
+             padding:12px 16px; margin:0 0 18px; font-size:13.5px; line-height:1.5; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; box-shadow:0 6px 20px rgba(0,0,0,.25); }
+  .teams { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+  .team { display:flex; align-items:center; gap:8px; font-weight:600; font-size:15px; flex:1; }
+  .team.right { justify-content:flex-end; text-align:right; }
+  .team img { width:26px; height:auto; border-radius:3px; box-shadow:0 0 0 1px var(--line); }
+  .vs { color:var(--mut); font-size:12px; padding:0 4px; }
+  .when { color:var(--mut); font-size:12.5px; margin:8px 0 12px; text-align:center; }
+  .advbar { display:flex; height:26px; border-radius:7px; overflow:hidden; font-size:12px; font-weight:700; }
+  .adv-home { background:var(--home); color:#fff; display:flex; align-items:center; padding-left:8px; min-width:34px; }
+  .adv-away { background:var(--away); color:#fff; display:flex; align-items:center; justify-content:flex-end; padding-right:8px; min-width:34px; }
+  .advlbl { display:flex; justify-content:space-between; color:var(--mut); font-size:11px; margin-top:4px; }
+  .rec { text-align:center; margin:14px 0 12px; }
+  .rec-score { font-size:40px; font-weight:800; letter-spacing:2px; line-height:1; }
+  .rec-score .dash { color:var(--mut); }
+  .rec-tag { text-transform:uppercase; font-size:10.5px; letter-spacing:1.5px; color:var(--acc); margin-top:6px; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; }
+  .chip { background:#0e1428; border:1px solid var(--line); border-radius:20px; padding:5px 11px; font-size:12px; }
+  .chip b { color:var(--txt); }
+  .chip.conf { background:var(--c); border-color:var(--c); color:#fff; font-weight:700; }
+  .src { text-align:center; color:var(--mut); font-size:11px; margin-top:10px; }
+  footer { color:var(--mut); font-size:12.5px; line-height:1.6; margin-top:30px; border-top:1px solid var(--line); padding-top:18px; }
+  footer b { color:var(--txt); }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚽ Mundial 2026 · Cuartos</h1>
+  <p>Pronóstico del prode — marcador de máximo valor esperado + clasificado sugerido</p>
+  <div class="perf">
+    <span>Performance en grupos: <b>42%</b> del máximo</span>
+    <span>Acierto de ganador: <b>67%</b></span>
+    <span>Progresión: F1 26% · F2 44% · F3 54%</span>
+  </div>
+</header>
+<div class="wrap">
+
+  <section class="note">
+    <b>Cómo se calcula.</b> Para cada partido se parte de las cuotas reales del mercado (de-vigadas),
+    se mezclan con un modelo de fuerza (Elo internacional + forma del torneo medida por <b>xG</b>,
+    no por goles crudos) y se arma la matriz de marcadores con corrección <b>Dixon-Coles</b>.
+    Como es eliminatoria, se extiende al <b>alargue (120')</b> y se calcula la probabilidad de
+    <b>penales</b>. El marcador sugerido es el que <b>maximiza los puntos esperados</b> del prode,
+    incluyendo el bonus de clasificación.
+    <div class="scoring">
+      <div><span class="pt">12</span> · marcador exacto</div>
+      <div><span class="pt">8</span> · ganador + diferencia, o empate</div>
+      <div><span class="pt">5</span> · ganador correcto</div>
+      <div><span class="pt">2</span> · goles exactos de un equipo</div>
+      <div><span class="pt">+3</span> · acertar quién clasifica (si hay penales)</div>
+    </div>
+  </section>
+
+
+  <div class="grid">
+
+    <article class="card">
+      <div class="teams">
+        <div class="team"><img src="https://flagcdn.com/w40/fr.png" alt=""><span>Francia</span></div>
+        <div class="vs">vs</div>
+        <div class="team right"><span>Marruecos</span><img src="https://flagcdn.com/w40/ma.png" alt=""></div>
+      </div>
+      <div class="when">jue 9 jul · 17:00h</div>
+      <div class="advbar" title="Probabilidad de avanzar a la próxima ronda">
+        <div class="adv-home" style="width:75.9%">76%</div>
+        <div class="adv-away" style="width:24.1%">24%</div>
+      </div>
+      <div class="advlbl"><span>avanza Francia</span><span>avanza Marruecos</span></div>
+      <div class="rec">
+        <div class="rec-score">1 <span class="dash">–</span> 0</div>
+        <div class="rec-tag">marcador a cargar</div>
+      </div>
+      <div class="chips">
+        <span class="chip clasif">🏅 Clasifica: <b>Francia</b></span>
+        <span class="chip">🥅 Penales: <b>12%</b></span>
+        <span class="chip">📈 EV: <b>5.4</b></span>
+        <span class="chip conf" style="--c:#16a34a">Alta</span>
+      </div>
+      <div class="src">cuotas DraftKings</div>
+    </article>
+
+    <article class="card">
+      <div class="teams">
+        <div class="team"><img src="https://flagcdn.com/w40/es.png" alt=""><span>Espana</span></div>
+        <div class="vs">vs</div>
+        <div class="team right"><span>Belgica</span><img src="https://flagcdn.com/w40/be.png" alt=""></div>
+      </div>
+      <div class="when">vie 10 jul · 16:00h</div>
+      <div class="advbar" title="Probabilidad de avanzar a la próxima ronda">
+        <div class="adv-home" style="width:72.7%">73%</div>
+        <div class="adv-away" style="width:27.4%">27%</div>
+      </div>
+      <div class="advlbl"><span>avanza Espana</span><span>avanza Belgica</span></div>
+      <div class="rec">
+        <div class="rec-score">1 <span class="dash">–</span> 0</div>
+        <div class="rec-tag">marcador a cargar</div>
+      </div>
+      <div class="chips">
+        <span class="chip clasif">🏅 Clasifica: <b>Espana</b></span>
+        <span class="chip">🥅 Penales: <b>12%</b></span>
+        <span class="chip">📈 EV: <b>5.3</b></span>
+        <span class="chip conf" style="--c:#d97706">Media</span>
+      </div>
+      <div class="src">cuotas DraftKings</div>
+    </article>
+
+    <article class="card">
+      <div class="teams">
+        <div class="team"><img src="https://flagcdn.com/w40/no.png" alt=""><span>Noruega</span></div>
+        <div class="vs">vs</div>
+        <div class="team right"><span>Inglaterra</span><img src="https://flagcdn.com/w40/gb-eng.png" alt=""></div>
+      </div>
+      <div class="when">sáb 11 jul · 18:00h</div>
+      <div class="advbar" title="Probabilidad de avanzar a la próxima ronda">
+        <div class="adv-home" style="width:34.3%">34%</div>
+        <div class="adv-away" style="width:65.7%">66%</div>
+      </div>
+      <div class="advlbl"><span>avanza Noruega</span><span>avanza Inglaterra</span></div>
+      <div class="rec">
+        <div class="rec-score">1 <span class="dash">–</span> 2</div>
+        <div class="rec-tag">marcador a cargar</div>
+      </div>
+      <div class="chips">
+        <span class="chip clasif">🏅 Clasifica: <b>Inglaterra</b></span>
+        <span class="chip">🥅 Penales: <b>12%</b></span>
+        <span class="chip">📈 EV: <b>4.9</b></span>
+        <span class="chip conf" style="--c:#d97706">Media</span>
+      </div>
+      <div class="src">cuotas DraftKings</div>
+    </article>
+
+    <article class="card">
+      <div class="teams">
+        <div class="team"><img src="https://flagcdn.com/w40/ar.png" alt=""><span>Argentina</span></div>
+        <div class="vs">vs</div>
+        <div class="team right"><span>Suiza</span><img src="https://flagcdn.com/w40/ch.png" alt=""></div>
+      </div>
+      <div class="when">sáb 11 jul · 22:00h</div>
+      <div class="advbar" title="Probabilidad de avanzar a la próxima ronda">
+        <div class="adv-home" style="width:72.6%">73%</div>
+        <div class="adv-away" style="width:27.4%">27%</div>
+      </div>
+      <div class="advlbl"><span>avanza Argentina</span><span>avanza Suiza</span></div>
+      <div class="rec">
+        <div class="rec-score">2 <span class="dash">–</span> 1</div>
+        <div class="rec-tag">marcador a cargar</div>
+      </div>
+      <div class="chips">
+        <span class="chip clasif">🏅 Clasifica: <b>Argentina</b></span>
+        <span class="chip">🥅 Penales: <b>13%</b></span>
+        <span class="chip">📈 EV: <b>5.2</b></span>
+        <span class="chip conf" style="--c:#d97706">Media</span>
+      </div>
+      <div class="src">cuotas DraftKings</div>
+    </article>
+  </div>
+
+  <footer>
+    <p><b>EV total estimado de la ronda:</b> 20.8 puntos en 4 partidos
+       (promedio 5.20 por partido).</p>
+    <p><b>Supuestos y datos.</b> El marcador es a 120' (90' + alargue); los penales no cuentan
+       para el marcador y se modelan como 50/50 para el bonus de clasificación. La forma usa
+       <b>xG real de FIFA</b> de los partidos cerrados (vía fifaphy). El alargue se modela como
+       un sub-partido de 30' (un tercio del ritmo de gol de 90'). Cuotas vía ESPN; Elo de
+       eloratings.net. Generado el 09/07/2026 10:42 (hora de Argentina).</p>
+    <p>El "clasificado" se infiere del marcador: si predecís un ganador, ese avanza; si predecís
+       empate, conviene marcar al equipo con mayor probabilidad de avanzar (ya indicado arriba).</p>
+  </footer>
+</div>
+</body>
+</html>

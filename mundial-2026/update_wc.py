@@ -1,7 +1,7 @@
 """
 update_wc.py - Un solo comando para predecir una fecha del Mundial 2026.
 
-    python update_wc.py --fecha 1     # genera docs/mundial_fecha1.html (pendientes de la F1)
+    python update_wc.py --fecha 1     # genera docs/mundial/fecha1.html (pendientes de la F1)
     python update_wc.py --fecha 2     # cuando termine la F1: re-fetch + re-fit + predice la F2
     python update_wc.py --fecha 3
 
@@ -47,7 +47,7 @@ def main():
     path = gen_html_wc.build(args.fecha)
     print(f"   {os.path.relpath(path, HERE)}  ({os.path.getsize(path)//1024} KB)")
 
-    print(f"\n✓ Listo. Abri docs/mundial_fecha{args.fecha}.html (offline, self-contained).")
+    print(f"\n✓ Listo. Abri docs/mundial/fecha{args.fecha}.html (offline, self-contained).")
     print("  Para publicar:  git add -A && git commit -m \"prode fecha "
           f"{args.fecha}\" && git push")
 

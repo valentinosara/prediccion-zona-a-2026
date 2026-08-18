@@ -6677,10 +6677,67 @@
       "https://www.worldfootball.net/competition/co1787/argentina-primera-nacional/se112408/2026/all-matches/"
     ],
     "total_matches": 648,
-    "played_matches": 252,
+    "played_matches": 359,
     "ranks": [
       {
         "rank": 1,
+        "streak": 5,
+        "teams": [
+          {
+            "team": "Ferro Carril Oeste",
+            "team_raw": "Ferro Carril Oeste",
+            "team_id": "te17574",
+            "streak": 5,
+            "played": 20,
+            "start": "07/06/2026",
+            "end": "11/07/2026",
+            "wins": [
+              {
+                "round": "Matchday 17",
+                "date": "07/06/2026",
+                "vs": "Chaco For Ever",
+                "home": false,
+                "gf": 2,
+                "ga": 1
+              },
+              {
+                "round": "Matchday 18",
+                "date": "14/06/2026",
+                "vs": "Acassuso",
+                "home": true,
+                "gf": 2,
+                "ga": 1
+              },
+              {
+                "round": "Matchday 4",
+                "date": "21/06/2026",
+                "vs": "Deportivo Morón",
+                "home": true,
+                "gf": 1,
+                "ga": 0
+              },
+              {
+                "round": "Matchday 19",
+                "date": "05/07/2026",
+                "vs": "San Telmo",
+                "home": true,
+                "gf": 2,
+                "ga": 1
+              },
+              {
+                "round": "Matchday 20",
+                "date": "11/07/2026",
+                "vs": "Atlético San Miguel",
+                "home": false,
+                "gf": 1,
+                "ga": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rank": 2,
         "streak": 4,
         "teams": [
           {
@@ -6688,12 +6745,12 @@
             "team_raw": "Gimnasia de Jujuy",
             "team_id": "te930",
             "streak": 4,
-            "played": 14,
+            "played": 20,
             "start": "28/03/2026",
             "end": "19/04/2026",
             "wins": [
               {
-                "round": "Round 7",
+                "round": "Matchday 7",
                 "date": "28/03/2026",
                 "vs": "Chaco For Ever",
                 "home": false,
@@ -6701,7 +6758,7 @@
                 "ga": 1
               },
               {
-                "round": "Round 8",
+                "round": "Matchday 8",
                 "date": "05/04/2026",
                 "vs": "Patronato (Paraná)",
                 "home": true,
@@ -6709,7 +6766,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 9",
+                "round": "Matchday 9",
                 "date": "12/04/2026",
                 "vs": "Agropecuario Argentino",
                 "home": false,
@@ -6717,7 +6774,7 @@
                 "ga": 1
               },
               {
-                "round": "Round 10",
+                "round": "Matchday 10",
                 "date": "19/04/2026",
                 "vs": "Almagro",
                 "home": true,
@@ -6731,12 +6788,12 @@
             "team_raw": "Atlanta",
             "team_id": "te19130",
             "streak": 4,
-            "played": 14,
+            "played": 19,
             "start": "14/04/2026",
             "end": "03/05/2026",
             "wins": [
               {
-                "round": "Round 9",
+                "round": "Matchday 9",
                 "date": "14/04/2026",
                 "vs": "San Martín (San Juan)",
                 "home": false,
@@ -6744,7 +6801,7 @@
                 "ga": 1
               },
               {
-                "round": "Round 10",
+                "round": "Matchday 10",
                 "date": "21/04/2026",
                 "vs": "Chacarita Juniors",
                 "home": true,
@@ -6752,7 +6809,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 11",
+                "round": "Matchday 11",
                 "date": "26/04/2026",
                 "vs": "Güemes (Santiago del Estero)",
                 "home": false,
@@ -6760,7 +6817,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 12",
+                "round": "Matchday 12",
                 "date": "03/05/2026",
                 "vs": "Tristán Suárez",
                 "home": true,
@@ -6770,52 +6827,52 @@
             ]
           },
           {
-            "team": "Ferro Carril Oeste",
-            "team_raw": "Ferro Carril Oeste",
-            "team_id": "te17574",
+            "team": "Deportivo Morón",
+            "team_raw": "Deportivo Morón",
+            "team_id": "te20529",
             "streak": 4,
-            "played": 14,
-            "start": "03/05/2026",
-            "end": "24/05/2026",
+            "played": 20,
+            "start": "24/05/2026",
+            "end": "13/06/2026",
             "wins": [
               {
-                "round": "Round 12",
-                "date": "03/05/2026",
-                "vs": "Club Ciudad de Bolivar",
-                "home": false,
-                "gf": 4,
-                "ga": 2
-              },
-              {
-                "round": "Round 13",
-                "date": "11/05/2026",
-                "vs": "Defensores de Belgrano (VR)",
+                "round": "Matchday 15",
+                "date": "24/05/2026",
+                "vs": "Estudiantes (Caseros)",
                 "home": true,
                 "gf": 2,
+                "ga": 0
+              },
+              {
+                "round": "Matchday 16",
+                "date": "31/05/2026",
+                "vs": "Mitre (Santiago del Estero)",
+                "home": false,
+                "gf": 3,
                 "ga": 1
               },
               {
-                "round": "Round 14",
-                "date": "17/05/2026",
-                "vs": "Deportivo Madryn",
-                "home": false,
+                "round": "Matchday 17",
+                "date": "07/06/2026",
+                "vs": "Almirante Brown",
+                "home": true,
                 "gf": 1,
                 "ga": 0
               },
               {
-                "round": "Round 15",
-                "date": "24/05/2026",
-                "vs": "Central Norte",
-                "home": true,
-                "gf": 1,
-                "ga": 0
+                "round": "Matchday 18",
+                "date": "13/06/2026",
+                "vs": "Club Ciudad de Bolivar",
+                "home": false,
+                "gf": 2,
+                "ga": 1
               }
             ]
           }
         ]
       },
       {
-        "rank": 2,
+        "rank": 3,
         "streak": 3,
         "teams": [
           {
@@ -6823,12 +6880,12 @@
             "team_raw": "Acassuso",
             "team_id": "te35592",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "14/02/2026",
             "end": "01/03/2026",
             "wins": [
               {
-                "round": "Round 1",
+                "round": "Matchday 1",
                 "date": "14/02/2026",
                 "vs": "Chaco For Ever",
                 "home": true,
@@ -6836,7 +6893,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 2",
+                "round": "Matchday 2",
                 "date": "21/02/2026",
                 "vs": "Racing (Córdoba)",
                 "home": true,
@@ -6844,7 +6901,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 3",
+                "round": "Matchday 3",
                 "date": "01/03/2026",
                 "vs": "San Telmo",
                 "home": false,
@@ -6858,12 +6915,12 @@
             "team_raw": "Gimnasia y Tiro de Salta",
             "team_id": "te38100",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "14/02/2026",
             "end": "28/02/2026",
             "wins": [
               {
-                "round": "Round 1",
+                "round": "Matchday 1",
                 "date": "14/02/2026",
                 "vs": "Colegiales de Munro",
                 "home": true,
@@ -6871,7 +6928,7 @@
                 "ga": 1
               },
               {
-                "round": "Round 2",
+                "round": "Matchday 2",
                 "date": "21/02/2026",
                 "vs": "Patronato (Paraná)",
                 "home": false,
@@ -6879,7 +6936,7 @@
                 "ga": 1
               },
               {
-                "round": "Round 3",
+                "round": "Matchday 3",
                 "date": "28/02/2026",
                 "vs": "Almagro",
                 "home": true,
@@ -6893,12 +6950,12 @@
             "team_raw": "Atlético Rafaela",
             "team_id": "te17718",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "01/03/2026",
             "end": "22/03/2026",
             "wins": [
               {
-                "round": "Round 3",
+                "round": "Matchday 3",
                 "date": "01/03/2026",
                 "vs": "Temperley",
                 "home": true,
@@ -6906,7 +6963,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 5",
+                "round": "Matchday 5",
                 "date": "14/03/2026",
                 "vs": "San Martín (San Juan)",
                 "home": true,
@@ -6914,7 +6971,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 6",
+                "round": "Matchday 6",
                 "date": "22/03/2026",
                 "vs": "Chacarita Juniors",
                 "home": false,
@@ -6924,51 +6981,16 @@
             ]
           },
           {
-            "team": "Deportivo Morón",
-            "team_raw": "Deportivo Morón",
-            "team_id": "te20529",
-            "streak": 3,
-            "played": 14,
-            "start": "01/03/2026",
-            "end": "21/03/2026",
-            "wins": [
-              {
-                "round": "Round 3",
-                "date": "01/03/2026",
-                "vs": "Central Norte",
-                "home": true,
-                "gf": 2,
-                "ga": 0
-              },
-              {
-                "round": "Round 5",
-                "date": "14/03/2026",
-                "vs": "Chaco For Ever",
-                "home": true,
-                "gf": 3,
-                "ga": 2
-              },
-              {
-                "round": "Round 6",
-                "date": "21/03/2026",
-                "vs": "Acassuso",
-                "home": false,
-                "gf": 3,
-                "ga": 0
-              }
-            ]
-          },
-          {
             "team": "Tristán Suárez",
             "team_raw": "Tristan Suárez",
             "team_id": "te35403",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "21/03/2026",
             "end": "04/04/2026",
             "wins": [
               {
-                "round": "Round 6",
+                "round": "Matchday 6",
                 "date": "21/03/2026",
                 "vs": "Gimnasia y Esgrima (Jujuy)",
                 "home": true,
@@ -6976,7 +6998,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 7",
+                "round": "Matchday 7",
                 "date": "28/03/2026",
                 "vs": "Almirante Brown",
                 "home": false,
@@ -6984,7 +7006,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 8",
+                "round": "Matchday 8",
                 "date": "04/04/2026",
                 "vs": "Agropecuario Argentino",
                 "home": false,
@@ -6998,12 +7020,12 @@
             "team_raw": "Colón de Santa Fe",
             "team_id": "te304",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "29/03/2026",
             "end": "12/04/2026",
             "wins": [
               {
-                "round": "Round 7",
+                "round": "Matchday 7",
                 "date": "29/03/2026",
                 "vs": "Patronato (Paraná)",
                 "home": false,
@@ -7011,7 +7033,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 8",
+                "round": "Matchday 8",
                 "date": "04/04/2026",
                 "vs": "Atlético San Miguel",
                 "home": true,
@@ -7019,7 +7041,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 9",
+                "round": "Matchday 9",
                 "date": "12/04/2026",
                 "vs": "Racing (Córdoba)",
                 "home": true,
@@ -7033,12 +7055,12 @@
             "team_raw": "Estudiantes de Caseros",
             "team_id": "te19847",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "29/03/2026",
             "end": "12/04/2026",
             "wins": [
               {
-                "round": "Round 7",
+                "round": "Matchday 7",
                 "date": "29/03/2026",
                 "vs": "Chacarita Juniors",
                 "home": false,
@@ -7046,7 +7068,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 8",
+                "round": "Matchday 8",
                 "date": "04/04/2026",
                 "vs": "Central Norte",
                 "home": true,
@@ -7054,7 +7076,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 9",
+                "round": "Matchday 9",
                 "date": "12/04/2026",
                 "vs": "Ferro Carril Oeste",
                 "home": false,
@@ -7068,12 +7090,12 @@
             "team_raw": "Almirante Brown",
             "team_id": "te21391",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "19/04/2026",
             "end": "03/05/2026",
             "wins": [
               {
-                "round": "Round 10",
+                "round": "Matchday 10",
                 "date": "19/04/2026",
                 "vs": "Central Norte",
                 "home": true,
@@ -7081,7 +7103,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 11",
+                "round": "Matchday 11",
                 "date": "28/04/2026",
                 "vs": "Ferro Carril Oeste",
                 "home": false,
@@ -7089,7 +7111,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 12",
+                "round": "Matchday 12",
                 "date": "03/05/2026",
                 "vs": "Chaco For Ever",
                 "home": true,
@@ -7103,12 +7125,12 @@
             "team_raw": "Ferrocarril Midland",
             "team_id": "te49320",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "03/05/2026",
             "end": "17/05/2026",
             "wins": [
               {
-                "round": "Round 12",
+                "round": "Matchday 12",
                 "date": "03/05/2026",
                 "vs": "Güemes (Santiago del Estero)",
                 "home": true,
@@ -7116,7 +7138,7 @@
                 "ga": 1
               },
               {
-                "round": "Round 13",
+                "round": "Matchday 13",
                 "date": "09/05/2026",
                 "vs": "Tristán Suárez",
                 "home": false,
@@ -7124,7 +7146,7 @@
                 "ga": 1
               },
               {
-                "round": "Round 14",
+                "round": "Matchday 14",
                 "date": "17/05/2026",
                 "vs": "Agropecuario Argentino",
                 "home": true,
@@ -7138,12 +7160,12 @@
             "team_raw": "Club Ciudad de Bolivar",
             "team_id": "te164624",
             "streak": 3,
-            "played": 14,
+            "played": 20,
             "start": "10/05/2026",
             "end": "23/05/2026",
             "wins": [
               {
-                "round": "Round 13",
+                "round": "Matchday 13",
                 "date": "10/05/2026",
                 "vs": "Chaco For Ever",
                 "home": false,
@@ -7151,7 +7173,7 @@
                 "ga": 0
               },
               {
-                "round": "Round 14",
+                "round": "Matchday 14",
                 "date": "16/05/2026",
                 "vs": "Acassuso",
                 "home": true,
@@ -7159,123 +7181,9 @@
                 "ga": 0
               },
               {
-                "round": "Round 15",
+                "round": "Matchday 15",
                 "date": "23/05/2026",
                 "vs": "San Telmo",
-                "home": false,
-                "gf": 1,
-                "ga": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "streak": 2,
-        "teams": [
-          {
-            "team": "Defensores de Belgrano (VR)",
-            "team_raw": "Defensores de Belgrano",
-            "team_id": "te19394",
-            "streak": 2,
-            "played": 14,
-            "start": "28/02/2026",
-            "end": "14/03/2026",
-            "wins": [
-              {
-                "round": "Round 3",
-                "date": "28/02/2026",
-                "vs": "CA Los Andes",
-                "home": false,
-                "gf": 1,
-                "ga": 0
-              },
-              {
-                "round": "Round 5",
-                "date": "14/03/2026",
-                "vs": "Estudiantes (Caseros)",
-                "home": false,
-                "gf": 2,
-                "ga": 0
-              }
-            ]
-          },
-          {
-            "team": "Racing (Córdoba)",
-            "team_raw": "Racing de Córdoba",
-            "team_id": "te29908",
-            "streak": 2,
-            "played": 14,
-            "start": "14/03/2026",
-            "end": "21/03/2026",
-            "wins": [
-              {
-                "round": "Round 5",
-                "date": "14/03/2026",
-                "vs": "Almirante Brown",
-                "home": true,
-                "gf": 2,
-                "ga": 1
-              },
-              {
-                "round": "Round 6",
-                "date": "21/03/2026",
-                "vs": "Atlético San Miguel",
-                "home": false,
-                "gf": 2,
-                "ga": 1
-              }
-            ]
-          },
-          {
-            "team": "Almagro",
-            "team_raw": "Almagro",
-            "team_id": "te18976",
-            "streak": 2,
-            "played": 14,
-            "start": "21/03/2026",
-            "end": "28/03/2026",
-            "wins": [
-              {
-                "round": "Round 6",
-                "date": "21/03/2026",
-                "vs": "Quilmes",
-                "home": true,
-                "gf": 1,
-                "ga": 0
-              },
-              {
-                "round": "Round 7",
-                "date": "28/03/2026",
-                "vs": "Deportivo Morón",
-                "home": true,
-                "gf": 2,
-                "ga": 0
-              }
-            ]
-          },
-          {
-            "team": "Central Norte",
-            "team_raw": "Central Norte",
-            "team_id": "te37963",
-            "streak": 2,
-            "played": 14,
-            "start": "22/03/2026",
-            "end": "29/03/2026",
-            "wins": [
-              {
-                "round": "Round 6",
-                "date": "22/03/2026",
-                "vs": "All Boys",
-                "home": true,
-                "gf": 1,
-                "ga": 0
-              },
-              {
-                "round": "Round 7",
-                "date": "29/03/2026",
-                "vs": "Gimnasia y Tiro (Salta)",
                 "home": false,
                 "gf": 1,
                 "ga": 0
@@ -7286,239 +7194,66 @@
             "team": "Temperley",
             "team_raw": "Temperley",
             "team_id": "te19845",
-            "streak": 2,
-            "played": 14,
-            "start": "22/03/2026",
-            "end": "29/03/2026",
+            "streak": 3,
+            "played": 20,
+            "start": "31/05/2026",
+            "end": "14/06/2026",
             "wins": [
               {
-                "round": "Round 6",
-                "date": "22/03/2026",
+                "round": "Matchday 16",
+                "date": "31/05/2026",
+                "vs": "San Martín (San Juan)",
+                "home": true,
+                "gf": 2,
+                "ga": 1
+              },
+              {
+                "round": "Matchday 17",
+                "date": "07/06/2026",
+                "vs": "Chacarita Juniors",
+                "home": false,
+                "gf": 1,
+                "ga": 0
+              },
+              {
+                "round": "Matchday 18",
+                "date": "14/06/2026",
+                "vs": "Güemes (Santiago del Estero)",
+                "home": true,
+                "gf": 4,
+                "ga": 1
+              }
+            ]
+          },
+          {
+            "team": "Almagro",
+            "team_raw": "Almagro",
+            "team_id": "te18976",
+            "streak": 3,
+            "played": 20,
+            "start": "13/06/2026",
+            "end": "04/07/2026",
+            "wins": [
+              {
+                "round": "Matchday 18",
+                "date": "13/06/2026",
+                "vs": "Agropecuario Argentino",
+                "home": true,
+                "gf": 2,
+                "ga": 1
+              },
+              {
+                "round": "Matchday 4",
+                "date": "20/06/2026",
                 "vs": "Atlanta",
                 "home": true,
                 "gf": 2,
-                "ga": 1
-              },
-              {
-                "round": "Round 7",
-                "date": "29/03/2026",
-                "vs": "CA Los Andes",
-                "home": false,
-                "gf": 1,
-                "ga": 0
-              }
-            ]
-          },
-          {
-            "team": "Godoy Cruz",
-            "team_raw": "Godoy Cruz",
-            "team_id": "te339",
-            "streak": 2,
-            "played": 14,
-            "start": "29/03/2026",
-            "end": "04/04/2026",
-            "wins": [
-              {
-                "round": "Round 7",
-                "date": "29/03/2026",
-                "vs": "Deportivo Maipú",
-                "home": false,
-                "gf": 1,
                 "ga": 0
               },
               {
-                "round": "Round 8",
-                "date": "04/04/2026",
-                "vs": "Acassuso",
-                "home": true,
-                "gf": 2,
-                "ga": 0
-              }
-            ]
-          },
-          {
-            "team": "Quilmes",
-            "team_raw": "Quilmes",
-            "team_id": "te17483",
-            "streak": 2,
-            "played": 14,
-            "start": "29/03/2026",
-            "end": "05/04/2026",
-            "wins": [
-              {
-                "round": "Round 7",
-                "date": "29/03/2026",
-                "vs": "San Telmo",
-                "home": false,
-                "gf": 3,
-                "ga": 0
-              },
-              {
-                "round": "Round 8",
-                "date": "05/04/2026",
-                "vs": "Deportivo Maipú",
-                "home": true,
-                "gf": 2,
-                "ga": 1
-              }
-            ]
-          },
-          {
-            "team": "CA Los Andes",
-            "team_raw": "CA Los Andes",
-            "team_id": "te17720",
-            "streak": 2,
-            "played": 14,
-            "start": "05/04/2026",
-            "end": "12/04/2026",
-            "wins": [
-              {
-                "round": "Round 8",
-                "date": "05/04/2026",
-                "vs": "Chaco For Ever",
-                "home": true,
-                "gf": 2,
-                "ga": 0
-              },
-              {
-                "round": "Round 9",
-                "date": "12/04/2026",
-                "vs": "Acassuso",
-                "home": false,
-                "gf": 1,
-                "ga": 0
-              }
-            ]
-          },
-          {
-            "team": "Deportivo Madryn",
-            "team_raw": "Deportivo Madryn",
-            "team_id": "te21674",
-            "streak": 2,
-            "played": 14,
-            "start": "05/04/2026",
-            "end": "12/04/2026",
-            "wins": [
-              {
-                "round": "Round 8",
-                "date": "05/04/2026",
-                "vs": "Mitre (Santiago del Estero)",
-                "home": false,
-                "gf": 3,
-                "ga": 1
-              },
-              {
-                "round": "Round 9",
-                "date": "12/04/2026",
-                "vs": "Almirante Brown",
-                "home": true,
-                "gf": 2,
-                "ga": 1
-              }
-            ]
-          },
-          {
-            "team": "San Martín (San Juan)",
-            "team_raw": "San Martín de San Juan",
-            "team_id": "te20153",
-            "streak": 2,
-            "played": 14,
-            "start": "18/04/2026",
-            "end": "25/04/2026",
-            "wins": [
-              {
-                "round": "Round 10",
-                "date": "18/04/2026",
-                "vs": "Ferrocarril Midland",
-                "home": false,
-                "gf": 1,
-                "ga": 0
-              },
-              {
-                "round": "Round 11",
-                "date": "25/04/2026",
-                "vs": "Quilmes",
-                "home": true,
-                "gf": 1,
-                "ga": 0
-              }
-            ]
-          },
-          {
-            "team": "Agropecuario Argentino",
-            "team_raw": "Agropecuario Argentino",
-            "team_id": "te57189",
-            "streak": 2,
-            "played": 14,
-            "start": "26/04/2026",
-            "end": "05/05/2026",
-            "wins": [
-              {
-                "round": "Round 11",
-                "date": "26/04/2026",
-                "vs": "San Martín (Tucumán)",
-                "home": true,
-                "gf": 2,
-                "ga": 0
-              },
-              {
-                "round": "Round 12",
-                "date": "05/05/2026",
-                "vs": "Gimnasia y Tiro (Salta)",
-                "home": false,
-                "gf": 3,
-                "ga": 2
-              }
-            ]
-          },
-          {
-            "team": "San Martín (Tucumán)",
-            "team_raw": "San Martín de Tucumán",
-            "team_id": "te1613",
-            "streak": 2,
-            "played": 14,
-            "start": "02/05/2026",
-            "end": "13/05/2026",
-            "wins": [
-              {
-                "round": "Round 12",
-                "date": "02/05/2026",
+                "round": "Matchday 19",
+                "date": "04/07/2026",
                 "vs": "Atlético Rafaela",
-                "home": true,
-                "gf": 2,
-                "ga": 1
-              },
-              {
-                "round": "Round 13",
-                "date": "13/05/2026",
-                "vs": "Gimnasia y Esgrima (Jujuy)",
-                "home": true,
-                "gf": 2,
-                "ga": 0
-              }
-            ]
-          },
-          {
-            "team": "Deportivo Maipú",
-            "team_raw": "Deportivo Maipú",
-            "team_id": "te35420",
-            "streak": 2,
-            "played": 14,
-            "start": "09/05/2026",
-            "end": "17/05/2026",
-            "wins": [
-              {
-                "round": "Round 13",
-                "date": "09/05/2026",
-                "vs": "Temperley",
-                "home": false,
-                "gf": 5,
-                "ga": 0
-              },
-              {
-                "round": "Round 14",
-                "date": "17/05/2026",
-                "vs": "Nueva Chicago",
                 "home": true,
                 "gf": 1,
                 "ga": 0

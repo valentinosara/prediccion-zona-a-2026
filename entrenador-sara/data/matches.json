@@ -534,6 +534,29 @@
     ]
   },
   {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-08-24",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "All Boys",
+    "opponent_verein_id": 12100,
+    "opponent_coach": "Fabián Nardozza",
+    "opponent_coach_id": 23240,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4798062,
+    "scorers": [
+      {
+        "player": "Emanuel Dening",
+        "minute": null,
+        "team": "sara",
+        "kind": "pen"
+      }
+    ]
+  },
+  {
     "i": 1,
     "club": "Estudiantes",
     "date": "2025-07-06",

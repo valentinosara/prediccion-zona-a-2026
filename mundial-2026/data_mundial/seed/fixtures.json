@@ -14,10 +14,10 @@
   "xg_provenance": {
    "source": "FIFA EFI (api.fifa.com + fdh-api.fifa.com) via fifaphy",
    "engine": "playwright",
-   "fetched_at": "2026-06-24T09:06:37-03:00",
+   "fetched_at": "2026-07-12T19:56:38-03:00",
    "metric": "XG (Expected Goals)",
-   "n_matches": 48,
-   "n_applied": 48
+   "n_matches": 100,
+   "n_applied": 72
   }
  },
  "fixtures": [
@@ -770,7 +770,7 @@
    "home_score": 0,
    "away_score": 1,
    "home_xg": 0.695,
-   "away_xg": 0.821,
+   "away_xg": 0.944,
    "xg_source": "fifaphy"
   },
   {
@@ -785,7 +785,7 @@
    "status": "played",
    "home_score": 1,
    "away_score": 0,
-   "home_xg": 1.574,
+   "home_xg": 1.545,
    "away_xg": 0.423,
    "xg_source": "fifaphy"
   },
@@ -798,9 +798,12 @@
    "away": "QA",
    "kickoff": "2026-06-24T16:00:00",
    "venue": "Lumen Field, Seattle, Washington",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 3,
+   "away_score": 1,
+   "home_xg": 0.768,
+   "away_xg": 1.165,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-050",
@@ -811,9 +814,12 @@
    "away": "CA",
    "kickoff": "2026-06-24T16:00:00",
    "venue": "BC Place, Vancouver",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 2,
+   "away_score": 1,
+   "home_xg": 1.683,
+   "away_xg": 1.61,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-051",
@@ -824,9 +830,12 @@
    "away": "HT",
    "kickoff": "2026-06-24T19:00:00",
    "venue": "Mercedes-Benz Stadium, Atlanta, Georgia",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 4,
+   "away_score": 2,
+   "home_xg": 2.12,
+   "away_xg": 0.674,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-052",
@@ -837,9 +846,12 @@
    "away": "BR",
    "kickoff": "2026-06-24T19:00:00",
    "venue": "Hard Rock Stadium, Miami Gardens, Florida",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 0,
+   "away_score": 3,
+   "home_xg": 0.685,
+   "away_xg": 3.783,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-053",
@@ -850,9 +862,12 @@
    "away": "KR",
    "kickoff": "2026-06-24T22:00:00",
    "venue": "Estadio BBVA, Guadalupe",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 0,
+   "home_xg": 0.888,
+   "away_xg": 0.741,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-054",
@@ -863,9 +878,12 @@
    "away": "MX",
    "kickoff": "2026-06-24T22:00:00",
    "venue": "Estadio Banorte, Mexico City",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 0,
+   "away_score": 3,
+   "home_xg": 0.443,
+   "away_xg": 2.095,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-055",
@@ -876,9 +894,12 @@
    "away": "DE",
    "kickoff": "2026-06-25T17:00:00",
    "venue": "MetLife Stadium, East Rutherford, New Jersey",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 2,
+   "away_score": 1,
+   "home_xg": 1.292,
+   "away_xg": 0.745,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-056",
@@ -889,9 +910,12 @@
    "away": "CI",
    "kickoff": "2026-06-25T17:00:00",
    "venue": "Lincoln Financial Field, Philadelphia, Pennsylvania",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 0,
+   "away_score": 2,
+   "home_xg": 0.664,
+   "away_xg": 0.928,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-057",
@@ -902,9 +926,12 @@
    "away": "SE",
    "kickoff": "2026-06-25T20:00:00",
    "venue": "AT&T Stadium, Arlington, Texas",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 1,
+   "home_xg": 1.22,
+   "away_xg": 0.561,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-058",
@@ -915,9 +942,12 @@
    "away": "NL",
    "kickoff": "2026-06-25T20:00:00",
    "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 3,
+   "home_xg": 0.755,
+   "away_xg": 1.789,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-059",
@@ -928,9 +958,12 @@
    "away": "AU",
    "kickoff": "2026-06-25T23:00:00",
    "venue": "Levi's Stadium, Santa Clara, California",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 0,
+   "away_score": 0,
+   "home_xg": 0.292,
+   "away_xg": 0.697,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-060",
@@ -941,9 +974,12 @@
    "away": "US",
    "kickoff": "2026-06-25T23:00:00",
    "venue": "SoFi Stadium, Inglewood, California",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 3,
+   "away_score": 2,
+   "home_xg": 1.709,
+   "away_xg": 1.783,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-061",
@@ -954,9 +990,12 @@
    "away": "IQ",
    "kickoff": "2026-06-26T16:00:00",
    "venue": "BMO Field, Toronto",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 5,
+   "away_score": 0,
+   "home_xg": 2.702,
+   "away_xg": 0.21,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-062",
@@ -967,9 +1006,12 @@
    "away": "FR",
    "kickoff": "2026-06-26T16:00:00",
    "venue": "Gillette Stadium, Foxborough, Massachusetts",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 4,
+   "home_xg": 1.451,
+   "away_xg": 1.047,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-063",
@@ -980,9 +1022,12 @@
    "away": "SA",
    "kickoff": "2026-06-26T21:00:00",
    "venue": "NRG Stadium, Houston, Texas",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 0,
+   "away_score": 0,
+   "home_xg": 1.369,
+   "away_xg": 0.349,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-064",
@@ -993,9 +1038,12 @@
    "away": "ES",
    "kickoff": "2026-06-26T21:00:00",
    "venue": "Estadio Akron, Guadalajara",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 0,
+   "away_score": 1,
+   "home_xg": 0.224,
+   "away_xg": 1.122,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-065",
@@ -1006,9 +1054,12 @@
    "away": "IR",
    "kickoff": "2026-06-27T00:00:00",
    "venue": "Lumen Field, Seattle, Washington",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 1,
+   "home_xg": 0.923,
+   "away_xg": 2.237,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-066",
@@ -1019,9 +1070,12 @@
    "away": "BE",
    "kickoff": "2026-06-27T00:00:00",
    "venue": "BC Place, Vancouver",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 5,
+   "home_xg": 0.296,
+   "away_xg": 3.995,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-067",
@@ -1032,9 +1086,12 @@
    "away": "GH",
    "kickoff": "2026-06-27T18:00:00",
    "venue": "Lincoln Financial Field, Philadelphia, Pennsylvania",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 2,
+   "away_score": 1,
+   "home_xg": 0.482,
+   "away_xg": 0.754,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-068",
@@ -1045,9 +1102,12 @@
    "away": "GB-ENG",
    "kickoff": "2026-06-27T18:00:00",
    "venue": "MetLife Stadium, East Rutherford, New Jersey",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 0,
+   "away_score": 2,
+   "home_xg": 0.72,
+   "away_xg": 1.609,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-069",
@@ -1058,9 +1118,12 @@
    "away": "PT",
    "kickoff": "2026-06-27T20:30:00",
    "venue": "Hard Rock Stadium, Miami Gardens, Florida",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 0,
+   "away_score": 0,
+   "home_xg": 1.845,
+   "away_xg": 0.973,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-070",
@@ -1071,9 +1134,12 @@
    "away": "UZ",
    "kickoff": "2026-06-27T20:30:00",
    "venue": "Mercedes-Benz Stadium, Atlanta, Georgia",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 3,
+   "away_score": 1,
+   "home_xg": 2.115,
+   "away_xg": 0.163,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-071",
@@ -1084,9 +1150,12 @@
    "away": "AR",
    "kickoff": "2026-06-27T23:00:00",
    "venue": "AT&T Stadium, Arlington, Texas",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 1,
+   "away_score": 3,
+   "home_xg": 0.959,
+   "away_xg": 2.524,
+   "xg_source": "fifaphy"
   },
   {
    "id": "WC2026-072",
@@ -1097,9 +1166,12 @@
    "away": "AT",
    "kickoff": "2026-06-27T23:00:00",
    "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri",
-   "status": "scheduled",
-   "home_score": null,
-   "away_score": null
+   "status": "played",
+   "home_score": 3,
+   "away_score": 3,
+   "home_xg": 1.537,
+   "away_xg": 1.065,
+   "xg_source": "fifaphy"
   }
  ]
 }

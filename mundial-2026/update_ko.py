@@ -58,7 +58,7 @@ def main():
     print("\n▶ Generando el HTML self-contained")
     path = gen_html_ko.build(pred)
     print(f"   {os.path.relpath(path, HERE)}  ({os.path.getsize(path)//1024} KB)")
-    print(f"\n✓ Listo. Abrí docs/{pred['out_name']} (offline salvo las banderas).")
+    print(f"\n✓ Listo. Abrí docs/mundial/{pred['out_name']} (offline salvo las banderas).")
     print(f"  Para publicar:  git add -A && git commit -m \"prode {pred['round']}\" && git push")
 
 
