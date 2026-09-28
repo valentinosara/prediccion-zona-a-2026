@@ -653,6 +653,22 @@
     ]
   },
   {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-09-27",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Def. Belgrano",
+    "opponent_verein_id": 6062,
+    "opponent_coach": "César Vigevani",
+    "opponent_coach_id": 30990,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4798147,
+    "scorers": []
+  },
+  {
     "i": 1,
     "club": "Estudiantes",
     "date": "2025-07-06",

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-28T15:36:07",
+  "generated_at": "2026-09-28T15:41:32",
   "career": {
-    "pj": 166,
-    "w": 64,
+    "pj": 167,
+    "w": 65,
     "d": 46,
     "l": 56,
-    "gf": 177,
+    "gf": 178,
     "ga": 167,
-    "pts": 238,
-    "ppp": 1.43,
-    "effectiveness_pct": 47.8
+    "pts": 241,
+    "ppp": 1.44,
+    "effectiveness_pct": 48.1
   },
   "spells": [
     {
@@ -119,30 +119,30 @@
       "club": "Ferro",
       "appointed": "2026-04-14",
       "until": null,
-      "pj": 22,
-      "w": 15,
+      "pj": 23,
+      "w": 16,
       "d": 4,
       "l": 3,
-      "gf": 29,
+      "gf": 30,
       "ga": 18,
-      "pts": 49,
-      "ppp": 2.23,
-      "effectiveness_pct": 74.2,
+      "pts": 52,
+      "ppp": 2.26,
+      "effectiveness_pct": 75.4,
       "matches_tm": 23,
       "ppg_tm": 2.26
     }
   ],
   "own_clubs": {
     "Ferro": {
-      "pj": 30,
-      "w": 16,
+      "pj": 31,
+      "w": 17,
       "d": 7,
       "l": 7,
-      "gf": 35,
+      "gf": 36,
       "ga": 29,
-      "pts": 55,
-      "ppp": 1.83,
-      "effectiveness_pct": 61.1,
+      "pts": 58,
+      "ppp": 1.87,
+      "effectiveness_pct": 62.4,
       "spell_indices": [
         0,
         5
@@ -367,6 +367,41 @@
         "pts": 1,
         "ppp": 0.5,
         "effectiveness_pct": 16.7
+      }
+    },
+    {
+      "verein_id": 6062,
+      "name": "Def. Belgrano",
+      "pj": 5,
+      "w": 4,
+      "d": 0,
+      "l": 1,
+      "gf": 8,
+      "ga": 4,
+      "pts": 12,
+      "ppp": 2.4,
+      "effectiveness_pct": 80.0,
+      "home": {
+        "pj": 4,
+        "w": 3,
+        "d": 0,
+        "l": 1,
+        "gf": 7,
+        "ga": 4,
+        "pts": 9,
+        "ppp": 2.25,
+        "effectiveness_pct": 75.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
       }
     },
     {
@@ -682,41 +717,6 @@
         "pts": 3,
         "ppp": 3.0,
         "effectiveness_pct": 100.0
-      }
-    },
-    {
-      "verein_id": 6062,
-      "name": "Def. Belgrano",
-      "pj": 4,
-      "w": 3,
-      "d": 0,
-      "l": 1,
-      "gf": 7,
-      "ga": 4,
-      "pts": 9,
-      "ppp": 2.25,
-      "effectiveness_pct": 75.0,
-      "home": {
-        "pj": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 7,
-        "ga": 4,
-        "pts": 9,
-        "ppp": 2.25,
-        "effectiveness_pct": 75.0
-      },
-      "away": {
-        "pj": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0,
-        "ppp": null,
-        "effectiveness_pct": null
       }
     },
     {
@@ -3942,6 +3942,31 @@
       ]
     },
     {
+      "coach_id": 30990,
+      "name": "César Vigevani",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2026-09-27",
+          "club": "Ferro",
+          "opponent": "Def. Belgrano",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
       "coach_id": 46084,
       "name": "Darío Alaniz",
       "pj": 1,
@@ -5480,15 +5505,15 @@
       "effectiveness_pct": 58.6
     },
     "away": {
-      "pj": 83,
-      "w": 23,
+      "pj": 84,
+      "w": 24,
       "d": 23,
       "l": 37,
-      "gf": 75,
+      "gf": 76,
       "ga": 106,
-      "pts": 92,
-      "ppp": 1.11,
-      "effectiveness_pct": 36.9
+      "pts": 95,
+      "ppp": 1.13,
+      "effectiveness_pct": 37.7
     }
   },
   "scorers": {
