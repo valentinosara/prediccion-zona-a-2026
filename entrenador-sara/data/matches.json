@@ -557,6 +557,102 @@
     ]
   },
   {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-08-30",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Estudiantes",
+    "opponent_verein_id": 14312,
+    "opponent_coach": "Alfredo Grelak",
+    "opponent_coach_id": 31966,
+    "gf": 2,
+    "ga": 2,
+    "result": "D",
+    "spielbericht_id": 4798082,
+    "scorers": [
+      {
+        "player": "Fernando Duré",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Franco García",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Franco García",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Ezequiel Almirón",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-09-04",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Mitre (SdE)",
+    "opponent_verein_id": 30038,
+    "opponent_coach": "Claudio Biaggio",
+    "opponent_coach_id": 56525,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4798090,
+    "scorers": []
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-09-13",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Almirante Brown",
+    "opponent_verein_id": 12672,
+    "opponent_coach": "Andrés Montenegro",
+    "opponent_coach_id": 94455,
+    "gf": 0,
+    "ga": 0,
+    "result": "D",
+    "spielbericht_id": 4798110,
+    "scorers": []
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-09-19",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Ciudad Bolívar",
+    "opponent_verein_id": 91422,
+    "opponent_coach": "Diego Funes",
+    "opponent_coach_id": 105962,
+    "gf": 1,
+    "ga": 0,
+    "result": "W",
+    "spielbericht_id": 4798124,
+    "scorers": [
+      {
+        "player": "Emanuel Dening",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
     "i": 1,
     "club": "Estudiantes",
     "date": "2025-07-06",
@@ -4262,8 +4358,8 @@
     "opponent_verein_id": 14687,
     "opponent_coach": "Luca Marcogiuseppe",
     "opponent_coach_id": 89994,
-    "gf": 1,
-    "ga": 1,
+    "gf": 2,
+    "ga": 2,
     "result": "D",
     "spielbericht_id": 3813752,
     "scorers": [
