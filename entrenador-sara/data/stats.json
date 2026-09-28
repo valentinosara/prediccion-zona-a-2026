@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T15:41:32",
+  "generated_at": "2026-09-28T16:10:07",
   "career": {
     "pj": 167,
     "w": 65,
@@ -2987,6 +2987,51 @@
       ]
     },
     {
+      "coach_id": 96234,
+      "name": "Mariano Campodónico",
+      "pj": 3,
+      "w": 1,
+      "d": 1,
+      "l": 1,
+      "gf": 2,
+      "ga": 2,
+      "pts": 4,
+      "ppp": 1.33,
+      "effectiveness_pct": 44.4,
+      "matches": [
+        {
+          "date": "2024-08-04",
+          "club": "Dep. Maipú",
+          "opponent": "All Boys",
+          "home_away": "H",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-05-12",
+          "club": "Dep. Maipú",
+          "opponent": "All Boys",
+          "home_away": "A",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-09-27",
+          "club": "Ferro",
+          "opponent": "Def. Belgrano",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
       "coach_id": 23332,
       "name": "Rubén Forestello",
       "pj": 3,
@@ -3692,41 +3737,6 @@
       ]
     },
     {
-      "coach_id": 96234,
-      "name": "Mariano Campodónico",
-      "pj": 2,
-      "w": 0,
-      "d": 1,
-      "l": 1,
-      "gf": 1,
-      "ga": 2,
-      "pts": 1,
-      "ppp": 0.5,
-      "effectiveness_pct": 16.7,
-      "matches": [
-        {
-          "date": "2024-08-04",
-          "club": "Dep. Maipú",
-          "opponent": "All Boys",
-          "home_away": "H",
-          "result": "L",
-          "gf": 1,
-          "ga": 2,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2025-05-12",
-          "club": "Dep. Maipú",
-          "opponent": "All Boys",
-          "home_away": "A",
-          "result": "D",
-          "gf": 0,
-          "ga": 0,
-          "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
       "coach_id": 30073,
       "name": "Raúl Antuña",
       "pj": 2,
@@ -3937,31 +3947,6 @@
           "result": "W",
           "gf": 3,
           "ga": 1,
-          "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
-      "coach_id": 30990,
-      "name": "César Vigevani",
-      "pj": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 1,
-      "ga": 0,
-      "pts": 3,
-      "ppp": 3.0,
-      "effectiveness_pct": 100.0,
-      "matches": [
-        {
-          "date": "2026-09-27",
-          "club": "Ferro",
-          "opponent": "Def. Belgrano",
-          "home_away": "A",
-          "result": "W",
-          "gf": 1,
-          "ga": 0,
           "competition": "Primera Nacional"
         }
       ]
@@ -5523,12 +5508,12 @@
         "club": "Ferro",
         "scorers": [
           {
-            "player": "Lautaro Parisi",
+            "player": "Emanuel Dening",
             "goals": 7
           },
           {
-            "player": "Emanuel Dening",
-            "goals": 6
+            "player": "Lautaro Parisi",
+            "goals": 7
           },
           {
             "player": "Enzo Hoyos",
@@ -5863,6 +5848,10 @@
         "goals": 8
       },
       {
+        "player": "Emanuel Dening",
+        "goals": 7
+      },
+      {
         "player": "Lautaro Parisi",
         "goals": 7
       },
@@ -5872,10 +5861,6 @@
       },
       {
         "player": "Bruno Nasta",
-        "goals": 6
-      },
-      {
-        "player": "Emanuel Dening",
         "goals": 6
       },
       {
