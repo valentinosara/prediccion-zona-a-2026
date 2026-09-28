@@ -10,3 +10,6 @@ cache/
 # Artefactos del navegador MCP / temporales
 .playwright-mcp/
 *.tmp
+
+# Cache local de skill-registry (rutas de la máquina del usuario, no del repo)
+.atl/

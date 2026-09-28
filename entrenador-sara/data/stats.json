@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-21T09:38:43",
+  "generated_at": "2026-09-28T15:41:32",
   "career": {
-    "pj": 157,
-    "w": 60,
-    "d": 43,
-    "l": 54,
-    "gf": 166,
-    "ga": 155,
-    "pts": 223,
-    "ppp": 1.42,
-    "effectiveness_pct": 47.3
+    "pj": 167,
+    "w": 65,
+    "d": 46,
+    "l": 56,
+    "gf": 178,
+    "ga": 167,
+    "pts": 241,
+    "ppp": 1.44,
+    "effectiveness_pct": 48.1
   },
   "spells": [
     {
@@ -21,8 +21,8 @@
       "w": 11,
       "d": 15,
       "l": 10,
-      "gf": 39,
-      "ga": 32,
+      "gf": 40,
+      "ga": 33,
       "pts": 48,
       "ppp": 1.33,
       "effectiveness_pct": 44.4,
@@ -119,30 +119,30 @@
       "club": "Ferro",
       "appointed": "2026-04-14",
       "until": null,
-      "pj": 13,
-      "w": 11,
-      "d": 1,
-      "l": 1,
-      "gf": 19,
-      "ga": 7,
-      "pts": 34,
-      "ppp": 2.62,
-      "effectiveness_pct": 87.2,
-      "matches_tm": 13,
-      "ppg_tm": 2.62
+      "pj": 23,
+      "w": 16,
+      "d": 4,
+      "l": 3,
+      "gf": 30,
+      "ga": 18,
+      "pts": 52,
+      "ppp": 2.26,
+      "effectiveness_pct": 75.4,
+      "matches_tm": 23,
+      "ppg_tm": 2.26
     }
   ],
   "own_clubs": {
     "Ferro": {
-      "pj": 21,
-      "w": 12,
-      "d": 4,
-      "l": 5,
-      "gf": 25,
-      "ga": 18,
-      "pts": 40,
-      "ppp": 1.9,
-      "effectiveness_pct": 63.5,
+      "pj": 31,
+      "w": 17,
+      "d": 7,
+      "l": 7,
+      "gf": 36,
+      "ga": 29,
+      "pts": 58,
+      "ppp": 1.87,
+      "effectiveness_pct": 62.4,
       "spell_indices": [
         0,
         5
@@ -168,8 +168,8 @@
       "w": 30,
       "d": 33,
       "l": 28,
-      "gf": 96,
-      "ga": 94,
+      "gf": 97,
+      "ga": 95,
       "pts": 123,
       "ppp": 1.35,
       "effectiveness_pct": 45.1,
@@ -227,6 +227,41 @@
         "pts": 6,
         "ppp": 1.5,
         "effectiveness_pct": 50.0
+      }
+    },
+    {
+      "verein_id": 30038,
+      "name": "Mitre (SdE)",
+      "pj": 6,
+      "w": 2,
+      "d": 2,
+      "l": 2,
+      "gf": 3,
+      "ga": 5,
+      "pts": 8,
+      "ppp": 1.33,
+      "effectiveness_pct": 44.4,
+      "home": {
+        "pj": 2,
+        "w": 1,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 4,
+        "ppp": 2.0,
+        "effectiveness_pct": 66.7
+      },
+      "away": {
+        "pj": 4,
+        "w": 1,
+        "d": 1,
+        "l": 2,
+        "gf": 2,
+        "ga": 5,
+        "pts": 4,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
       }
     },
     {
@@ -300,6 +335,76 @@
       }
     },
     {
+      "verein_id": 12100,
+      "name": "All Boys",
+      "pj": 5,
+      "w": 1,
+      "d": 2,
+      "l": 2,
+      "gf": 5,
+      "ga": 6,
+      "pts": 5,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 3,
+        "ga": 3,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 3,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
+      }
+    },
+    {
+      "verein_id": 6062,
+      "name": "Def. Belgrano",
+      "pj": 5,
+      "w": 4,
+      "d": 0,
+      "l": 1,
+      "gf": 8,
+      "ga": 4,
+      "pts": 12,
+      "ppp": 2.4,
+      "effectiveness_pct": 80.0,
+      "home": {
+        "pj": 4,
+        "w": 3,
+        "d": 0,
+        "l": 1,
+        "gf": 7,
+        "ga": 4,
+        "pts": 9,
+        "ppp": 2.25,
+        "effectiveness_pct": 75.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
       "verein_id": 14318,
       "name": "Dep. Madryn",
       "pj": 5,
@@ -332,6 +437,41 @@
         "pts": 4,
         "ppp": 1.33,
         "effectiveness_pct": 44.4
+      }
+    },
+    {
+      "verein_id": 14312,
+      "name": "Estudiantes",
+      "pj": 5,
+      "w": 1,
+      "d": 1,
+      "l": 3,
+      "gf": 4,
+      "ga": 7,
+      "pts": 4,
+      "ppp": 0.8,
+      "effectiveness_pct": 26.7,
+      "home": {
+        "pj": 3,
+        "w": 1,
+        "d": 0,
+        "l": 2,
+        "gf": 1,
+        "ga": 3,
+        "pts": 3,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      },
+      "away": {
+        "pj": 2,
+        "w": 0,
+        "d": 1,
+        "l": 1,
+        "gf": 3,
+        "ga": 4,
+        "pts": 1,
+        "ppp": 0.5,
+        "effectiveness_pct": 16.7
       }
     },
     {
@@ -370,41 +510,6 @@
       }
     },
     {
-      "verein_id": 30038,
-      "name": "Mitre (SdE)",
-      "pj": 5,
-      "w": 2,
-      "d": 1,
-      "l": 2,
-      "gf": 3,
-      "ga": 5,
-      "pts": 7,
-      "ppp": 1.4,
-      "effectiveness_pct": 46.7,
-      "home": {
-        "pj": 1,
-        "w": 1,
-        "d": 0,
-        "l": 0,
-        "gf": 1,
-        "ga": 0,
-        "pts": 3,
-        "ppp": 3.0,
-        "effectiveness_pct": 100.0
-      },
-      "away": {
-        "pj": 4,
-        "w": 1,
-        "d": 1,
-        "l": 2,
-        "gf": 2,
-        "ga": 5,
-        "pts": 4,
-        "ppp": 1.0,
-        "effectiveness_pct": 33.3
-      }
-    },
-    {
       "verein_id": 38545,
       "name": "Agropecuario",
       "pj": 4,
@@ -440,27 +545,62 @@
       }
     },
     {
-      "verein_id": 12100,
-      "name": "All Boys",
+      "verein_id": 12672,
+      "name": "Almirante Brown",
       "pj": 4,
       "w": 0,
-      "d": 2,
-      "l": 2,
-      "gf": 4,
-      "ga": 6,
-      "pts": 2,
-      "ppp": 0.5,
-      "effectiveness_pct": 16.7,
+      "d": 1,
+      "l": 3,
+      "gf": 1,
+      "ga": 4,
+      "pts": 1,
+      "ppp": 0.25,
+      "effectiveness_pct": 8.3,
       "home": {
+        "pj": 2,
+        "w": 0,
+        "d": 0,
+        "l": 2,
+        "gf": 0,
+        "ga": 2,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
         "pj": 2,
         "w": 0,
         "d": 1,
         "l": 1,
-        "gf": 2,
-        "ga": 3,
+        "gf": 1,
+        "ga": 2,
         "pts": 1,
         "ppp": 0.5,
         "effectiveness_pct": 16.7
+      }
+    },
+    {
+      "verein_id": 8057,
+      "name": "Atlanta",
+      "pj": 4,
+      "w": 1,
+      "d": 1,
+      "l": 2,
+      "gf": 5,
+      "ga": 5,
+      "pts": 4,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 3,
+        "ga": 2,
+        "pts": 3,
+        "ppp": 1.5,
+        "effectiveness_pct": 50.0
       },
       "away": {
         "pj": 2,
@@ -580,73 +720,38 @@
       }
     },
     {
-      "verein_id": 6062,
-      "name": "Def. Belgrano",
-      "pj": 4,
-      "w": 3,
-      "d": 0,
-      "l": 1,
-      "gf": 7,
-      "ga": 4,
-      "pts": 9,
-      "ppp": 2.25,
-      "effectiveness_pct": 75.0,
-      "home": {
-        "pj": 4,
-        "w": 3,
-        "d": 0,
-        "l": 1,
-        "gf": 7,
-        "ga": 4,
-        "pts": 9,
-        "ppp": 2.25,
-        "effectiveness_pct": 75.0
-      },
-      "away": {
-        "pj": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0,
-        "ppp": null,
-        "effectiveness_pct": null
-      }
-    },
-    {
-      "verein_id": 14312,
-      "name": "Estudiantes",
+      "verein_id": 12458,
+      "name": "Dep. Morón",
       "pj": 4,
       "w": 1,
-      "d": 0,
-      "l": 3,
+      "d": 1,
+      "l": 2,
       "gf": 2,
-      "ga": 5,
-      "pts": 3,
-      "ppp": 0.75,
-      "effectiveness_pct": 25.0,
+      "ga": 6,
+      "pts": 4,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
       "home": {
-        "pj": 3,
+        "pj": 1,
         "w": 1,
         "d": 0,
-        "l": 2,
+        "l": 0,
         "gf": 1,
-        "ga": 3,
+        "ga": 0,
         "pts": 3,
-        "ppp": 1.0,
-        "effectiveness_pct": 33.3
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
       },
       "away": {
-        "pj": 1,
+        "pj": 3,
         "w": 0,
-        "d": 0,
-        "l": 1,
+        "d": 1,
+        "l": 2,
         "gf": 1,
-        "ga": 2,
-        "pts": 0,
-        "ppp": 0.0,
-        "effectiveness_pct": 0.0
+        "ga": 6,
+        "pts": 1,
+        "ppp": 0.33,
+        "effectiveness_pct": 11.1
       }
     },
     {
@@ -726,8 +831,8 @@
       "w": 1,
       "d": 2,
       "l": 1,
-      "gf": 2,
-      "ga": 2,
+      "gf": 3,
+      "ga": 3,
       "pts": 5,
       "ppp": 1.25,
       "effectiveness_pct": 41.7,
@@ -747,8 +852,8 @@
         "w": 1,
         "d": 1,
         "l": 1,
-        "gf": 2,
-        "ga": 2,
+        "gf": 3,
+        "ga": 3,
         "pts": 4,
         "ppp": 1.33,
         "effectiveness_pct": 44.4
@@ -787,76 +892,6 @@
         "pts": 3,
         "ppp": 1.0,
         "effectiveness_pct": 33.3
-      }
-    },
-    {
-      "verein_id": 12672,
-      "name": "Almirante Brown",
-      "pj": 3,
-      "w": 0,
-      "d": 0,
-      "l": 3,
-      "gf": 1,
-      "ga": 4,
-      "pts": 0,
-      "ppp": 0.0,
-      "effectiveness_pct": 0.0,
-      "home": {
-        "pj": 2,
-        "w": 0,
-        "d": 0,
-        "l": 2,
-        "gf": 0,
-        "ga": 2,
-        "pts": 0,
-        "ppp": 0.0,
-        "effectiveness_pct": 0.0
-      },
-      "away": {
-        "pj": 1,
-        "w": 0,
-        "d": 0,
-        "l": 1,
-        "gf": 1,
-        "ga": 2,
-        "pts": 0,
-        "ppp": 0.0,
-        "effectiveness_pct": 0.0
-      }
-    },
-    {
-      "verein_id": 8057,
-      "name": "Atlanta",
-      "pj": 3,
-      "w": 0,
-      "d": 1,
-      "l": 2,
-      "gf": 2,
-      "ga": 4,
-      "pts": 1,
-      "ppp": 0.33,
-      "effectiveness_pct": 11.1,
-      "home": {
-        "pj": 1,
-        "w": 0,
-        "d": 0,
-        "l": 1,
-        "gf": 0,
-        "ga": 1,
-        "pts": 0,
-        "ppp": 0.0,
-        "effectiveness_pct": 0.0
-      },
-      "away": {
-        "pj": 2,
-        "w": 0,
-        "d": 1,
-        "l": 1,
-        "gf": 2,
-        "ga": 3,
-        "pts": 1,
-        "ppp": 0.5,
-        "effectiveness_pct": 16.7
       }
     },
     {
@@ -962,41 +997,6 @@
         "pts": 0,
         "ppp": null,
         "effectiveness_pct": null
-      }
-    },
-    {
-      "verein_id": 12458,
-      "name": "Dep. Morón",
-      "pj": 3,
-      "w": 1,
-      "d": 1,
-      "l": 1,
-      "gf": 2,
-      "ga": 2,
-      "pts": 4,
-      "ppp": 1.33,
-      "effectiveness_pct": 44.4,
-      "home": {
-        "pj": 1,
-        "w": 1,
-        "d": 0,
-        "l": 0,
-        "gf": 1,
-        "ga": 0,
-        "pts": 3,
-        "ppp": 3.0,
-        "effectiveness_pct": 100.0
-      },
-      "away": {
-        "pj": 2,
-        "w": 0,
-        "d": 1,
-        "l": 1,
-        "gf": 1,
-        "ga": 2,
-        "pts": 1,
-        "ppp": 0.5,
-        "effectiveness_pct": 16.7
       }
     },
     {
@@ -1455,6 +1455,41 @@
       }
     },
     {
+      "verein_id": 91422,
+      "name": "Ciudad Bolívar",
+      "pj": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 5,
+      "ga": 2,
+      "pts": 6,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 4,
+        "ga": 2,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      }
+    },
+    {
       "verein_id": 1829,
       "name": "Instituto ACC",
       "pj": 2,
@@ -1522,6 +1557,41 @@
         "pts": 0,
         "ppp": 0.0,
         "effectiveness_pct": 0.0
+      }
+    },
+    {
+      "verein_id": 5208,
+      "name": "Los Andes",
+      "pj": 2,
+      "w": 1,
+      "d": 0,
+      "l": 1,
+      "gf": 2,
+      "ga": 4,
+      "pts": 3,
+      "ppp": 1.5,
+      "effectiveness_pct": 50.0,
+      "home": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      },
+      "away": {
+        "pj": 2,
+        "w": 1,
+        "d": 0,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "pts": 3,
+        "ppp": 1.5,
+        "effectiveness_pct": 50.0
       }
     },
     {
@@ -1770,41 +1840,6 @@
       }
     },
     {
-      "verein_id": 91422,
-      "name": "Ciudad Bolívar",
-      "pj": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 4,
-      "ga": 2,
-      "pts": 3,
-      "ppp": 3.0,
-      "effectiveness_pct": 100.0,
-      "home": {
-        "pj": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0,
-        "ppp": null,
-        "effectiveness_pct": null
-      },
-      "away": {
-        "pj": 1,
-        "w": 1,
-        "d": 0,
-        "l": 0,
-        "gf": 4,
-        "ga": 2,
-        "pts": 3,
-        "ppp": 3.0,
-        "effectiveness_pct": 100.0
-      }
-    },
-    {
       "verein_id": 13339,
       "name": "Colegiales",
       "pj": 1,
@@ -1980,6 +2015,41 @@
       }
     },
     {
+      "verein_id": 12574,
+      "name": "Godoy Cruz",
+      "pj": 1,
+      "w": 0,
+      "d": 0,
+      "l": 1,
+      "gf": 1,
+      "ga": 3,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "home": {
+        "pj": 1,
+        "w": 0,
+        "d": 0,
+        "l": 1,
+        "gf": 1,
+        "ga": 3,
+        "pts": 0,
+        "ppp": 0.0,
+        "effectiveness_pct": 0.0
+      },
+      "away": {
+        "pj": 0,
+        "w": 0,
+        "d": 0,
+        "l": 0,
+        "gf": 0,
+        "ga": 0,
+        "pts": 0,
+        "ppp": null,
+        "effectiveness_pct": null
+      }
+    },
+    {
       "verein_id": 18911,
       "name": "Juv. Unida (SL)",
       "pj": 1,
@@ -2012,41 +2082,6 @@
         "pts": 0,
         "ppp": null,
         "effectiveness_pct": null
-      }
-    },
-    {
-      "verein_id": 5208,
-      "name": "Los Andes",
-      "pj": 1,
-      "w": 0,
-      "d": 0,
-      "l": 1,
-      "gf": 0,
-      "ga": 3,
-      "pts": 0,
-      "ppp": 0.0,
-      "effectiveness_pct": 0.0,
-      "home": {
-        "pj": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0,
-        "ppp": null,
-        "effectiveness_pct": null
-      },
-      "away": {
-        "pj": 1,
-        "w": 0,
-        "d": 0,
-        "l": 1,
-        "gf": 0,
-        "ga": 3,
-        "pts": 0,
-        "ppp": 0.0,
-        "effectiveness_pct": 0.0
       }
     },
     {
@@ -2372,6 +2407,81 @@
       ]
     },
     {
+      "coach_id": 56292,
+      "name": "Walter Otta",
+      "pj": 6,
+      "w": 2,
+      "d": 1,
+      "l": 3,
+      "gf": 4,
+      "ga": 8,
+      "pts": 7,
+      "ppp": 1.17,
+      "effectiveness_pct": 38.9,
+      "matches": [
+        {
+          "date": "2022-05-14",
+          "club": "Dep. Maipú",
+          "opponent": "Estudiantes",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-06-09",
+          "club": "Dep. Maipú",
+          "opponent": "Estudiantes",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-10-27",
+          "club": "Dep. Maipú",
+          "opponent": "Estudiantes",
+          "home_away": "A",
+          "result": "L",
+          "gf": 1,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-08-31",
+          "club": "Estudiantes",
+          "opponent": "Dep. Morón",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-06-21",
+          "club": "Ferro",
+          "opponent": "Dep. Morón",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-07-26",
+          "club": "Ferro",
+          "opponent": "Dep. Morón",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 4,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
       "coach_id": 102454,
       "name": "Ezequiel Medrán",
       "pj": 5,
@@ -2437,62 +2547,52 @@
       ]
     },
     {
-      "coach_id": 56292,
-      "name": "Walter Otta",
-      "pj": 5,
-      "w": 2,
-      "d": 1,
-      "l": 2,
-      "gf": 4,
-      "ga": 4,
-      "pts": 7,
-      "ppp": 1.4,
-      "effectiveness_pct": 46.7,
+      "coach_id": 23240,
+      "name": "Fabián Nardozza",
+      "pj": 4,
+      "w": 3,
+      "d": 0,
+      "l": 1,
+      "gf": 5,
+      "ga": 3,
+      "pts": 9,
+      "ppp": 2.25,
+      "effectiveness_pct": 75.0,
       "matches": [
         {
-          "date": "2022-05-14",
-          "club": "Dep. Maipú",
-          "opponent": "Estudiantes",
-          "home_away": "H",
-          "result": "L",
-          "gf": 0,
-          "ga": 1,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2024-06-09",
-          "club": "Dep. Maipú",
-          "opponent": "Estudiantes",
+          "date": "2025-08-10",
+          "club": "Estudiantes",
+          "opponent": "Def. Belgrano",
           "home_away": "H",
           "result": "W",
-          "gf": 1,
+          "gf": 2,
           "ga": 0,
           "competition": "Primera Nacional"
         },
         {
-          "date": "2024-10-27",
-          "club": "Dep. Maipú",
-          "opponent": "Estudiantes",
-          "home_away": "A",
+          "date": "2026-03-14",
+          "club": "Estudiantes",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
           "result": "L",
-          "gf": 1,
+          "gf": 0,
           "ga": 2,
           "competition": "Primera Nacional"
         },
         {
-          "date": "2025-08-31",
-          "club": "Estudiantes",
-          "opponent": "Dep. Morón",
-          "home_away": "A",
-          "result": "D",
-          "gf": 1,
+          "date": "2026-05-11",
+          "club": "Ferro",
+          "opponent": "Def. Belgrano",
+          "home_away": "H",
+          "result": "W",
+          "gf": 2,
           "ga": 1,
           "competition": "Primera Nacional"
         },
         {
-          "date": "2026-06-21",
+          "date": "2026-08-24",
           "club": "Ferro",
-          "opponent": "Dep. Morón",
+          "opponent": "All Boys",
           "home_away": "H",
           "result": "W",
           "gf": 1,
@@ -2722,6 +2822,61 @@
       ]
     },
     {
+      "coach_id": 57617,
+      "name": "Leonardo Lemos",
+      "pj": 4,
+      "w": 1,
+      "d": 2,
+      "l": 1,
+      "gf": 4,
+      "ga": 6,
+      "pts": 5,
+      "ppp": 1.25,
+      "effectiveness_pct": 41.7,
+      "matches": [
+        {
+          "date": "2022-03-06",
+          "club": "Dep. Maipú",
+          "opponent": "Sacachispas",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2024-03-03",
+          "club": "Dep. Maipú",
+          "opponent": "Guillermo Brown",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-04-20",
+          "club": "Dep. Maipú",
+          "opponent": "Los Andes",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 3,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-08-09",
+          "club": "Ferro",
+          "opponent": "Los Andes",
+          "home_away": "A",
+          "result": "W",
+          "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
       "coach_id": 51281,
       "name": "Gabriel Gómez",
       "pj": 4,
@@ -2832,51 +2987,6 @@
       ]
     },
     {
-      "coach_id": 23240,
-      "name": "Fabián Nardozza",
-      "pj": 3,
-      "w": 2,
-      "d": 0,
-      "l": 1,
-      "gf": 4,
-      "ga": 3,
-      "pts": 6,
-      "ppp": 2.0,
-      "effectiveness_pct": 66.7,
-      "matches": [
-        {
-          "date": "2025-08-10",
-          "club": "Estudiantes",
-          "opponent": "Def. Belgrano",
-          "home_away": "H",
-          "result": "W",
-          "gf": 2,
-          "ga": 0,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2026-03-14",
-          "club": "Estudiantes",
-          "opponent": "Def. Belgrano",
-          "home_away": "H",
-          "result": "L",
-          "gf": 0,
-          "ga": 2,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2026-05-11",
-          "club": "Ferro",
-          "opponent": "Def. Belgrano",
-          "home_away": "H",
-          "result": "W",
-          "gf": 2,
-          "ga": 1,
-          "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
       "coach_id": 23332,
       "name": "Rubén Forestello",
       "pj": 3,
@@ -2967,46 +3077,46 @@
       ]
     },
     {
-      "coach_id": 57617,
-      "name": "Leonardo Lemos",
+      "coach_id": 31966,
+      "name": "Alfredo Grelak",
       "pj": 3,
       "w": 0,
-      "d": 2,
-      "l": 1,
+      "d": 1,
+      "l": 2,
       "gf": 2,
-      "ga": 5,
-      "pts": 2,
-      "ppp": 0.67,
-      "effectiveness_pct": 22.2,
+      "ga": 7,
+      "pts": 1,
+      "ppp": 0.33,
+      "effectiveness_pct": 11.1,
       "matches": [
         {
-          "date": "2022-03-06",
-          "club": "Dep. Maipú",
-          "opponent": "Sacachispas",
-          "home_away": "A",
-          "result": "D",
-          "gf": 1,
-          "ga": 1,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2024-03-03",
-          "club": "Dep. Maipú",
-          "opponent": "Guillermo Brown",
-          "home_away": "A",
-          "result": "D",
-          "gf": 1,
-          "ga": 1,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2025-04-20",
-          "club": "Dep. Maipú",
-          "opponent": "Los Andes",
+          "date": "2023-05-21",
+          "club": "Estudiantes",
+          "opponent": "Mitre (SdE)",
           "home_away": "A",
           "result": "L",
           "gf": 0,
           "ga": 3,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-03-08",
+          "club": "Dep. Maipú",
+          "opponent": "Ferro",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-08-30",
+          "club": "Ferro",
+          "opponent": "Estudiantes",
+          "home_away": "A",
+          "result": "D",
+          "gf": 2,
+          "ga": 2,
           "competition": "Primera Nacional"
         }
       ]
@@ -3083,6 +3193,41 @@
           "date": "2024-07-21",
           "club": "Dep. Maipú",
           "opponent": "Guillermo Brown",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
+      "coach_id": 105962,
+      "name": "Diego Funes",
+      "pj": 2,
+      "w": 2,
+      "d": 0,
+      "l": 0,
+      "gf": 5,
+      "ga": 2,
+      "pts": 6,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2026-05-03",
+          "club": "Ferro",
+          "opponent": "Ciudad Bolívar",
+          "home_away": "A",
+          "result": "W",
+          "gf": 4,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-09-19",
+          "club": "Ferro",
+          "opponent": "Ciudad Bolívar",
           "home_away": "H",
           "result": "W",
           "gf": 1,
@@ -3477,6 +3622,41 @@
       ]
     },
     {
+      "coach_id": 94455,
+      "name": "Andrés Montenegro",
+      "pj": 2,
+      "w": 0,
+      "d": 1,
+      "l": 1,
+      "gf": 0,
+      "ga": 1,
+      "pts": 1,
+      "ppp": 0.5,
+      "effectiveness_pct": 16.7,
+      "matches": [
+        {
+          "date": "2026-04-28",
+          "club": "Ferro",
+          "opponent": "Almirante Brown",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-09-13",
+          "club": "Ferro",
+          "opponent": "Almirante Brown",
+          "home_away": "A",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
       "coach_id": 22281,
       "name": "Gustavo Coleoni",
       "pj": 2,
@@ -3617,41 +3797,6 @@
       ]
     },
     {
-      "coach_id": 31966,
-      "name": "Alfredo Grelak",
-      "pj": 2,
-      "w": 0,
-      "d": 0,
-      "l": 2,
-      "gf": 0,
-      "ga": 5,
-      "pts": 0,
-      "ppp": 0.0,
-      "effectiveness_pct": 0.0,
-      "matches": [
-        {
-          "date": "2023-05-21",
-          "club": "Estudiantes",
-          "opponent": "Mitre (SdE)",
-          "home_away": "A",
-          "result": "L",
-          "gf": 0,
-          "ga": 3,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2025-03-08",
-          "club": "Dep. Maipú",
-          "opponent": "Ferro",
-          "home_away": "A",
-          "result": "L",
-          "gf": 0,
-          "ga": 2,
-          "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
       "coach_id": 6802,
       "name": "Daniel Garnero",
       "pj": 2,
@@ -3683,6 +3828,41 @@
           "gf": 0,
           "ga": 1,
           "competition": "Copa Sudamericana"
+        }
+      ]
+    },
+    {
+      "coach_id": 57542,
+      "name": "Pablo de Muner",
+      "pj": 2,
+      "w": 0,
+      "d": 0,
+      "l": 2,
+      "gf": 1,
+      "ga": 4,
+      "pts": 0,
+      "ppp": 0.0,
+      "effectiveness_pct": 0.0,
+      "matches": [
+        {
+          "date": "2022-03-28",
+          "club": "Dep. Maipú",
+          "opponent": "San Martín (T)",
+          "home_away": "A",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-08-01",
+          "club": "Ferro",
+          "opponent": "Godoy Cruz",
+          "home_away": "H",
+          "result": "L",
+          "gf": 1,
+          "ga": 3,
+          "competition": "Primera Nacional"
         }
       ]
     },
@@ -3728,6 +3908,56 @@
           "date": "2022-04-24",
           "club": "Dep. Maipú",
           "opponent": "Guillermo Brown",
+          "home_away": "A",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
+      "coach_id": 124595,
+      "name": "Cristian Pellerano",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 3,
+      "ga": 1,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2026-08-15",
+          "club": "Ferro",
+          "opponent": "Atlanta",
+          "home_away": "H",
+          "result": "W",
+          "gf": 3,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
+      "coach_id": 30990,
+      "name": "César Vigevani",
+      "pj": 1,
+      "w": 1,
+      "d": 0,
+      "l": 0,
+      "gf": 1,
+      "ga": 0,
+      "pts": 3,
+      "ppp": 3.0,
+      "effectiveness_pct": 100.0,
+      "matches": [
+        {
+          "date": "2026-09-27",
+          "club": "Ferro",
+          "opponent": "Def. Belgrano",
           "home_away": "A",
           "result": "W",
           "gf": 1,
@@ -3783,31 +4013,6 @@
           "gf": 1,
           "ga": 0,
           "competition": "Professional Football League (- 23/24)"
-        }
-      ]
-    },
-    {
-      "coach_id": 105962,
-      "name": "Diego Funes",
-      "pj": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 4,
-      "ga": 2,
-      "pts": 3,
-      "ppp": 3.0,
-      "effectiveness_pct": 100.0,
-      "matches": [
-        {
-          "date": "2026-05-03",
-          "club": "Ferro",
-          "opponent": "Ciudad Bolívar",
-          "home_away": "A",
-          "result": "W",
-          "gf": 4,
-          "ga": 2,
-          "competition": "Primera Nacional"
         }
       ]
     },
@@ -4387,6 +4592,31 @@
       ]
     },
     {
+      "coach_id": 56525,
+      "name": "Claudio Biaggio",
+      "pj": 1,
+      "w": 0,
+      "d": 1,
+      "l": 0,
+      "gf": 0,
+      "ga": 0,
+      "pts": 1,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "matches": [
+        {
+          "date": "2026-09-04",
+          "club": "Ferro",
+          "opponent": "Mitre (SdE)",
+          "home_away": "H",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
       "coach_id": 104911,
       "name": "Cristian Fabbiani",
       "pj": 1,
@@ -4618,8 +4848,8 @@
       "w": 0,
       "d": 1,
       "l": 0,
-      "gf": 1,
-      "ga": 1,
+      "gf": 2,
+      "ga": 2,
       "pts": 1,
       "ppp": 1.0,
       "effectiveness_pct": 33.3,
@@ -4630,8 +4860,8 @@
           "opponent": "Gimnasia (M)",
           "home_away": "A",
           "result": "D",
-          "gf": 1,
-          "ga": 1,
+          "gf": 2,
+          "ga": 2,
           "competition": "Primera Nacional"
         }
       ]
@@ -4854,31 +5084,6 @@
           "club": "Dep. Maipú",
           "opponent": "Dep. Morón",
           "home_away": "A",
-          "result": "L",
-          "gf": 0,
-          "ga": 1,
-          "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
-      "coach_id": 94455,
-      "name": "Andrés Montenegro",
-      "pj": 1,
-      "w": 0,
-      "d": 0,
-      "l": 1,
-      "gf": 0,
-      "ga": 1,
-      "pts": 0,
-      "ppp": 0.0,
-      "effectiveness_pct": 0.0,
-      "matches": [
-        {
-          "date": "2026-04-28",
-          "club": "Ferro",
-          "opponent": "Almirante Brown",
-          "home_away": "H",
           "result": "L",
           "gf": 0,
           "ga": 1,
@@ -5212,31 +5417,6 @@
       ]
     },
     {
-      "coach_id": 57542,
-      "name": "Pablo de Muner",
-      "pj": 1,
-      "w": 0,
-      "d": 0,
-      "l": 1,
-      "gf": 0,
-      "ga": 1,
-      "pts": 0,
-      "ppp": 0.0,
-      "effectiveness_pct": 0.0,
-      "matches": [
-        {
-          "date": "2022-03-28",
-          "club": "Dep. Maipú",
-          "opponent": "San Martín (T)",
-          "home_away": "A",
-          "result": "L",
-          "gf": 0,
-          "ga": 1,
-          "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
       "coach_id": 126734,
       "name": "Rodrigo Alonso",
       "pj": 1,
@@ -5314,26 +5494,26 @@
   ],
   "home_away_global": {
     "home": {
-      "pj": 78,
-      "w": 38,
-      "d": 22,
-      "l": 18,
-      "gf": 96,
-      "ga": 57,
-      "pts": 136,
-      "ppp": 1.74,
-      "effectiveness_pct": 58.1
+      "pj": 83,
+      "w": 41,
+      "d": 23,
+      "l": 19,
+      "gf": 102,
+      "ga": 61,
+      "pts": 146,
+      "ppp": 1.76,
+      "effectiveness_pct": 58.6
     },
     "away": {
-      "pj": 79,
-      "w": 22,
-      "d": 21,
-      "l": 36,
-      "gf": 70,
-      "ga": 98,
-      "pts": 87,
-      "ppp": 1.1,
-      "effectiveness_pct": 36.7
+      "pj": 84,
+      "w": 24,
+      "d": 23,
+      "l": 37,
+      "gf": 76,
+      "ga": 106,
+      "pts": 95,
+      "ppp": 1.13,
+      "effectiveness_pct": 37.7
     }
   },
   "scorers": {
@@ -5344,18 +5524,26 @@
         "scorers": [
           {
             "player": "Lautaro Parisi",
-            "goals": 5
+            "goals": 7
           },
           {
             "player": "Emanuel Dening",
-            "goals": 4
+            "goals": 6
           },
           {
             "player": "Enzo Hoyos",
-            "goals": 2
+            "goals": 3
+          },
+          {
+            "player": "Franco García",
+            "goals": 3
           },
           {
             "player": "Gustavo Canto",
+            "goals": 2
+          },
+          {
+            "player": "Matías Kabalin",
             "goals": 2
           },
           {
@@ -5375,7 +5563,7 @@
             "goals": 1
           },
           {
-            "player": "Matías Kabalin",
+            "player": "Nicolás Gómez",
             "goals": 1
           }
         ]
@@ -5675,11 +5863,19 @@
         "goals": 8
       },
       {
+        "player": "Lautaro Parisi",
+        "goals": 7
+      },
+      {
         "player": "Marcelo Eggel",
         "goals": 7
       },
       {
         "player": "Bruno Nasta",
+        "goals": 6
+      },
+      {
+        "player": "Emanuel Dening",
         "goals": 6
       },
       {
@@ -5695,16 +5891,8 @@
         "goals": 6
       },
       {
-        "player": "Lautaro Parisi",
-        "goals": 5
-      },
-      {
         "player": "Martín Garnerone",
         "goals": 5
-      },
-      {
-        "player": "Emanuel Dening",
-        "goals": 4
       },
       {
         "player": "Ezequiel Almirón",
@@ -5717,6 +5905,14 @@
       {
         "player": "Santiago Moyano",
         "goals": 4
+      },
+      {
+        "player": "Enzo Hoyos",
+        "goals": 3
+      },
+      {
+        "player": "Franco García",
+        "goals": 3
       },
       {
         "player": "Gonzalo Berterame",
@@ -5740,10 +5936,6 @@
       },
       {
         "player": "Diego Ramírez",
-        "goals": 2
-      },
-      {
-        "player": "Enzo Hoyos",
         "goals": 2
       },
       {
@@ -5772,6 +5964,10 @@
       },
       {
         "player": "Luciano Paredes",
+        "goals": 2
+      },
+      {
+        "player": "Matías Kabalin",
         "goals": 2
       },
       {
@@ -5883,10 +6079,6 @@
         "goals": 1
       },
       {
-        "player": "Matías Kabalin",
-        "goals": 1
-      },
-      {
         "player": "Matías Persia",
         "goals": 1
       },
@@ -5900,6 +6092,10 @@
       },
       {
         "player": "Nicolás Del Priore",
+        "goals": 1
+      },
+      {
+        "player": "Nicolás Gómez",
         "goals": 1
       },
       {

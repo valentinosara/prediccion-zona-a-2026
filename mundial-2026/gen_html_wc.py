@@ -1,7 +1,7 @@
 """
 gen_html_wc.py - Informe HTML self-contained de la prediccion del prode (una fecha).
 
-Lee data_mundial/pred_wc.json y escribe docs/mundial_fechaN.html: un unico archivo
+Lee data_mundial/pred_wc.json y escribe ../docs/mundial/fechaN.html: un unico archivo
 autocontenido (CSS+JS embebidos, sin servidor, abrible offline), responsive, en espanol,
 con el estilo y la calidad de gen_pred_html.py. El front es simple; la inteligencia esta
 en el back (model_wc/market_wc/ratings_wc/prode_wc).
@@ -20,7 +20,7 @@ from datetime import datetime, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data_mundial")
-DOCS = os.path.join(HERE, "docs")
+DOCS = os.path.join(HERE, "..", "docs", "mundial")
 
 DIAS = ["Lun", "Mar", "Mie", "Jue", "Vie", "Sab", "Dom"]
 CONF_CLASS = {"alta": "c-alta", "media": "c-media", "baja": "c-baja"}
@@ -381,7 +381,7 @@ def build(fecha=None):
     # puede pasar un titulo/nombre propio via meta (p.ej. "Hoy" -> mundial_hoy.html).
     fecha = d["meta"]["fecha"]
     label = m.get("titulo") or f"Fecha {fecha}"
-    out_name = m.get("out_name") or f"mundial_fecha{fecha}.html"
+    out_name = m.get("out_name") or f"fecha{fecha}.html"
     cg = m["confianza_global"]
     banner, prov_html = provenance_block(m["provenance"])
     jugada = m.get("jugada", "ev")

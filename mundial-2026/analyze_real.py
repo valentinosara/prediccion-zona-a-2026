@@ -2,7 +2,7 @@
 analyze_real.py - Analiza las fechas YA jugadas del Mundial 2026 (datos reales levantados
 por busqueda web) y muestra los AJUSTES del modelo: calibracion del total de goles,
 impacto de usar xG vs goles crudos, y un backtest del prode (modelo viejo vs nuevo).
-Tambien predice los partidos de HOY con el modelo nuevo y genera docs/mundial_hoy.html.
+Tambien predice los partidos de HOY con el modelo nuevo y genera docs/mundial/hoy.html.
 
 Datos: data_mundial/real/md1.json (resultados reales + xG donde estaba publicado + Elo
 aproximado pre-torneo). Esto NO usa cuotas (no hay red): es una comparacion solo-modelo,
