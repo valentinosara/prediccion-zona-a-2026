@@ -16,7 +16,7 @@ Un partido (rapido):
   python predict_cli.py --home "Brasil" --away "Japon" --h2h 1.50 4.10 6.90 \
                         --ou 2.5 1.83 1.97 --ah -1.25 1.93 1.93 --book Pinnacle --kickoff 14:00
 
-Varios partidos + HTML (docs/mundial_hoy.html):
+Varios partidos + HTML (docs/mundial/hoy.html):
   python predict_cli.py --file hoy.json --html
   # hoy.json: {"titulo":"Mundial 2026 — Hoy", "matches":[
   #   {"home":"Brasil","away":"Japon","h2h":[1.50,4.10,6.90],
@@ -130,8 +130,8 @@ def report_text(pred, teams):
     return "\n".join(L)
 
 
-def write_html(preds_teams, cfg, titulo, source="manual", out_name="mundial_hoy.html"):
-    """Arma data_mundial/pred_wc.json (formato gen_html) y genera docs/<out_name>.
+def write_html(preds_teams, cfg, titulo, source="manual", out_name="hoy.html"):
+    """Arma data_mundial/pred_wc.json (formato gen_html) y genera ../docs/mundial/<out_name>.
     `source`: 'manual' (cuotas cargadas a mano) o 'model' (solo modelo, sin cuotas)."""
     import gen_html_wc
     teams = {}
@@ -179,7 +179,7 @@ def main():
     ap.add_argument("--wmkt", type=float, default=0.85, help="peso del mercado en el blend")
     ap.add_argument("--sims", type=int, default=50000)
     ap.add_argument("--file", help="JSON con varios partidos")
-    ap.add_argument("--html", action="store_true", help="genera docs/mundial_hoy.html")
+    ap.add_argument("--html", action="store_true", help="genera docs/mundial/hoy.html")
     args = ap.parse_args()
 
     cfg = {"mu0": ratings_wc.MU0_DEFAULT, "rho": model_wc.RHO_DEFAULT,

@@ -29,9 +29,9 @@ SPA (Next.js en Vercel). Desde el home se entra a:
 
 Dentro de Game Data → **Matches** → un partido → **Attacking** aparece *Expected goals (xG)* junto a Goals, Assists, Threat, Shot-ending sequences, Headed attempts, etc. (vista por-90 y total).
 
-![Home de fifaphy](docs/fifaphy/01-home.png)
-![Categorías de Game Data por partido](docs/fifaphy/02-gamedata-categories.png)
-![xG dentro de Attacking](docs/fifaphy/03-attacking-xg.png)
+![Home de fifaphy](../docs/mundial/fifaphy/01-home.png)
+![Categorías de Game Data por partido](../docs/mundial/fifaphy/02-gamedata-categories.png)
+![xG dentro de Attacking](../docs/mundial/fifaphy/03-attacking-xg.png)
 
 ---
 

@@ -1,12 +1,12 @@
 """gen_html_ko.py - HTML self-contained y publicable de una ronda eliminatoria, a partir
-del dict que devuelve knockout_wc.predict_round. Escribe docs/<out_name> (un archivo por
-ronda: mundial_octavos.html, mundial_cuartos.html, ...).
+del dict que devuelve knockout_wc.predict_round. Escribe ../docs/mundial/<out_name> (un
+archivo por ronda: octavos.html, cuartos.html, ...).
 """
 import os
 from datetime import datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DOCS = os.path.join(HERE, "docs")
+DOCS = os.path.join(HERE, "..", "docs", "mundial")
 
 # Track record del algoritmo en fase de grupos (backtest honesto sin fuga; ver groups_perf).
 PERF_GRUPOS = {"pct": 41.6, "win": 67, "fechas": [(1, 26.4), (2, 44.1), (3, 54.2)]}
@@ -61,7 +61,7 @@ def _card(p):
 
 
 def build(pred, perf=PERF_GRUPOS):
-    """Genera el HTML de la ronda y lo escribe en docs/<out_name>. Devuelve la ruta."""
+    """Genera el HTML de la ronda y lo escribe en ../docs/mundial/<out_name>. Devuelve la ruta."""
     preds = pred["preds"]
     cards = "\n".join(_card(p) for p in preds)
     ev_total = sum(p["ev"] for p in preds)
