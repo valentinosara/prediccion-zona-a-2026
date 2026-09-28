@@ -660,13 +660,20 @@
     "home_away": "A",
     "opponent": "Def. Belgrano",
     "opponent_verein_id": 6062,
-    "opponent_coach": "César Vigevani",
-    "opponent_coach_id": 30990,
+    "opponent_coach": "Mariano Campodónico",
+    "opponent_coach_id": 96234,
     "gf": 1,
     "ga": 0,
     "result": "W",
     "spielbericht_id": 4798147,
-    "scorers": []
+    "scorers": [
+      {
+        "player": "Emanuel Dening",
+        "minute": 11,
+        "team": "sara",
+        "kind": "goal"
+      }
+    ]
   },
   {
     "i": 1,
