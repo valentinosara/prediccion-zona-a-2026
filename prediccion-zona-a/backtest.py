@@ -21,7 +21,8 @@ import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DP = os.path.join(HERE, "data_promiedos")
-WF = os.path.join(HERE, "data")
+# cross-project: reusa los resultados históricos scrapeados para el proyecto de rachas
+WF = os.path.join(HERE, "..", "rachas-primera-nacional", "data")
 CUT = 0.40  # fraccion jugada al momento de "predecir" (≈ 14/36 actual)
 
 SEASONS = {

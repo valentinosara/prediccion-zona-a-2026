@@ -30,10 +30,10 @@ def main():
         if r.returncode != 0:
             sys.exit(f"✗ Falló {script} — actualización abortada.")
     # copiar al sitio que publica GitHub Pages (carpeta docs/)
-    docs = os.path.join(HERE, "docs")
+    docs = os.path.join(HERE, "..", "docs", "zona-a")
     os.makedirs(docs, exist_ok=True)
     shutil.copy(os.path.join(HERE, "prediccion_zonaA_2026.html"), os.path.join(docs, "index.html"))
-    print("\n✓ Listo. HTML actualizado y copiado a docs/index.html")
+    print("\n✓ Listo. HTML actualizado y copiado a docs/zona-a/index.html")
     print("  Para publicar en la web:")
     print('     git add -A && git commit -m "update fecha" && git push')
 
