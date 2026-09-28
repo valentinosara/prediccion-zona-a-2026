@@ -13,6 +13,7 @@ Diseno pensado para celular (y que escala a desktop):
 import html
 import json
 import os
+import shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -411,6 +412,11 @@ def main():
     with open(path, "w", encoding="utf-8") as f:
         f.write(out)
     print("HTML escrito en", path, "·", len(out), "bytes")
+    # copiar al sitio que publica GitHub Pages
+    docs = os.path.join(HERE, "..", "docs", "rachas")
+    os.makedirs(docs, exist_ok=True)
+    shutil.copy(path, os.path.join(docs, "index.html"))
+    print("Copiado a", os.path.join(docs, "index.html"))
 
 
 if __name__ == "__main__":
