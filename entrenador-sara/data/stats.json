@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-28T16:10:07",
+  "generated_at": "2026-10-16T09:47:50",
   "career": {
-    "pj": 167,
+    "pj": 169,
     "w": 65,
-    "d": 46,
-    "l": 56,
+    "d": 47,
+    "l": 57,
     "gf": 178,
-    "ga": 167,
-    "pts": 241,
-    "ppp": 1.44,
-    "effectiveness_pct": 48.1
+    "ga": 169,
+    "pts": 242,
+    "ppp": 1.43,
+    "effectiveness_pct": 47.7
   },
   "spells": [
     {
@@ -21,8 +21,8 @@
       "w": 11,
       "d": 15,
       "l": 10,
-      "gf": 40,
-      "ga": 33,
+      "gf": 39,
+      "ga": 32,
       "pts": 48,
       "ppp": 1.33,
       "effectiveness_pct": 44.4,
@@ -119,30 +119,30 @@
       "club": "Ferro",
       "appointed": "2026-04-14",
       "until": null,
-      "pj": 23,
+      "pj": 25,
       "w": 16,
-      "d": 4,
-      "l": 3,
-      "gf": 30,
-      "ga": 18,
-      "pts": 52,
-      "ppp": 2.26,
-      "effectiveness_pct": 75.4,
-      "matches_tm": 23,
-      "ppg_tm": 2.26
+      "d": 5,
+      "l": 4,
+      "gf": 31,
+      "ga": 21,
+      "pts": 53,
+      "ppp": 2.12,
+      "effectiveness_pct": 70.7,
+      "matches_tm": 25,
+      "ppg_tm": 2.12
     }
   ],
   "own_clubs": {
     "Ferro": {
-      "pj": 31,
+      "pj": 33,
       "w": 17,
-      "d": 7,
-      "l": 7,
-      "gf": 36,
-      "ga": 29,
-      "pts": 58,
-      "ppp": 1.87,
-      "effectiveness_pct": 62.4,
+      "d": 8,
+      "l": 8,
+      "gf": 37,
+      "ga": 32,
+      "pts": 59,
+      "ppp": 1.79,
+      "effectiveness_pct": 59.6,
       "spell_indices": [
         0,
         5
@@ -168,8 +168,8 @@
       "w": 30,
       "d": 33,
       "l": 28,
-      "gf": 97,
-      "ga": 95,
+      "gf": 96,
+      "ga": 94,
       "pts": 123,
       "ppp": 1.35,
       "effectiveness_pct": 45.1,
@@ -227,6 +227,41 @@
         "pts": 6,
         "ppp": 1.5,
         "effectiveness_pct": 50.0
+      }
+    },
+    {
+      "verein_id": 14318,
+      "name": "Dep. Madryn",
+      "pj": 6,
+      "w": 1,
+      "d": 3,
+      "l": 2,
+      "gf": 4,
+      "ga": 8,
+      "pts": 6,
+      "ppp": 1.0,
+      "effectiveness_pct": 33.3,
+      "home": {
+        "pj": 3,
+        "w": 0,
+        "d": 2,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "pts": 2,
+        "ppp": 0.67,
+        "effectiveness_pct": 22.2
+      },
+      "away": {
+        "pj": 3,
+        "w": 1,
+        "d": 1,
+        "l": 1,
+        "gf": 2,
+        "ga": 4,
+        "pts": 4,
+        "ppp": 1.33,
+        "effectiveness_pct": 44.4
       }
     },
     {
@@ -402,41 +437,6 @@
         "pts": 3,
         "ppp": 3.0,
         "effectiveness_pct": 100.0
-      }
-    },
-    {
-      "verein_id": 14318,
-      "name": "Dep. Madryn",
-      "pj": 5,
-      "w": 1,
-      "d": 3,
-      "l": 1,
-      "gf": 4,
-      "ga": 6,
-      "pts": 6,
-      "ppp": 1.2,
-      "effectiveness_pct": 40.0,
-      "home": {
-        "pj": 2,
-        "w": 0,
-        "d": 2,
-        "l": 0,
-        "gf": 2,
-        "ga": 2,
-        "pts": 2,
-        "ppp": 1.0,
-        "effectiveness_pct": 33.3
-      },
-      "away": {
-        "pj": 3,
-        "w": 1,
-        "d": 1,
-        "l": 1,
-        "gf": 2,
-        "ga": 4,
-        "pts": 4,
-        "ppp": 1.33,
-        "effectiveness_pct": 44.4
       }
     },
     {
@@ -831,8 +831,8 @@
       "w": 1,
       "d": 2,
       "l": 1,
-      "gf": 3,
-      "ga": 3,
+      "gf": 2,
+      "ga": 2,
       "pts": 5,
       "ppp": 1.25,
       "effectiveness_pct": 41.7,
@@ -852,8 +852,8 @@
         "w": 1,
         "d": 1,
         "l": 1,
-        "gf": 3,
-        "ga": 3,
+        "gf": 2,
+        "ga": 2,
         "pts": 4,
         "ppp": 1.33,
         "effectiveness_pct": 44.4
@@ -1455,6 +1455,41 @@
       }
     },
     {
+      "verein_id": 14670,
+      "name": "Central Norte",
+      "pj": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 4,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7,
+      "home": {
+        "pj": 1,
+        "w": 1,
+        "d": 0,
+        "l": 0,
+        "gf": 1,
+        "ga": 0,
+        "pts": 3,
+        "ppp": 3.0,
+        "effectiveness_pct": 100.0
+      },
+      "away": {
+        "pj": 1,
+        "w": 0,
+        "d": 1,
+        "l": 0,
+        "gf": 1,
+        "ga": 1,
+        "pts": 1,
+        "ppp": 1.0,
+        "effectiveness_pct": 33.3
+      }
+    },
+    {
       "verein_id": 91422,
       "name": "Ciudad Bolívar",
       "pj": 2,
@@ -1787,41 +1822,6 @@
         "d": 0,
         "l": 0,
         "gf": 3,
-        "ga": 0,
-        "pts": 3,
-        "ppp": 3.0,
-        "effectiveness_pct": 100.0
-      },
-      "away": {
-        "pj": 0,
-        "w": 0,
-        "d": 0,
-        "l": 0,
-        "gf": 0,
-        "ga": 0,
-        "pts": 0,
-        "ppp": null,
-        "effectiveness_pct": null
-      }
-    },
-    {
-      "verein_id": 14670,
-      "name": "Central Norte",
-      "pj": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 1,
-      "ga": 0,
-      "pts": 3,
-      "ppp": 3.0,
-      "effectiveness_pct": 100.0,
-      "home": {
-        "pj": 1,
-        "w": 1,
-        "d": 0,
-        "l": 0,
-        "gf": 1,
         "ga": 0,
         "pts": 3,
         "ppp": 3.0,
@@ -2987,6 +2987,61 @@
       ]
     },
     {
+      "coach_id": 105413,
+      "name": "Luis García",
+      "pj": 4,
+      "w": 0,
+      "d": 1,
+      "l": 3,
+      "gf": 0,
+      "ga": 4,
+      "pts": 1,
+      "ppp": 0.25,
+      "effectiveness_pct": 8.3,
+      "matches": [
+        {
+          "date": "2023-04-02",
+          "club": "Ferro",
+          "opponent": "Dep. Maipú",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2023-04-29",
+          "club": "Estudiantes",
+          "opponent": "Dep. Maipú",
+          "home_away": "H",
+          "result": "D",
+          "gf": 0,
+          "ga": 0,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2025-06-01",
+          "club": "Dep. Maipú",
+          "opponent": "Atlanta",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        },
+        {
+          "date": "2026-10-02",
+          "club": "Ferro",
+          "opponent": "Dep. Madryn",
+          "home_away": "H",
+          "result": "L",
+          "gf": 0,
+          "ga": 2,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
       "coach_id": 96234,
       "name": "Mariano Campodónico",
       "pj": 3,
@@ -3167,51 +3222,6 @@
       ]
     },
     {
-      "coach_id": 105413,
-      "name": "Luis García",
-      "pj": 3,
-      "w": 0,
-      "d": 1,
-      "l": 2,
-      "gf": 0,
-      "ga": 2,
-      "pts": 1,
-      "ppp": 0.33,
-      "effectiveness_pct": 11.1,
-      "matches": [
-        {
-          "date": "2023-04-02",
-          "club": "Ferro",
-          "opponent": "Dep. Maipú",
-          "home_away": "H",
-          "result": "L",
-          "gf": 0,
-          "ga": 1,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2023-04-29",
-          "club": "Estudiantes",
-          "opponent": "Dep. Maipú",
-          "home_away": "H",
-          "result": "D",
-          "gf": 0,
-          "ga": 0,
-          "competition": "Primera Nacional"
-        },
-        {
-          "date": "2025-06-01",
-          "club": "Dep. Maipú",
-          "opponent": "Atlanta",
-          "home_away": "H",
-          "result": "L",
-          "gf": 0,
-          "ga": 1,
-          "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
       "coach_id": 22284,
       "name": "Arnaldo Sialle",
       "pj": 2,
@@ -3381,6 +3391,41 @@
           "home_away": "A",
           "result": "W",
           "gf": 2,
+          "ga": 1,
+          "competition": "Primera Nacional"
+        }
+      ]
+    },
+    {
+      "coach_id": 102733,
+      "name": "Alexis Matteo",
+      "pj": 2,
+      "w": 1,
+      "d": 1,
+      "l": 0,
+      "gf": 2,
+      "ga": 1,
+      "pts": 4,
+      "ppp": 2.0,
+      "effectiveness_pct": 66.7,
+      "matches": [
+        {
+          "date": "2025-10-12",
+          "club": "Estudiantes",
+          "opponent": "Dep. Maipú",
+          "home_away": "H",
+          "result": "W",
+          "gf": 1,
+          "ga": 0,
+          "competition": "Primera Nacional - Reducido"
+        },
+        {
+          "date": "2026-10-11",
+          "club": "Ferro",
+          "opponent": "Central Norte",
+          "home_away": "A",
+          "result": "D",
+          "gf": 1,
           "ga": 1,
           "competition": "Primera Nacional"
         }
@@ -3873,31 +3918,6 @@
           "gf": 1,
           "ga": 3,
           "competition": "Primera Nacional"
-        }
-      ]
-    },
-    {
-      "coach_id": 102733,
-      "name": "Alexis Matteo",
-      "pj": 1,
-      "w": 1,
-      "d": 0,
-      "l": 0,
-      "gf": 1,
-      "ga": 0,
-      "pts": 3,
-      "ppp": 3.0,
-      "effectiveness_pct": 100.0,
-      "matches": [
-        {
-          "date": "2025-10-12",
-          "club": "Estudiantes",
-          "opponent": "Dep. Maipú",
-          "home_away": "H",
-          "result": "W",
-          "gf": 1,
-          "ga": 0,
-          "competition": "Primera Nacional - Reducido"
         }
       ]
     },
@@ -4833,8 +4853,8 @@
       "w": 0,
       "d": 1,
       "l": 0,
-      "gf": 2,
-      "ga": 2,
+      "gf": 1,
+      "ga": 1,
       "pts": 1,
       "ppp": 1.0,
       "effectiveness_pct": 33.3,
@@ -4845,8 +4865,8 @@
           "opponent": "Gimnasia (M)",
           "home_away": "A",
           "result": "D",
-          "gf": 2,
-          "ga": 2,
+          "gf": 1,
+          "ga": 1,
           "competition": "Primera Nacional"
         }
       ]
@@ -5479,26 +5499,26 @@
   ],
   "home_away_global": {
     "home": {
-      "pj": 83,
+      "pj": 84,
       "w": 41,
       "d": 23,
-      "l": 19,
+      "l": 20,
       "gf": 102,
-      "ga": 61,
+      "ga": 63,
       "pts": 146,
-      "ppp": 1.76,
-      "effectiveness_pct": 58.6
+      "ppp": 1.74,
+      "effectiveness_pct": 57.9
     },
     "away": {
-      "pj": 84,
+      "pj": 85,
       "w": 24,
-      "d": 23,
+      "d": 24,
       "l": 37,
       "gf": 76,
       "ga": 106,
-      "pts": 95,
+      "pts": 96,
       "ppp": 1.13,
-      "effectiveness_pct": 37.7
+      "effectiveness_pct": 37.6
     }
   },
   "scorers": {
@@ -5549,6 +5569,10 @@
           },
           {
             "player": "Nicolás Gómez",
+            "goals": 1
+          },
+          {
+            "player": "Nicolás Reniero",
             "goals": 1
           }
         ]
@@ -6081,6 +6105,10 @@
       },
       {
         "player": "Nicolás Gómez",
+        "goals": 1
+      },
+      {
+        "player": "Nicolás Reniero",
         "goals": 1
       },
       {

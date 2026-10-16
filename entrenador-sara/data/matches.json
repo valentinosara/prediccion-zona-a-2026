@@ -669,8 +669,66 @@
     "scorers": [
       {
         "player": "Emanuel Dening",
-        "minute": 11,
+        "minute": null,
         "team": "sara",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-10-02",
+    "competition": "Primera Nacional",
+    "home_away": "H",
+    "opponent": "Dep. Madryn",
+    "opponent_verein_id": 14318,
+    "opponent_coach": "Luis García",
+    "opponent_coach_id": 105413,
+    "gf": 0,
+    "ga": 2,
+    "result": "L",
+    "spielbericht_id": 4798159,
+    "scorers": [
+      {
+        "player": "Ezequiel Montagna",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      },
+      {
+        "player": "Juan Peinipil",
+        "minute": null,
+        "team": "opp",
+        "kind": "goal"
+      }
+    ]
+  },
+  {
+    "i": 0,
+    "club": "Ferro",
+    "date": "2026-10-11",
+    "competition": "Primera Nacional",
+    "home_away": "A",
+    "opponent": "Central Norte",
+    "opponent_verein_id": 14670,
+    "opponent_coach": "Alexis Matteo",
+    "opponent_coach_id": 102733,
+    "gf": 1,
+    "ga": 1,
+    "result": "D",
+    "spielbericht_id": 4798191,
+    "scorers": [
+      {
+        "player": "Nicolás Reniero",
+        "minute": null,
+        "team": "sara",
+        "kind": "goal"
+      },
+      {
+        "player": "Franco Vedoya",
+        "minute": null,
+        "team": "opp",
         "kind": "goal"
       }
     ]
@@ -4381,8 +4439,8 @@
     "opponent_verein_id": 14687,
     "opponent_coach": "Luca Marcogiuseppe",
     "opponent_coach_id": 89994,
-    "gf": 2,
-    "ga": 2,
+    "gf": 1,
+    "ga": 1,
     "result": "D",
     "spielbericht_id": 3813752,
     "scorers": [
